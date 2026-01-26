@@ -1,0 +1,11 @@
+D:\FTN\4 GODINA\MPPM\PROJEKAT\Projekat2025_26\Projekat2025_26\ModelLabsProjekat\ModelLabsProjekat\ModelLabs\bin\ModelLabsApp.exe.config
+D:\FTN\4 GODINA\MPPM\PROJEKAT\Projekat2025_26\Projekat2025_26\ModelLabsProjekat\ModelLabsProjekat\ModelLabs\bin\ModelLabsApp.exe
+D:\FTN\4 GODINA\MPPM\PROJEKAT\Projekat2025_26\Projekat2025_26\ModelLabsProjekat\ModelLabsProjekat\ModelLabs\bin\ModelLabsApp.pdb
+D:\FTN\4 GODINA\MPPM\PROJEKAT\Projekat2025_26\Projekat2025_26\ModelLabsProjekat\ModelLabsProjekat\ModelLabs\ModelLabsApp\obj\x86\Debug\ModelLabsApp.csproj.AssemblyReference.cache
+D:\FTN\4 GODINA\MPPM\PROJEKAT\Projekat2025_26\Projekat2025_26\ModelLabsProjekat\ModelLabsProjekat\ModelLabs\ModelLabsApp\obj\x86\Debug\ModelLabsApp.ModelLabsAppForm.resources
+D:\FTN\4 GODINA\MPPM\PROJEKAT\Projekat2025_26\Projekat2025_26\ModelLabsProjekat\ModelLabsProjekat\ModelLabs\ModelLabsApp\obj\x86\Debug\ModelLabsApp.Properties.Resources.resources
+D:\FTN\4 GODINA\MPPM\PROJEKAT\Projekat2025_26\Projekat2025_26\ModelLabsProjekat\ModelLabsProjekat\ModelLabs\ModelLabsApp\obj\x86\Debug\ModelLabsApp.csproj.GenerateResource.cache
+D:\FTN\4 GODINA\MPPM\PROJEKAT\Projekat2025_26\Projekat2025_26\ModelLabsProjekat\ModelLabsProjekat\ModelLabs\ModelLabsApp\obj\x86\Debug\ModelLabsApp.csproj.CoreCompileInputs.cache
+D:\FTN\4 GODINA\MPPM\PROJEKAT\Projekat2025_26\Projekat2025_26\ModelLabsProjekat\ModelLabsProjekat\ModelLabs\ModelLabsApp\obj\x86\Debug\ModelLab.59F05DFE.Up2Date
+D:\FTN\4 GODINA\MPPM\PROJEKAT\Projekat2025_26\Projekat2025_26\ModelLabsProjekat\ModelLabsProjekat\ModelLabs\ModelLabsApp\obj\x86\Debug\ModelLabsApp.exe
+D:\FTN\4 GODINA\MPPM\PROJEKAT\Projekat2025_26\Projekat2025_26\ModelLabsProjekat\ModelLabsProjekat\ModelLabs\ModelLabsApp\obj\x86\Debug\ModelLabsApp.pdb

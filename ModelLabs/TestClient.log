@@ -1,0 +1,2505 @@
+11.01.2026 2:21:32 AM : Network Model Service Test Client is up and running...
+11.01.2026 2:21:32 AM : Result directory: ../Results
+11.01.2026 3:34:44 AM : Network Model Service Test Client is up and running...
+11.01.2026 3:34:44 AM : Result directory: ../Results
+11.01.2026 3:52:18 AM : Network Model Service Test Client is up and running...
+11.01.2026 3:52:18 AM : Result directory: ../Results
+11.01.2026 3:52:38 AM : Error: Could not set Network Model Service Test Client's window size and position. The console buffer size must not be less than the current size and position of the console window, nor greater than or equal to Int16.MaxValue.
+Parameter name: width
+Actual value was 250.
+11.01.2026 3:52:38 AM : Network Model Service Test Client is up and running...
+11.01.2026 3:52:38 AM : Result directory: ../Results
+11.01.2026 3:53:41 AM : Network Model Service Test Client is up and running...
+11.01.2026 3:53:41 AM : Result directory: ../Results
+11.01.2026 9:27:27 PM : Network Model Service Test Client is up and running...
+11.01.2026 9:27:27 PM : Result directory: ../Results
+11.01.2026 9:56:56 PM : Network Model Service Test Client is up and running...
+11.01.2026 9:56:56 PM : Result directory: ../Results
+11.01.2026 9:57:16 PM : Network Model Service Test Client is up and running...
+11.01.2026 9:57:16 PM : Result directory: ../Results
+11.01.2026 9:58:10 PM : Network Model Service Test Client is up and running...
+11.01.2026 9:58:10 PM : Result directory: ../Results
+11.01.2026 10:03:13 PM : Network Model Service Test Client is up and running...
+11.01.2026 10:03:13 PM : Result directory: ../Results
+11.01.2026 10:03:54 PM : Network Model Service Test Client is up and running...
+11.01.2026 10:03:54 PM : Result directory: ../Results
+11.01.2026 10:04:58 PM : Network Model Service Test Client is up and running...
+11.01.2026 10:04:58 PM : Result directory: ../Results
+11.01.2026 10:05:46 PM : Network Model Service Test Client is up and running...
+11.01.2026 10:05:46 PM : Result directory: ../Results
+11.01.2026 11:24:33 PM : Network Model Service Test Client is up and running...
+11.01.2026 11:24:33 PM : Result directory: ../Results
+11.01.2026 11:30:34 PM : Network Model Service Test Client is up and running...
+11.01.2026 11:30:34 PM : Result directory: ../Results
+11.01.2026 11:30:42 PM : Network Model Service Test Client is up and running...
+11.01.2026 11:30:42 PM : Result directory: ../Results
+11.01.2026 11:32:56 PM : Error: Could not set Network Model Service Test Client's window size and position. The console buffer size must not be less than the current size and position of the console window, nor greater than or equal to Int16.MaxValue.
+Parameter name: width
+Actual value was 250.
+11.01.2026 11:32:56 PM : Network Model Service Test Client is up and running...
+11.01.2026 11:32:56 PM : Result directory: ../Results
+11.01.2026 11:34:47 PM : Error: Could not set Network Model Service Test Client's window size and position. The console buffer size must not be less than the current size and position of the console window, nor greater than or equal to Int16.MaxValue.
+Parameter name: width
+Actual value was 250.
+11.01.2026 11:34:47 PM : Network Model Service Test Client is up and running...
+11.01.2026 11:34:47 PM : Result directory: ../Results
+11.01.2026 11:35:27 PM : Getting values method started.
+11.01.2026 11:35:27 PM : Failed to get model type code for DMS type: 0. Invalid DMS type
+11.01.2026 11:35:27 PM : Getting values method for entered id = 2 failed.
+	Failed to get model type code for DMS type: 0. Invalid DMS type
+11.01.2026 11:35:34 PM : Getting extent values method started.
+11.01.2026 11:35:34 PM : Getting extent values method failed for 3.
+	Invalid Model Code: 3
+11.01.2026 11:35:41 PM : Getting related values method started.
+11.01.2026 11:35:42 PM : Getting related values method  failed for sourceGlobalId = 2 and association (propertyId = 2, type = 2). Reason: There was an error while trying to serialize parameter http://tempuri.org/:association. The InnerException message was 'Enum value '2' is invalid for type 'FTN.Common.ModelCode' and cannot be serialized. Ensure that the necessary enum values are present and are marked with EnumMemberAttribute attribute if the type has DataContractAttribute attribute.'.  Please see InnerException for more details.
+11.01.2026 11:35:48 PM : Apply update method started.
+11.01.2026 11:35:48 PM : Apply update method finished. 
+Update result: Failed
+Message: Applying delta to network model failed. Failed to insert entity (GID = 0x0000000900000001) into model. Unknown property id = ASSET_CRITICAL for entity (GID = 0x0000000900000001)..
+GlobalId pairs:
+Client globalId: 0x00000001ffffffff	 - Server globalId: 0x0000000100000001
+Client globalId: 0x00000002ffffffff	 - Server globalId: 0x0000000200000001
+Client globalId: 0x00000003ffffffff	 - Server globalId: 0x0000000300000001
+Client globalId: 0x00000004ffffffff	 - Server globalId: 0x0000000400000001
+Client globalId: 0x00000005ffffffff	 - Server globalId: 0x0000000500000001
+Client globalId: 0x00000006ffffffff	 - Server globalId: 0x0000000600000001
+Client globalId: 0x00000007ffffffff	 - Server globalId: 0x0000000700000005
+Client globalId: 0x00000008ffffffff	 - Server globalId: 0x0000000800000005
+Client globalId: 0x00000009ffffffff	 - Server globalId: 0x0000000900000001
+Client globalId: 0x0000000affffffff	 - Server globalId: 0x0000000a00000007
+Client globalId: 0x0000000bffffffff	 - Server globalId: 0x0000000b00000005
+Client globalId: 0x0000000cffffffff	 - Server globalId: 0x0000000c00000005
+Client globalId: 0x0000000dffffffff	 - Server globalId: 0x0000000d00000001
+Client globalId: 0x0000000effffffff	 - Server globalId: 0x0000000e00000005
+
+11.01.2026 11:36:33 PM : Network Model Service Test Client is up and running...
+11.01.2026 11:36:33 PM : Result directory: ../Results
+11.01.2026 11:36:53 PM : Apply update method started.
+11.01.2026 11:36:54 PM : Apply update method finished. 
+Update result: Failed
+Message: Applying delta to network model failed. Failed to insert entity (GID = 0x0000000900000002) into model. Unknown property id = ASSET_CRITICAL for entity (GID = 0x0000000900000002)..
+GlobalId pairs:
+Client globalId: 0x00000001ffffffff	 - Server globalId: 0x0000000100000002
+Client globalId: 0x00000002ffffffff	 - Server globalId: 0x0000000200000002
+Client globalId: 0x00000003ffffffff	 - Server globalId: 0x0000000300000002
+Client globalId: 0x00000004ffffffff	 - Server globalId: 0x0000000400000002
+Client globalId: 0x00000005ffffffff	 - Server globalId: 0x0000000500000002
+Client globalId: 0x00000006ffffffff	 - Server globalId: 0x0000000600000001
+Client globalId: 0x00000007ffffffff	 - Server globalId: 0x0000000700000007
+Client globalId: 0x00000008ffffffff	 - Server globalId: 0x0000000800000007
+Client globalId: 0x00000009ffffffff	 - Server globalId: 0x0000000900000002
+Client globalId: 0x0000000affffffff	 - Server globalId: 0x0000000a00000009
+Client globalId: 0x0000000bffffffff	 - Server globalId: 0x0000000b00000007
+Client globalId: 0x0000000cffffffff	 - Server globalId: 0x0000000c00000007
+Client globalId: 0x0000000dffffffff	 - Server globalId: 0x0000000d00000001
+Client globalId: 0x0000000effffffff	 - Server globalId: 0x0000000e00000007
+
+11.01.2026 11:37:48 PM : Network Model Service Test Client is up and running...
+11.01.2026 11:37:48 PM : Result directory: ../Results
+11.01.2026 11:39:59 PM : Getting values method started.
+11.01.2026 11:41:51 PM : Network Model Service Test Client is up and running...
+11.01.2026 11:41:51 PM : Result directory: ../Results
+11.01.2026 11:43:24 PM : Getting values method started.
+11.01.2026 11:45:10 PM : Network Model Service Test Client is up and running...
+11.01.2026 11:45:10 PM : Result directory: ../Results
+11.01.2026 11:45:24 PM : Apply update method started.
+11.01.2026 11:45:25 PM : Apply update method finished. 
+Update result: Failed
+Message: Applying delta to network model failed. Failed to insert entity (GID = 0x0000000900000003) into model. Unknown property id = ASSET_CRITICAL for entity (GID = 0x0000000900000003)..
+GlobalId pairs:
+Client globalId: 0x00000001ffffffff	 - Server globalId: 0x0000000100000003
+Client globalId: 0x00000002ffffffff	 - Server globalId: 0x0000000200000003
+Client globalId: 0x00000003ffffffff	 - Server globalId: 0x0000000300000003
+Client globalId: 0x00000004ffffffff	 - Server globalId: 0x0000000400000003
+Client globalId: 0x00000005ffffffff	 - Server globalId: 0x0000000500000003
+Client globalId: 0x00000006ffffffff	 - Server globalId: 0x0000000600000001
+Client globalId: 0x00000007ffffffff	 - Server globalId: 0x000000070000000b
+Client globalId: 0x00000008ffffffff	 - Server globalId: 0x000000080000000b
+Client globalId: 0x00000009ffffffff	 - Server globalId: 0x0000000900000003
+Client globalId: 0x0000000affffffff	 - Server globalId: 0x0000000a0000000d
+Client globalId: 0x0000000bffffffff	 - Server globalId: 0x0000000b0000000b
+Client globalId: 0x0000000cffffffff	 - Server globalId: 0x0000000c0000000b
+Client globalId: 0x0000000dffffffff	 - Server globalId: 0x0000000d00000001
+Client globalId: 0x0000000effffffff	 - Server globalId: 0x0000000e0000000b
+
+11.01.2026 11:45:46 PM : Error: Could not set Network Model Service Test Client's window size and position. The console buffer size must not be less than the current size and position of the console window, nor greater than or equal to Int16.MaxValue.
+Parameter name: width
+Actual value was 250.
+11.01.2026 11:45:46 PM : Network Model Service Test Client is up and running...
+11.01.2026 11:45:46 PM : Result directory: ../Results
+11.01.2026 11:46:08 PM : Getting values method started.
+11.01.2026 11:46:08 PM : Getting values method successfully finished.
+11.01.2026 11:46:24 PM : Getting values method started.
+11.01.2026 11:47:11 PM : Network Model Service Test Client is up and running...
+11.01.2026 11:47:11 PM : Result directory: ../Results
+11.01.2026 11:47:23 PM : Getting values method started.
+11.01.2026 11:48:32 PM : Error: Could not set Network Model Service Test Client's window size and position. The console buffer size must not be less than the current size and position of the console window, nor greater than or equal to Int16.MaxValue.
+Parameter name: width
+Actual value was 250.
+11.01.2026 11:48:32 PM : Network Model Service Test Client is up and running...
+11.01.2026 11:48:32 PM : Result directory: ../Results
+11.01.2026 11:48:59 PM : Getting values method started.
+11.01.2026 11:49:00 PM : Getting values method successfully finished.
+11.01.2026 11:49:30 PM : Network Model Service Test Client is up and running...
+11.01.2026 11:49:30 PM : Result directory: ../Results
+11.01.2026 11:50:16 PM : Entering entity id failed. Please use hex (0x) or decimal format.
+11.01.2026 11:50:16 PM : GetValues failed. Input string was not in a correct format.
+11.01.2026 11:50:28 PM : Getting values method started.
+11.01.2026 11:50:43 PM : Error: Could not set Network Model Service Test Client's window size and position. The console buffer size must not be less than the current size and position of the console window, nor greater than or equal to Int16.MaxValue.
+Parameter name: width
+Actual value was 250.
+11.01.2026 11:50:43 PM : Network Model Service Test Client is up and running...
+11.01.2026 11:50:43 PM : Result directory: ../Results
+11.01.2026 11:51:32 PM : Getting values method started.
+11.01.2026 11:51:32 PM : Getting values method successfully finished.
+11.01.2026 11:52:03 PM : Getting values method started.
+11.01.2026 11:52:07 PM : Error: Could not set Network Model Service Test Client's window size and position. The console buffer size must not be less than the current size and position of the console window, nor greater than or equal to Int16.MaxValue.
+Parameter name: width
+Actual value was 250.
+11.01.2026 11:52:07 PM : Network Model Service Test Client is up and running...
+11.01.2026 11:52:07 PM : Result directory: ../Results
+11.01.2026 11:52:23 PM : Getting values method started.
+11.01.2026 11:52:38 PM : Network Model Service Test Client is up and running...
+11.01.2026 11:52:39 PM : Result directory: ../Results
+11.01.2026 11:53:01 PM : Getting values method started.
+11.01.2026 11:54:20 PM : Network Model Service Test Client is up and running...
+11.01.2026 11:54:20 PM : Result directory: ../Results
+11.01.2026 11:55:34 PM : Getting values method started.
+11.01.2026 11:58:43 PM : Network Model Service Test Client is up and running...
+11.01.2026 11:58:43 PM : Result directory: ../Results
+11.01.2026 11:58:46 PM : Network Model Service Test Client is up and running...
+11.01.2026 11:58:46 PM : Result directory: ../Results
+11.01.2026 11:59:30 PM : Getting values method started.
+11.01.2026 11:59:30 PM : Getting values method for entered id = 60129542148 failed.
+	Getting values for resource with ID = 0x0000000e00000004 failed. Failed to get values for entity with GID = 0x0000000e00000004. Unknown property id = ASSET_CRITICAL for entity (GID = 0x0000000e00000004).
+12.01.2026 12:01:14 AM : Getting values method started.
+12.01.2026 12:01:14 AM : Getting values method for entered id = 60129542147 failed.
+	Getting values for resource with ID = 0x0000000e00000003 failed. Failed to get values for entity with GID = 0x0000000e00000003. Unknown property id = ASSET_CRITICAL for entity (GID = 0x0000000e00000003).
+12.01.2026 12:01:29 AM : Getting values method started.
+12.01.2026 12:01:29 AM : Getting values method for entered id = 47244640255 failed.
+	Getting values for resource with ID = 0x0000000affffffff failed. Failed to get values for entity with GID = 0x0000000affffffff. Entity  (GID = 0x0000000affffffff) does not exist.
+12.01.2026 12:01:38 AM : Getting values method started.
+12.01.2026 12:01:38 AM : Getting values method for entered id = 42949672981 failed.
+	Getting values for resource with ID = 0x0000000a00000015 failed. Failed to get values for entity with GID = 0x0000000a00000015. Unknown property id = PRODASSETMODEL_ASSETINFO for entity (GID = 0x0000000a00000015).
+12.01.2026 12:01:48 AM : Getting values method started.
+12.01.2026 12:01:48 AM : Getting values method successfully finished.
+12.01.2026 12:01:54 AM : Getting values method started.
+12.01.2026 12:01:54 AM : Getting values method successfully finished.
+12.01.2026 12:02:00 AM : Getting values method started.
+12.01.2026 12:02:00 AM : Getting values method for entered id = 47244640260 failed.
+	Getting values for resource with ID = 0x0000000b00000004 failed. Failed to get values for entity with GID = 0x0000000b00000004. Unknown property id = ASSET_CRITICAL for entity (GID = 0x0000000b00000004).
+12.01.2026 12:02:15 AM : Getting values method started.
+12.01.2026 12:02:15 AM : Getting values method for entered id = 47244640259 failed.
+	Getting values for resource with ID = 0x0000000b00000003 failed. Failed to get values for entity with GID = 0x0000000b00000003. Unknown property id = ASSET_CRITICAL for entity (GID = 0x0000000b00000003).
+12.01.2026 12:02:26 AM : Getting values method started.
+12.01.2026 12:02:26 AM : Getting values method successfully finished.
+12.01.2026 12:02:30 AM : Getting values method started.
+12.01.2026 12:02:30 AM : Getting values method successfully finished.
+12.01.2026 12:02:36 AM : Getting values method started.
+12.01.2026 12:02:36 AM : Getting values method for entered id = 34359738372 failed.
+	Getting values for resource with ID = 0x0000000800000004 failed. Failed to get values for entity with GID = 0x0000000800000004. Unknown property id = ASSET_CRITICAL for entity (GID = 0x0000000800000004).
+12.01.2026 12:02:39 AM : Getting values method started.
+12.01.2026 12:02:39 AM : Getting values method for entered id = 34359738371 failed.
+	Getting values for resource with ID = 0x0000000800000003 failed. Failed to get values for entity with GID = 0x0000000800000003. Unknown property id = ASSET_CRITICAL for entity (GID = 0x0000000800000003).
+12.01.2026 12:02:43 AM : Getting values method started.
+12.01.2026 12:02:43 AM : Getting values method for entered id = 42949672966 failed.
+	Getting values for resource with ID = 0x0000000a00000006 failed. Failed to get values for entity with GID = 0x0000000a00000006. Unknown property id = PRODASSETMODEL_ASSETINFO for entity (GID = 0x0000000a00000006).
+12.01.2026 12:02:48 AM : Getting values method started.
+12.01.2026 12:02:48 AM : Getting values method for entered id = 42949672965 failed.
+	Getting values for resource with ID = 0x0000000a00000005 failed. Failed to get values for entity with GID = 0x0000000a00000005. Unknown property id = PRODASSETMODEL_ASSETINFO for entity (GID = 0x0000000a00000005).
+12.01.2026 12:03:09 AM : Getting values method started.
+12.01.2026 12:03:09 AM : Getting values method successfully finished.
+12.01.2026 12:05:30 AM : Entering Model Code failed. System.FormatException: Input string was not in a correct format.
+   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt64(String value, NumberStyles options, NumberFormatInfo numfmt)
+   at System.Int64.Parse(String s)
+   at FTN.Services.NetworkModelService.TestClient.Program.InputModelCode() in D:\FTN\4 GODINA\MPPM\PROJEKAT\Projekat2025_26\Projekat2025_26\ModelLabsProjekat\ModelLabsProjekat\ModelLabs\NetworkModelService\Test\NMSTestClient\Program.cs:line 198
+12.01.2026 12:05:30 AM : GetExtentValues failed. Input string was not in a correct format.
+12.01.2026 12:06:25 AM : Entering Model Code failed. System.FormatException: Input string was not in a correct format.
+   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt64(String value, NumberStyles options, NumberFormatInfo numfmt)
+   at System.Int64.Parse(String s)
+   at FTN.Services.NetworkModelService.TestClient.Program.InputModelCode() in D:\FTN\4 GODINA\MPPM\PROJEKAT\Projekat2025_26\Projekat2025_26\ModelLabsProjekat\ModelLabsProjekat\ModelLabs\NetworkModelService\Test\NMSTestClient\Program.cs:line 198
+12.01.2026 12:06:25 AM : GetExtentValues failed. Input string was not in a correct format.
+12.01.2026 12:06:33 AM : Getting extent values method started.
+12.01.2026 12:06:33 AM : Getting extent values method failed for PRODASSETMODEL.
+	IteratorNext failed. Iterator ID = 1. Resources to fetch count = 2. Failed to get next set of ResourceDescription iterators. Failed to get values for entity with GID = 0x0000000a00000001. Unknown property id = PRODASSETMODEL_ASSETINFO for entity (GID = 0x0000000a00000001). 
+12.01.2026 12:07:07 AM : Getting extent values method started.
+12.01.2026 12:07:07 AM : Getting extent values method failed for PRODASSETMODEL.
+	IteratorNext failed. Iterator ID = 2. Resources to fetch count = 2. Failed to get next set of ResourceDescription iterators. Failed to get values for entity with GID = 0x0000000a00000001. Unknown property id = PRODASSETMODEL_ASSETINFO for entity (GID = 0x0000000a00000001). 
+12.01.2026 12:07:16 AM : Getting extent values method started.
+12.01.2026 12:07:16 AM : Getting extent values method failed for ASSETINFO.
+	IteratorNext failed. Iterator ID = 3. Resources to fetch count = 2. Failed to get next set of ResourceDescription iterators. Failed to get values for entity with GID = 0x0000000800000001. Unknown property id = ASSET_CRITICAL for entity (GID = 0x0000000800000001). 
+12.01.2026 12:07:22 AM : Getting extent values method started.
+12.01.2026 12:07:22 AM : Getting extent values method failed for SEAL.
+	IteratorNext failed. Iterator ID = 4. Resources to fetch count = 2. Failed to get next set of ResourceDescription iterators. Failed to get values for entity with GID = 0x0000000b00000001. Unknown property id = ASSET_CRITICAL for entity (GID = 0x0000000b00000001). 
+12.01.2026 12:07:30 AM : Getting extent values method started.
+12.01.2026 12:07:30 AM : Getting extent values method failed for PRODASSETMODEL.
+	IteratorNext failed. Iterator ID = 5. Resources to fetch count = 2. Failed to get next set of ResourceDescription iterators. Failed to get values for entity with GID = 0x0000000a00000001. Unknown property id = PRODASSETMODEL_ASSETINFO for entity (GID = 0x0000000a00000001). 
+12.01.2026 12:09:16 AM : Network Model Service Test Client is up and running...
+12.01.2026 12:09:16 AM : Result directory: ../Results
+12.01.2026 12:09:31 AM : Getting extent values method started.
+12.01.2026 12:09:32 AM : Getting extent values method failed for PRODASSETMODEL.
+	IteratorNext failed. Iterator ID = 1. Resources to fetch count = 2. Failed to get next set of ResourceDescription iterators. Failed to get values for entity with GID = 0x0000000a00000001. Unknown property id = PRODASSETMODEL_ASSETINFO for entity (GID = 0x0000000a00000001). 
+12.01.2026 12:10:32 AM : Network Model Service Test Client is up and running...
+12.01.2026 12:10:32 AM : Result directory: ../Results
+12.01.2026 12:10:44 AM : Getting extent values method started.
+12.01.2026 12:10:44 AM : Getting extent values method failed for PRODASSETMODEL.
+	IteratorNext failed. Iterator ID = 1. Resources to fetch count = 2. Failed to get next set of ResourceDescription iterators. Failed to get values for entity with GID = 0x0000000a00000001. Unknown property id = PRODASSETMODEL_ASSETINFO for entity (GID = 0x0000000a00000001). 
+12.01.2026 12:11:12 AM : Network Model Service Test Client is up and running...
+12.01.2026 12:11:12 AM : Result directory: ../Results
+12.01.2026 12:11:57 AM : Network Model Service Test Client is up and running...
+12.01.2026 12:11:57 AM : Result directory: ../Results
+12.01.2026 12:12:04 AM : Getting values method started.
+12.01.2026 12:12:28 AM : Network Model Service Test Client is up and running...
+12.01.2026 12:12:28 AM : Result directory: ../Results
+12.01.2026 12:12:36 AM : Getting values method started.
+12.01.2026 12:16:38 AM : Network Model Service Test Client is up and running...
+12.01.2026 12:16:38 AM : Result directory: ../Results
+12.01.2026 12:16:40 AM : Apply update method started.
+12.01.2026 12:16:41 AM : Apply update method finished. 
+Update result: Failed
+Message: Applying delta to network model failed. Failed to insert entity (GID = 0x0000000900000004) into model. Unknown property id = ASSET_CRITICAL for entity (GID = 0x0000000900000004)..
+GlobalId pairs:
+Client globalId: 0x00000001ffffffff	 - Server globalId: 0x0000000100000004
+Client globalId: 0x00000002ffffffff	 - Server globalId: 0x0000000200000004
+Client globalId: 0x00000003ffffffff	 - Server globalId: 0x0000000300000004
+Client globalId: 0x00000004ffffffff	 - Server globalId: 0x0000000400000004
+Client globalId: 0x00000005ffffffff	 - Server globalId: 0x0000000500000004
+Client globalId: 0x00000006ffffffff	 - Server globalId: 0x0000000600000001
+Client globalId: 0x00000007ffffffff	 - Server globalId: 0x0000000700000019
+Client globalId: 0x00000008ffffffff	 - Server globalId: 0x0000000800000019
+Client globalId: 0x00000009ffffffff	 - Server globalId: 0x0000000900000004
+Client globalId: 0x0000000affffffff	 - Server globalId: 0x0000000a0000001b
+Client globalId: 0x0000000bffffffff	 - Server globalId: 0x0000000b00000019
+Client globalId: 0x0000000cffffffff	 - Server globalId: 0x0000000c00000019
+Client globalId: 0x0000000dffffffff	 - Server globalId: 0x0000000d00000001
+Client globalId: 0x0000000effffffff	 - Server globalId: 0x0000000e00000019
+
+12.01.2026 12:16:59 AM : Apply update method started.
+12.01.2026 12:16:59 AM : Apply update method finished. 
+Update result: Failed
+Message: Applying delta to network model failed. Failed to insert entity (GID = 0x0000000900000005) into model. Unknown property id = ASSET_CRITICAL for entity (GID = 0x0000000900000005)..
+GlobalId pairs:
+Client globalId: 0x00000001ffffffff	 - Server globalId: 0x0000000100000005
+Client globalId: 0x00000002ffffffff	 - Server globalId: 0x0000000200000005
+Client globalId: 0x00000003ffffffff	 - Server globalId: 0x0000000300000005
+Client globalId: 0x00000004ffffffff	 - Server globalId: 0x0000000400000005
+Client globalId: 0x00000005ffffffff	 - Server globalId: 0x0000000500000005
+Client globalId: 0x00000006ffffffff	 - Server globalId: 0x0000000600000001
+Client globalId: 0x00000007ffffffff	 - Server globalId: 0x000000070000001b
+Client globalId: 0x00000008ffffffff	 - Server globalId: 0x000000080000001b
+Client globalId: 0x00000009ffffffff	 - Server globalId: 0x0000000900000005
+Client globalId: 0x0000000affffffff	 - Server globalId: 0x0000000a0000001d
+Client globalId: 0x0000000bffffffff	 - Server globalId: 0x0000000b0000001b
+Client globalId: 0x0000000cffffffff	 - Server globalId: 0x0000000c0000001b
+Client globalId: 0x0000000dffffffff	 - Server globalId: 0x0000000d00000001
+Client globalId: 0x0000000effffffff	 - Server globalId: 0x0000000e0000001b
+
+12.01.2026 12:17:25 AM : Network Model Service Test Client is up and running...
+12.01.2026 12:17:25 AM : Result directory: ../Results
+12.01.2026 12:17:33 AM : Getting related values method started.
+12.01.2026 12:17:33 AM : Getting related values method  failed for sourceGlobalId = 3 and association (propertyId = 3, type = 3). Reason: There was an error while trying to serialize parameter http://tempuri.org/:association. The InnerException message was 'Enum value '3' is invalid for type 'FTN.Common.ModelCode' and cannot be serialized. Ensure that the necessary enum values are present and are marked with EnumMemberAttribute attribute if the type has DataContractAttribute attribute.'.  Please see InnerException for more details.
+12.01.2026 12:18:33 AM : Network Model Service Test Client is up and running...
+12.01.2026 12:18:33 AM : Result directory: ../Results
+12.01.2026 12:19:01 AM : Getting extent values method started.
+12.01.2026 12:19:49 AM : Network Model Service Test Client is up and running...
+12.01.2026 12:19:49 AM : Result directory: ../Results
+12.01.2026 12:19:57 AM : Apply update method started.
+12.01.2026 12:19:57 AM : Apply update method finished. 
+Update result: Failed
+Message: Applying delta to network model failed. Failed to insert entity (GID = 0x0000000900000006) into model. Unknown property id = ASSET_CRITICAL for entity (GID = 0x0000000900000006)..
+GlobalId pairs:
+Client globalId: 0x00000001ffffffff	 - Server globalId: 0x0000000100000006
+Client globalId: 0x00000002ffffffff	 - Server globalId: 0x0000000200000006
+Client globalId: 0x00000003ffffffff	 - Server globalId: 0x0000000300000006
+Client globalId: 0x00000004ffffffff	 - Server globalId: 0x0000000400000006
+Client globalId: 0x00000005ffffffff	 - Server globalId: 0x0000000500000006
+Client globalId: 0x00000006ffffffff	 - Server globalId: 0x0000000600000001
+Client globalId: 0x00000007ffffffff	 - Server globalId: 0x000000070000001f
+Client globalId: 0x00000008ffffffff	 - Server globalId: 0x000000080000001f
+Client globalId: 0x00000009ffffffff	 - Server globalId: 0x0000000900000006
+Client globalId: 0x0000000affffffff	 - Server globalId: 0x0000000a00000021
+Client globalId: 0x0000000bffffffff	 - Server globalId: 0x0000000b0000001f
+Client globalId: 0x0000000cffffffff	 - Server globalId: 0x0000000c0000001f
+Client globalId: 0x0000000dffffffff	 - Server globalId: 0x0000000d00000001
+Client globalId: 0x0000000effffffff	 - Server globalId: 0x0000000e0000001f
+
+12.01.2026 12:23:08 AM : Network Model Service Test Client is up and running...
+12.01.2026 12:23:08 AM : Result directory: ../Results
+12.01.2026 12:23:21 AM : Apply update method started.
+12.01.2026 12:23:21 AM : Apply update method finished. 
+Update result: Failed
+Message: Applying delta to network model failed. Failed to insert entity (GID = 0x0000000900000007) into model. Unknown property id = ASSET_CRITICAL for entity (GID = 0x0000000900000007)..
+GlobalId pairs:
+Client globalId: 0x00000001ffffffff	 - Server globalId: 0x0000000100000007
+Client globalId: 0x00000002ffffffff	 - Server globalId: 0x0000000200000007
+Client globalId: 0x00000003ffffffff	 - Server globalId: 0x0000000300000007
+Client globalId: 0x00000004ffffffff	 - Server globalId: 0x0000000400000007
+Client globalId: 0x00000005ffffffff	 - Server globalId: 0x0000000500000007
+Client globalId: 0x00000006ffffffff	 - Server globalId: 0x0000000600000001
+Client globalId: 0x00000007ffffffff	 - Server globalId: 0x0000000700000021
+Client globalId: 0x00000008ffffffff	 - Server globalId: 0x0000000800000021
+Client globalId: 0x00000009ffffffff	 - Server globalId: 0x0000000900000007
+Client globalId: 0x0000000affffffff	 - Server globalId: 0x0000000a00000023
+Client globalId: 0x0000000bffffffff	 - Server globalId: 0x0000000b00000021
+Client globalId: 0x0000000cffffffff	 - Server globalId: 0x0000000c00000021
+Client globalId: 0x0000000dffffffff	 - Server globalId: 0x0000000d00000001
+Client globalId: 0x0000000effffffff	 - Server globalId: 0x0000000e00000021
+
+12.01.2026 12:23:51 AM : Network Model Service Test Client is up and running...
+12.01.2026 12:23:51 AM : Result directory: ../Results
+12.01.2026 12:24:06 AM : Apply update method started.
+12.01.2026 12:24:07 AM : Apply update method finished. 
+Update result: Failed
+Message: Applying delta to network model failed. Failed to insert entity (GID = 0x0000000900000008) into model. Unknown property id = ASSET_CRITICAL for entity (GID = 0x0000000900000008)..
+GlobalId pairs:
+Client globalId: 0x00000001ffffffff	 - Server globalId: 0x0000000100000008
+Client globalId: 0x00000002ffffffff	 - Server globalId: 0x0000000200000008
+Client globalId: 0x00000003ffffffff	 - Server globalId: 0x0000000300000008
+Client globalId: 0x00000004ffffffff	 - Server globalId: 0x0000000400000008
+Client globalId: 0x00000005ffffffff	 - Server globalId: 0x0000000500000008
+Client globalId: 0x00000006ffffffff	 - Server globalId: 0x0000000600000001
+Client globalId: 0x00000007ffffffff	 - Server globalId: 0x0000000700000023
+Client globalId: 0x00000008ffffffff	 - Server globalId: 0x0000000800000023
+Client globalId: 0x00000009ffffffff	 - Server globalId: 0x0000000900000008
+Client globalId: 0x0000000affffffff	 - Server globalId: 0x0000000a00000025
+Client globalId: 0x0000000bffffffff	 - Server globalId: 0x0000000b00000023
+Client globalId: 0x0000000cffffffff	 - Server globalId: 0x0000000c00000023
+Client globalId: 0x0000000dffffffff	 - Server globalId: 0x0000000d00000001
+Client globalId: 0x0000000effffffff	 - Server globalId: 0x0000000e00000023
+
+12.01.2026 12:26:11 AM : Network Model Service Test Client is up and running...
+12.01.2026 12:26:11 AM : Result directory: ../Results
+12.01.2026 12:26:24 AM : Apply update method started.
+12.01.2026 12:26:24 AM : Apply update method finished. 
+Update result: Failed
+Message: Applying delta to network model failed. Failed to insert entity (GID = 0x0000000900000009) into model. Unknown property id = ASSET_CRITICAL for entity (GID = 0x0000000900000009)..
+GlobalId pairs:
+Client globalId: 0x00000001ffffffff	 - Server globalId: 0x0000000100000009
+Client globalId: 0x00000002ffffffff	 - Server globalId: 0x0000000200000009
+Client globalId: 0x00000003ffffffff	 - Server globalId: 0x0000000300000009
+Client globalId: 0x00000004ffffffff	 - Server globalId: 0x0000000400000009
+Client globalId: 0x00000005ffffffff	 - Server globalId: 0x0000000500000009
+Client globalId: 0x00000006ffffffff	 - Server globalId: 0x0000000600000001
+Client globalId: 0x00000007ffffffff	 - Server globalId: 0x0000000700000025
+Client globalId: 0x00000008ffffffff	 - Server globalId: 0x0000000800000025
+Client globalId: 0x00000009ffffffff	 - Server globalId: 0x0000000900000009
+Client globalId: 0x0000000affffffff	 - Server globalId: 0x0000000a00000027
+Client globalId: 0x0000000bffffffff	 - Server globalId: 0x0000000b00000025
+Client globalId: 0x0000000cffffffff	 - Server globalId: 0x0000000c00000025
+Client globalId: 0x0000000dffffffff	 - Server globalId: 0x0000000d00000001
+Client globalId: 0x0000000effffffff	 - Server globalId: 0x0000000e00000025
+
+12.01.2026 12:28:13 AM : Network Model Service Test Client is up and running...
+12.01.2026 12:28:13 AM : Result directory: ../Results
+12.01.2026 12:28:27 AM : Apply update method started.
+12.01.2026 12:28:27 AM : Apply update method finished. 
+Update result: Failed
+Message: Applying delta to network model failed. Failed to insert entity (GID = 0x000000090000000a) into model. Unknown property id = ASSET_CRITICAL for entity (GID = 0x000000090000000a)..
+GlobalId pairs:
+Client globalId: 0x00000001ffffffff	 - Server globalId: 0x000000010000000a
+Client globalId: 0x00000002ffffffff	 - Server globalId: 0x000000020000000a
+Client globalId: 0x00000003ffffffff	 - Server globalId: 0x000000030000000a
+Client globalId: 0x00000004ffffffff	 - Server globalId: 0x000000040000000a
+Client globalId: 0x00000005ffffffff	 - Server globalId: 0x000000050000000a
+Client globalId: 0x00000006ffffffff	 - Server globalId: 0x0000000600000001
+Client globalId: 0x00000007ffffffff	 - Server globalId: 0x0000000700000027
+Client globalId: 0x00000008ffffffff	 - Server globalId: 0x0000000800000027
+Client globalId: 0x00000009ffffffff	 - Server globalId: 0x000000090000000a
+Client globalId: 0x0000000affffffff	 - Server globalId: 0x0000000a00000029
+Client globalId: 0x0000000bffffffff	 - Server globalId: 0x0000000b00000027
+Client globalId: 0x0000000cffffffff	 - Server globalId: 0x0000000c00000027
+Client globalId: 0x0000000dffffffff	 - Server globalId: 0x0000000d00000001
+Client globalId: 0x0000000effffffff	 - Server globalId: 0x0000000e00000027
+
+12.01.2026 12:28:57 AM : Network Model Service Test Client is up and running...
+12.01.2026 12:28:57 AM : Result directory: ../Results
+12.01.2026 12:29:15 AM : Getting values method started.
+12.01.2026 12:29:16 AM : Getting values method successfully finished.
+12.01.2026 12:29:44 AM : Getting extent values method started.
+12.01.2026 12:30:07 AM : Network Model Service Test Client is up and running...
+12.01.2026 12:30:07 AM : Result directory: ../Results
+12.01.2026 12:30:23 AM : Apply update method started.
+12.01.2026 12:30:24 AM : Apply update method finished. 
+Update result: Failed
+Message: Applying delta to network model failed. Failed to insert entity (GID = 0x000000090000000b) into model. Unknown property id = ASSET_CRITICAL for entity (GID = 0x000000090000000b)..
+GlobalId pairs:
+Client globalId: 0x00000001ffffffff	 - Server globalId: 0x000000010000000b
+Client globalId: 0x00000002ffffffff	 - Server globalId: 0x000000020000000b
+Client globalId: 0x00000003ffffffff	 - Server globalId: 0x000000030000000b
+Client globalId: 0x00000004ffffffff	 - Server globalId: 0x000000040000000b
+Client globalId: 0x00000005ffffffff	 - Server globalId: 0x000000050000000b
+Client globalId: 0x00000006ffffffff	 - Server globalId: 0x0000000600000001
+Client globalId: 0x00000007ffffffff	 - Server globalId: 0x0000000700000029
+Client globalId: 0x00000008ffffffff	 - Server globalId: 0x0000000800000029
+Client globalId: 0x00000009ffffffff	 - Server globalId: 0x000000090000000b
+Client globalId: 0x0000000affffffff	 - Server globalId: 0x0000000a0000002b
+Client globalId: 0x0000000bffffffff	 - Server globalId: 0x0000000b00000029
+Client globalId: 0x0000000cffffffff	 - Server globalId: 0x0000000c00000029
+Client globalId: 0x0000000dffffffff	 - Server globalId: 0x0000000d00000001
+Client globalId: 0x0000000effffffff	 - Server globalId: 0x0000000e00000029
+
+12.01.2026 12:31:32 AM : Network Model Service Test Client is up and running...
+12.01.2026 12:31:32 AM : Result directory: ../Results
+12.01.2026 12:31:51 AM : Network Model Service Test Client stopped.
+12.01.2026 12:36:47 AM : Network Model Service Test Client is up and running...
+12.01.2026 12:36:47 AM : Result directory: ../Results
+12.01.2026 12:37:11 AM : Apply update method started.
+12.01.2026 12:37:13 AM : Apply update method finished. 
+Update result: Failed
+Message: Applying delta to network model failed. Failed to insert entity (GID = 0x0000000900000001) into model. Unknown property id = ASSET_CRITICAL for entity (GID = 0x0000000900000001)..
+GlobalId pairs:
+Client globalId: 0x00000001ffffffff	 - Server globalId: 0x0000000100000001
+Client globalId: 0x00000002ffffffff	 - Server globalId: 0x0000000200000001
+Client globalId: 0x00000003ffffffff	 - Server globalId: 0x0000000300000001
+Client globalId: 0x00000004ffffffff	 - Server globalId: 0x0000000400000001
+Client globalId: 0x00000005ffffffff	 - Server globalId: 0x0000000500000001
+Client globalId: 0x00000006ffffffff	 - Server globalId: 0x0000000600000001
+Client globalId: 0x00000007ffffffff	 - Server globalId: 0x0000000700000003
+Client globalId: 0x00000008ffffffff	 - Server globalId: 0x0000000800000003
+Client globalId: 0x00000009ffffffff	 - Server globalId: 0x0000000900000001
+Client globalId: 0x0000000affffffff	 - Server globalId: 0x0000000a00000003
+Client globalId: 0x0000000bffffffff	 - Server globalId: 0x0000000b00000003
+Client globalId: 0x0000000cffffffff	 - Server globalId: 0x0000000c00000003
+Client globalId: 0x0000000dffffffff	 - Server globalId: 0x0000000d00000001
+Client globalId: 0x0000000effffffff	 - Server globalId: 0x0000000e00000003
+
+12.01.2026 12:41:02 AM : Network Model Service Test Client is up and running...
+12.01.2026 12:41:02 AM : Result directory: ../Results
+12.01.2026 12:41:13 AM : Apply update method started.
+12.01.2026 12:41:14 AM : Apply update method finished. 
+Update result: Failed
+Message: Applying delta to network model failed. Failed to insert entity (GID = 0x0000000900000002) into model. Unknown property id = ASSET_CRITICAL for entity (GID = 0x0000000900000002)..
+GlobalId pairs:
+Client globalId: 0x00000001ffffffff	 - Server globalId: 0x0000000100000002
+Client globalId: 0x00000002ffffffff	 - Server globalId: 0x0000000200000002
+Client globalId: 0x00000003ffffffff	 - Server globalId: 0x0000000300000002
+Client globalId: 0x00000004ffffffff	 - Server globalId: 0x0000000400000002
+Client globalId: 0x00000005ffffffff	 - Server globalId: 0x0000000500000002
+Client globalId: 0x00000006ffffffff	 - Server globalId: 0x0000000600000001
+Client globalId: 0x00000007ffffffff	 - Server globalId: 0x0000000700000003
+Client globalId: 0x00000008ffffffff	 - Server globalId: 0x0000000800000003
+Client globalId: 0x00000009ffffffff	 - Server globalId: 0x0000000900000002
+Client globalId: 0x0000000affffffff	 - Server globalId: 0x0000000a00000003
+Client globalId: 0x0000000bffffffff	 - Server globalId: 0x0000000b00000003
+Client globalId: 0x0000000cffffffff	 - Server globalId: 0x0000000c00000003
+Client globalId: 0x0000000dffffffff	 - Server globalId: 0x0000000d00000001
+Client globalId: 0x0000000effffffff	 - Server globalId: 0x0000000e00000003
+
+12.01.2026 12:41:27 AM : Apply update method started.
+12.01.2026 12:41:27 AM : Apply update method finished. 
+Update result: Failed
+Message: Applying delta to network model failed. Failed to insert entity (GID = 0x0000000900000003) into model. Unknown property id = ASSET_CRITICAL for entity (GID = 0x0000000900000003)..
+GlobalId pairs:
+Client globalId: 0x00000001ffffffff	 - Server globalId: 0x0000000100000003
+Client globalId: 0x00000002ffffffff	 - Server globalId: 0x0000000200000003
+Client globalId: 0x00000003ffffffff	 - Server globalId: 0x0000000300000003
+Client globalId: 0x00000004ffffffff	 - Server globalId: 0x0000000400000003
+Client globalId: 0x00000005ffffffff	 - Server globalId: 0x0000000500000003
+Client globalId: 0x00000006ffffffff	 - Server globalId: 0x0000000600000001
+Client globalId: 0x00000007ffffffff	 - Server globalId: 0x0000000700000005
+Client globalId: 0x00000008ffffffff	 - Server globalId: 0x0000000800000005
+Client globalId: 0x00000009ffffffff	 - Server globalId: 0x0000000900000003
+Client globalId: 0x0000000affffffff	 - Server globalId: 0x0000000a00000005
+Client globalId: 0x0000000bffffffff	 - Server globalId: 0x0000000b00000005
+Client globalId: 0x0000000cffffffff	 - Server globalId: 0x0000000c00000005
+Client globalId: 0x0000000dffffffff	 - Server globalId: 0x0000000d00000001
+Client globalId: 0x0000000effffffff	 - Server globalId: 0x0000000e00000005
+
+12.01.2026 12:43:09 AM : Network Model Service Test Client is up and running...
+12.01.2026 12:43:09 AM : Result directory: ../Results
+12.01.2026 12:43:17 AM : Apply update method started.
+12.01.2026 12:43:17 AM : Apply update method finished. 
+Update result: Failed
+Message: Applying delta to network model failed. Failed to insert entity (GID = 0x0000000900000001) into model. Unknown property id = ASSET_CRITICAL for entity (GID = 0x0000000900000001)..
+GlobalId pairs:
+Client globalId: 0x00000001ffffffff	 - Server globalId: 0x0000000100000001
+Client globalId: 0x00000002ffffffff	 - Server globalId: 0x0000000200000001
+Client globalId: 0x00000003ffffffff	 - Server globalId: 0x0000000300000001
+Client globalId: 0x00000004ffffffff	 - Server globalId: 0x0000000400000001
+Client globalId: 0x00000005ffffffff	 - Server globalId: 0x0000000500000001
+Client globalId: 0x00000006ffffffff	 - Server globalId: 0x0000000600000001
+Client globalId: 0x00000007ffffffff	 - Server globalId: 0x0000000700000003
+Client globalId: 0x00000008ffffffff	 - Server globalId: 0x0000000800000003
+Client globalId: 0x00000009ffffffff	 - Server globalId: 0x0000000900000001
+Client globalId: 0x0000000affffffff	 - Server globalId: 0x0000000a00000003
+Client globalId: 0x0000000bffffffff	 - Server globalId: 0x0000000b00000003
+Client globalId: 0x0000000cffffffff	 - Server globalId: 0x0000000c00000003
+Client globalId: 0x0000000dffffffff	 - Server globalId: 0x0000000d00000001
+Client globalId: 0x0000000effffffff	 - Server globalId: 0x0000000e00000003
+
+12.01.2026 12:43:55 AM : Network Model Service Test Client is up and running...
+12.01.2026 12:43:55 AM : Result directory: ../Results
+12.01.2026 12:44:19 AM : Apply update method started.
+12.01.2026 12:44:19 AM : Apply update method finished. 
+Update result: Failed
+Message: Applying delta to network model failed. Failed to insert entity (GID = 0x0000000900000002) into model. Unknown property id = ASSET_CRITICAL for entity (GID = 0x0000000900000002)..
+GlobalId pairs:
+Client globalId: 0x00000001ffffffff	 - Server globalId: 0x0000000100000002
+Client globalId: 0x00000002ffffffff	 - Server globalId: 0x0000000200000002
+Client globalId: 0x00000003ffffffff	 - Server globalId: 0x0000000300000002
+Client globalId: 0x00000004ffffffff	 - Server globalId: 0x0000000400000002
+Client globalId: 0x00000005ffffffff	 - Server globalId: 0x0000000500000002
+Client globalId: 0x00000006ffffffff	 - Server globalId: 0x0000000600000001
+Client globalId: 0x00000007ffffffff	 - Server globalId: 0x0000000700000005
+Client globalId: 0x00000008ffffffff	 - Server globalId: 0x0000000800000005
+Client globalId: 0x00000009ffffffff	 - Server globalId: 0x0000000900000002
+Client globalId: 0x0000000affffffff	 - Server globalId: 0x0000000a00000005
+Client globalId: 0x0000000bffffffff	 - Server globalId: 0x0000000b00000005
+Client globalId: 0x0000000cffffffff	 - Server globalId: 0x0000000c00000005
+Client globalId: 0x0000000dffffffff	 - Server globalId: 0x0000000d00000001
+Client globalId: 0x0000000effffffff	 - Server globalId: 0x0000000e00000005
+
+12.01.2026 12:49:01 AM : Network Model Service Test Client is up and running...
+12.01.2026 12:49:01 AM : Result directory: ../Results
+12.01.2026 12:49:49 AM : Getting related values method started.
+12.01.2026 12:50:25 AM : Network Model Service Test Client is up and running...
+12.01.2026 12:50:25 AM : Result directory: ../Results
+12.01.2026 12:51:00 AM : Getting related values method started.
+12.01.2026 12:51:07 AM : Error: Could not set Network Model Service Test Client's window size and position. The console buffer size must not be less than the current size and position of the console window, nor greater than or equal to Int16.MaxValue.
+Parameter name: width
+Actual value was 250.
+12.01.2026 12:51:07 AM : Network Model Service Test Client is up and running...
+12.01.2026 12:51:07 AM : Result directory: ../Results
+12.01.2026 12:51:29 AM : Getting related values method started.
+12.01.2026 12:51:30 AM : Getting related values method  failed for sourceGlobalId = 60129542177 and association (propertyId = ASSETOWNER_ASSETS, type = 6). Reason: There was an error while trying to serialize parameter http://tempuri.org/:association. The InnerException message was 'Enum value '6' is invalid for type 'FTN.Common.ModelCode' and cannot be serialized. Ensure that the necessary enum values are present and are marked with EnumMemberAttribute attribute if the type has DataContractAttribute attribute.'.  Please see InnerException for more details.
+12.01.2026 12:51:56 AM : Getting related values method started.
+12.01.2026 12:52:23 AM : Error: Could not set Network Model Service Test Client's window size and position. The console buffer size must not be less than the current size and position of the console window, nor greater than or equal to Int16.MaxValue.
+Parameter name: width
+Actual value was 250.
+12.01.2026 12:52:23 AM : Network Model Service Test Client is up and running...
+12.01.2026 12:52:23 AM : Result directory: ../Results
+12.01.2026 12:52:50 AM : Entering association failed. System.FormatException: Input string was not in a correct format.
+   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt64(String value, NumberStyles options, NumberFormatInfo numfmt)
+   at System.Int64.Parse(String s)
+   at FTN.Services.NetworkModelService.TestClient.Program.InputAssociation() in D:\FTN\4 GODINA\MPPM\PROJEKAT\Projekat2025_26\Projekat2025_26\ModelLabsProjekat\ModelLabsProjekat\ModelLabs\NetworkModelService\Test\NMSTestClient\Program.cs:line 235
+12.01.2026 12:52:50 AM : GetRelatedValues failed. Input string was not in a correct format.
+12.01.2026 12:53:06 AM : Getting extent values method started.
+12.01.2026 12:56:43 AM : Network Model Service Test Client is up and running...
+12.01.2026 12:56:43 AM : Result directory: ../Results
+12.01.2026 12:57:01 AM : Error: Could not set Network Model Service Test Client's window size and position. The console buffer size must not be less than the current size and position of the console window, nor greater than or equal to Int16.MaxValue.
+Parameter name: width
+Actual value was 250.
+12.01.2026 12:57:01 AM : Network Model Service Test Client is up and running...
+12.01.2026 12:57:01 AM : Result directory: ../Results
+12.01.2026 12:57:59 AM : Getting values method started.
+12.01.2026 12:57:59 AM : Getting values method for entered id = 47244640255 failed.
+	Getting values for resource with ID = 0x0000000affffffff failed. Failed to get values for entity with GID = 0x0000000affffffff. Entity  (GID = 0x0000000affffffff) does not exist.
+12.01.2026 12:58:08 AM : Apply update method started.
+12.01.2026 12:58:08 AM : Apply update method finished. 
+Update result: Failed
+Message: Applying delta to network model failed. Failed to insert entity (GID = 0x0000000900000001) into model. Unknown property id = ASSET_CRITICAL for entity (GID = 0x0000000900000001)..
+GlobalId pairs:
+Client globalId: 0x00000001ffffffff	 - Server globalId: 0x0000000100000001
+Client globalId: 0x00000002ffffffff	 - Server globalId: 0x0000000200000001
+Client globalId: 0x00000003ffffffff	 - Server globalId: 0x0000000300000001
+Client globalId: 0x00000004ffffffff	 - Server globalId: 0x0000000400000001
+Client globalId: 0x00000005ffffffff	 - Server globalId: 0x0000000500000001
+Client globalId: 0x00000006ffffffff	 - Server globalId: 0x0000000600000001
+Client globalId: 0x00000007ffffffff	 - Server globalId: 0x0000000700000003
+Client globalId: 0x00000008ffffffff	 - Server globalId: 0x0000000800000003
+Client globalId: 0x00000009ffffffff	 - Server globalId: 0x0000000900000001
+Client globalId: 0x0000000affffffff	 - Server globalId: 0x0000000a00000003
+Client globalId: 0x0000000bffffffff	 - Server globalId: 0x0000000b00000003
+Client globalId: 0x0000000cffffffff	 - Server globalId: 0x0000000c00000003
+Client globalId: 0x0000000dffffffff	 - Server globalId: 0x0000000d00000001
+Client globalId: 0x0000000effffffff	 - Server globalId: 0x0000000e00000003
+
+12.01.2026 12:58:49 AM : Network Model Service Test Client is up and running...
+12.01.2026 12:58:49 AM : Result directory: ../Results
+12.01.2026 12:59:10 AM : Getting related values method started.
+12.01.2026 12:59:11 AM : Getting related values method  failed for sourceGlobalId = 34359738401 and association (propertyId = ASSETINFO_ASSETS, type = 6). Reason: There was an error while trying to serialize parameter http://tempuri.org/:association. The InnerException message was 'Enum value '6' is invalid for type 'FTN.Common.ModelCode' and cannot be serialized. Ensure that the necessary enum values are present and are marked with EnumMemberAttribute attribute if the type has DataContractAttribute attribute.'.  Please see InnerException for more details.
+12.01.2026 12:59:35 AM : Getting related values method started.
+12.01.2026 1:02:17 AM : Network Model Service Test Client is up and running...
+12.01.2026 1:02:17 AM : Result directory: ../Results
+12.01.2026 1:04:12 AM : Network Model Service Test Client is up and running...
+12.01.2026 1:04:12 AM : Result directory: ../Results
+12.01.2026 1:04:20 AM : Apply update method started.
+12.01.2026 1:04:21 AM : Apply update method finished. 
+Update result: Failed
+Message: Applying delta to network model failed. Failed to insert entity (GID = 0x0000000900000001) into model. Unknown property id = ASSET_CRITICAL for entity (GID = 0x0000000900000001)..
+GlobalId pairs:
+Client globalId: 0x00000001ffffffff	 - Server globalId: 0x0000000100000001
+Client globalId: 0x00000002ffffffff	 - Server globalId: 0x0000000200000001
+Client globalId: 0x00000003ffffffff	 - Server globalId: 0x0000000300000001
+Client globalId: 0x00000004ffffffff	 - Server globalId: 0x0000000400000001
+Client globalId: 0x00000005ffffffff	 - Server globalId: 0x0000000500000001
+Client globalId: 0x00000006ffffffff	 - Server globalId: 0x0000000600000001
+Client globalId: 0x00000007ffffffff	 - Server globalId: 0x0000000700000003
+Client globalId: 0x00000008ffffffff	 - Server globalId: 0x0000000800000003
+Client globalId: 0x00000009ffffffff	 - Server globalId: 0x0000000900000001
+Client globalId: 0x0000000affffffff	 - Server globalId: 0x0000000a00000003
+Client globalId: 0x0000000bffffffff	 - Server globalId: 0x0000000b00000003
+Client globalId: 0x0000000cffffffff	 - Server globalId: 0x0000000c00000003
+Client globalId: 0x0000000dffffffff	 - Server globalId: 0x0000000d00000001
+Client globalId: 0x0000000effffffff	 - Server globalId: 0x0000000e00000003
+
+12.01.2026 1:09:23 AM : Network Model Service Test Client is up and running...
+12.01.2026 1:09:23 AM : Result directory: ../Results
+12.01.2026 1:09:34 AM : Apply update method started.
+12.01.2026 1:09:35 AM : Apply update method finished. 
+Update result: Succeeded
+Message: Applying delta to network model successfully finished.
+GlobalId pairs:
+Client globalId: 0x00000001ffffffff	 - Server globalId: 0x0000000100000002
+Client globalId: 0x00000002ffffffff	 - Server globalId: 0x0000000200000002
+Client globalId: 0x00000003ffffffff	 - Server globalId: 0x0000000300000002
+Client globalId: 0x00000004ffffffff	 - Server globalId: 0x0000000400000002
+Client globalId: 0x00000005ffffffff	 - Server globalId: 0x0000000500000002
+Client globalId: 0x00000006ffffffff	 - Server globalId: 0x0000000600000001
+Client globalId: 0x00000007ffffffff	 - Server globalId: 0x0000000700000005
+Client globalId: 0x00000008ffffffff	 - Server globalId: 0x0000000800000005
+Client globalId: 0x00000009ffffffff	 - Server globalId: 0x0000000900000002
+Client globalId: 0x0000000affffffff	 - Server globalId: 0x0000000a00000005
+Client globalId: 0x0000000bffffffff	 - Server globalId: 0x0000000b00000005
+Client globalId: 0x0000000cffffffff	 - Server globalId: 0x0000000c00000005
+Client globalId: 0x0000000dffffffff	 - Server globalId: 0x0000000d00000001
+Client globalId: 0x0000000effffffff	 - Server globalId: 0x0000000e00000005
+
+12.01.2026 1:10:38 AM : Network Model Service Test Client is up and running...
+12.01.2026 1:10:39 AM : Result directory: ../Results
+12.01.2026 1:10:43 AM : Apply update method started.
+12.01.2026 1:10:44 AM : Apply update method finished. 
+Update result: Succeeded
+Message: Applying delta to network model successfully finished.
+GlobalId pairs:
+Client globalId: 0x00000001ffffffff	 - Server globalId: 0x0000000100000003
+Client globalId: 0x00000002ffffffff	 - Server globalId: 0x0000000200000003
+Client globalId: 0x00000003ffffffff	 - Server globalId: 0x0000000300000003
+Client globalId: 0x00000004ffffffff	 - Server globalId: 0x0000000400000003
+Client globalId: 0x00000005ffffffff	 - Server globalId: 0x0000000500000003
+Client globalId: 0x00000006ffffffff	 - Server globalId: 0x0000000600000002
+Client globalId: 0x00000007ffffffff	 - Server globalId: 0x0000000700000006
+Client globalId: 0x00000008ffffffff	 - Server globalId: 0x0000000800000006
+Client globalId: 0x00000009ffffffff	 - Server globalId: 0x0000000900000003
+Client globalId: 0x0000000affffffff	 - Server globalId: 0x0000000a00000006
+Client globalId: 0x0000000bffffffff	 - Server globalId: 0x0000000b00000006
+Client globalId: 0x0000000cffffffff	 - Server globalId: 0x0000000c00000006
+Client globalId: 0x0000000dffffffff	 - Server globalId: 0x0000000d00000002
+Client globalId: 0x0000000effffffff	 - Server globalId: 0x0000000e00000006
+
+12.01.2026 1:11:01 AM : Apply update method started.
+12.01.2026 1:11:01 AM : Apply update method finished. 
+Update result: Succeeded
+Message: Applying delta to network model successfully finished.
+GlobalId pairs:
+Client globalId: 0x00000001ffffffff	 - Server globalId: 0x0000000100000004
+Client globalId: 0x00000002ffffffff	 - Server globalId: 0x0000000200000004
+Client globalId: 0x00000003ffffffff	 - Server globalId: 0x0000000300000004
+Client globalId: 0x00000004ffffffff	 - Server globalId: 0x0000000400000004
+Client globalId: 0x00000005ffffffff	 - Server globalId: 0x0000000500000004
+Client globalId: 0x00000006ffffffff	 - Server globalId: 0x0000000600000003
+Client globalId: 0x00000007ffffffff	 - Server globalId: 0x0000000700000009
+Client globalId: 0x00000008ffffffff	 - Server globalId: 0x0000000800000009
+Client globalId: 0x00000009ffffffff	 - Server globalId: 0x0000000900000004
+Client globalId: 0x0000000affffffff	 - Server globalId: 0x0000000a00000009
+Client globalId: 0x0000000bffffffff	 - Server globalId: 0x0000000b00000009
+Client globalId: 0x0000000cffffffff	 - Server globalId: 0x0000000c00000009
+Client globalId: 0x0000000dffffffff	 - Server globalId: 0x0000000d00000003
+Client globalId: 0x0000000effffffff	 - Server globalId: 0x0000000e00000009
+
+12.01.2026 1:11:27 AM : Error: Could not set Network Model Service Test Client's window size and position. The console buffer size must not be less than the current size and position of the console window, nor greater than or equal to Int16.MaxValue.
+Parameter name: width
+Actual value was 250.
+12.01.2026 1:11:27 AM : Network Model Service Test Client is up and running...
+12.01.2026 1:11:27 AM : Result directory: ../Results
+12.01.2026 1:11:33 AM : Network Model Service Test Client is up and running...
+12.01.2026 1:11:33 AM : Result directory: ../Results
+12.01.2026 1:12:10 AM : Getting values method started.
+12.01.2026 1:12:23 AM : Network Model Service Test Client is up and running...
+12.01.2026 1:12:23 AM : Result directory: ../Results
+12.01.2026 1:12:38 AM : Getting extent values method started.
+12.01.2026 1:12:43 AM : Error: Could not set Network Model Service Test Client's window size and position. The console buffer size must not be less than the current size and position of the console window, nor greater than or equal to Int16.MaxValue.
+Parameter name: width
+Actual value was 250.
+12.01.2026 1:12:43 AM : Network Model Service Test Client is up and running...
+12.01.2026 1:12:43 AM : Result directory: ../Results
+12.01.2026 1:13:11 AM : Getting related values method started.
+12.01.2026 1:13:12 AM : Getting related values method  failed for sourceGlobalId = 30064771077 and association (propertyId = 1517713074424348673, type = 0). Reason: There was an error while trying to serialize parameter http://tempuri.org/:association. The InnerException message was 'Enum value '1517713074424348673' is invalid for type 'FTN.Common.ModelCode' and cannot be serialized. Ensure that the necessary enum values are present and are marked with EnumMemberAttribute attribute if the type has DataContractAttribute attribute.'.  Please see InnerException for more details.
+12.01.2026 1:13:40 AM : Error: Could not set Network Model Service Test Client's window size and position. The console buffer size must not be less than the current size and position of the console window, nor greater than or equal to Int16.MaxValue.
+Parameter name: width
+Actual value was 250.
+12.01.2026 1:13:40 AM : Network Model Service Test Client is up and running...
+12.01.2026 1:13:40 AM : Result directory: ../Results
+12.01.2026 1:13:50 AM : Network Model Service Test Client is up and running...
+12.01.2026 1:13:50 AM : Result directory: ../Results
+12.01.2026 1:14:29 AM : Getting related values method started.
+12.01.2026 1:14:29 AM : Getting related values method successfully finished.
+12.01.2026 1:15:11 AM : Getting extent values method started.
+12.01.2026 1:15:17 AM : Error: Could not set Network Model Service Test Client's window size and position. The console buffer size must not be less than the current size and position of the console window, nor greater than or equal to Int16.MaxValue.
+Parameter name: width
+Actual value was 250.
+12.01.2026 1:15:17 AM : Network Model Service Test Client is up and running...
+12.01.2026 1:15:17 AM : Result directory: ../Results
+12.01.2026 1:15:27 AM : Getting extent values method started.
+12.01.2026 1:15:28 AM : Getting extent values method successfully finished.
+12.01.2026 1:15:44 AM : Getting extent values method started.
+12.01.2026 1:16:57 AM : Network Model Service Test Client is up and running...
+12.01.2026 1:16:57 AM : Result directory: ../Results
+12.01.2026 1:17:10 AM : Apply update method started.
+12.01.2026 1:17:11 AM : Apply update method finished. 
+Update result: Succeeded
+Message: Applying delta to network model successfully finished.
+GlobalId pairs:
+Client globalId: 0x00000001ffffffff	 - Server globalId: 0x0000000100000001
+Client globalId: 0x00000002ffffffff	 - Server globalId: 0x0000000200000001
+Client globalId: 0x00000003ffffffff	 - Server globalId: 0x0000000300000001
+Client globalId: 0x00000004ffffffff	 - Server globalId: 0x0000000400000001
+Client globalId: 0x00000005ffffffff	 - Server globalId: 0x0000000500000001
+Client globalId: 0x00000006ffffffff	 - Server globalId: 0x0000000600000001
+Client globalId: 0x00000007ffffffff	 - Server globalId: 0x0000000700000003
+Client globalId: 0x00000008ffffffff	 - Server globalId: 0x0000000800000003
+Client globalId: 0x00000009ffffffff	 - Server globalId: 0x0000000900000001
+Client globalId: 0x0000000affffffff	 - Server globalId: 0x0000000a00000003
+Client globalId: 0x0000000bffffffff	 - Server globalId: 0x0000000b00000003
+Client globalId: 0x0000000cffffffff	 - Server globalId: 0x0000000c00000003
+Client globalId: 0x0000000dffffffff	 - Server globalId: 0x0000000d00000001
+Client globalId: 0x0000000effffffff	 - Server globalId: 0x0000000e00000003
+
+12.01.2026 1:17:31 AM : Getting extent values method started.
+12.01.2026 1:17:31 AM : Getting extent values method failed for PRODASSETMODEL.
+	IteratorNext failed. Iterator ID = 1. Resources to fetch count = 2. Failed to get next set of ResourceDescription iterators. Failed to get values for entity with GID = 0x0000000a00000001. Unknown property id = PRODASSETMODEL_ASSETINFO for entity (GID = 0x0000000a00000001). 
+12.01.2026 1:17:46 AM : Getting extent values method started.
+12.01.2026 1:17:46 AM : Getting extent values method failed for ASSETINFO.
+	IteratorNext failed. Iterator ID = 2. Resources to fetch count = 2. Failed to get next set of ResourceDescription iterators. Failed to get values for entity with GID = 0x0000000800000001. Unknown property id = ASSET_CRITICAL for entity (GID = 0x0000000800000001). 
+12.01.2026 1:17:50 AM : Getting extent values method started.
+12.01.2026 1:17:50 AM : Getting extent values method successfully finished.
+12.01.2026 1:17:54 AM : Getting extent values method started.
+12.01.2026 1:17:54 AM : Getting extent values method successfully finished.
+12.01.2026 1:20:18 AM : Network Model Service Test Client is up and running...
+12.01.2026 1:20:18 AM : Result directory: ../Results
+12.01.2026 1:20:27 AM : Apply update method started.
+12.01.2026 1:20:27 AM : Apply update method finished. 
+Update result: Succeeded
+Message: Applying delta to network model successfully finished.
+GlobalId pairs:
+Client globalId: 0x00000001ffffffff	 - Server globalId: 0x0000000100000001
+Client globalId: 0x00000002ffffffff	 - Server globalId: 0x0000000200000001
+Client globalId: 0x00000003ffffffff	 - Server globalId: 0x0000000300000001
+Client globalId: 0x00000004ffffffff	 - Server globalId: 0x0000000400000001
+Client globalId: 0x00000005ffffffff	 - Server globalId: 0x0000000500000001
+Client globalId: 0x00000006ffffffff	 - Server globalId: 0x0000000600000001
+Client globalId: 0x00000007ffffffff	 - Server globalId: 0x0000000700000003
+Client globalId: 0x00000008ffffffff	 - Server globalId: 0x0000000800000003
+Client globalId: 0x00000009ffffffff	 - Server globalId: 0x0000000900000001
+Client globalId: 0x0000000affffffff	 - Server globalId: 0x0000000a00000003
+Client globalId: 0x0000000bffffffff	 - Server globalId: 0x0000000b00000003
+Client globalId: 0x0000000cffffffff	 - Server globalId: 0x0000000c00000003
+Client globalId: 0x0000000dffffffff	 - Server globalId: 0x0000000d00000001
+Client globalId: 0x0000000effffffff	 - Server globalId: 0x0000000e00000003
+
+12.01.2026 1:21:05 AM : Getting values method started.
+12.01.2026 1:21:05 AM : Getting values method for entered id = 42949672965 failed.
+	Getting values for resource with ID = 0x0000000a00000005 failed. Failed to get values for entity with GID = 0x0000000a00000005. Entity  (GID = 0x0000000a00000005) does not exist.
+12.01.2026 1:21:48 AM : Getting values method started.
+12.01.2026 1:21:48 AM : Getting values method for entered id = 30064771076 failed.
+	Getting values for resource with ID = 0x0000000700000004 failed. Failed to get values for entity with GID = 0x0000000700000004. Entity  (GID = 0x0000000700000004) does not exist.
+12.01.2026 1:23:32 AM : Network Model Service Test Client is up and running...
+12.01.2026 1:23:32 AM : Result directory: ../Results
+12.01.2026 1:23:39 AM : Apply update method started.
+12.01.2026 1:23:39 AM : Apply update method finished. 
+Update result: Succeeded
+Message: Applying delta to network model successfully finished.
+GlobalId pairs:
+Client globalId: 0x00000001ffffffff	 - Server globalId: 0x0000000100000002
+Client globalId: 0x00000002ffffffff	 - Server globalId: 0x0000000200000002
+Client globalId: 0x00000003ffffffff	 - Server globalId: 0x0000000300000002
+Client globalId: 0x00000004ffffffff	 - Server globalId: 0x0000000400000002
+Client globalId: 0x00000005ffffffff	 - Server globalId: 0x0000000500000002
+Client globalId: 0x00000006ffffffff	 - Server globalId: 0x0000000600000002
+Client globalId: 0x00000007ffffffff	 - Server globalId: 0x0000000700000006
+Client globalId: 0x00000008ffffffff	 - Server globalId: 0x0000000800000006
+Client globalId: 0x00000009ffffffff	 - Server globalId: 0x0000000900000002
+Client globalId: 0x0000000affffffff	 - Server globalId: 0x0000000a00000006
+Client globalId: 0x0000000bffffffff	 - Server globalId: 0x0000000b00000006
+Client globalId: 0x0000000cffffffff	 - Server globalId: 0x0000000c00000006
+Client globalId: 0x0000000dffffffff	 - Server globalId: 0x0000000d00000002
+Client globalId: 0x0000000effffffff	 - Server globalId: 0x0000000e00000006
+
+12.01.2026 1:23:47 AM : Network Model Service Test Client is up and running...
+12.01.2026 1:23:47 AM : Result directory: ../Results
+12.01.2026 1:23:52 AM : Network Model Service Test Client is up and running...
+12.01.2026 1:23:52 AM : Result directory: ../Results
+12.01.2026 1:24:00 AM : Apply update method started.
+12.01.2026 1:24:01 AM : Apply update method finished. 
+Update result: Succeeded
+Message: Applying delta to network model successfully finished.
+GlobalId pairs:
+Client globalId: 0x00000001ffffffff	 - Server globalId: 0x0000000100000003
+Client globalId: 0x00000002ffffffff	 - Server globalId: 0x0000000200000003
+Client globalId: 0x00000003ffffffff	 - Server globalId: 0x0000000300000003
+Client globalId: 0x00000004ffffffff	 - Server globalId: 0x0000000400000003
+Client globalId: 0x00000005ffffffff	 - Server globalId: 0x0000000500000003
+Client globalId: 0x00000006ffffffff	 - Server globalId: 0x0000000600000003
+Client globalId: 0x00000007ffffffff	 - Server globalId: 0x0000000700000009
+Client globalId: 0x00000008ffffffff	 - Server globalId: 0x0000000800000009
+Client globalId: 0x00000009ffffffff	 - Server globalId: 0x0000000900000003
+Client globalId: 0x0000000affffffff	 - Server globalId: 0x0000000a00000009
+Client globalId: 0x0000000bffffffff	 - Server globalId: 0x0000000b00000009
+Client globalId: 0x0000000cffffffff	 - Server globalId: 0x0000000c00000009
+Client globalId: 0x0000000dffffffff	 - Server globalId: 0x0000000d00000003
+Client globalId: 0x0000000effffffff	 - Server globalId: 0x0000000e00000009
+
+12.01.2026 1:24:12 AM : Getting extent values method started.
+12.01.2026 1:24:26 AM : Error: Could not set Network Model Service Test Client's window size and position. The console buffer size must not be less than the current size and position of the console window, nor greater than or equal to Int16.MaxValue.
+Parameter name: width
+Actual value was 250.
+12.01.2026 1:24:26 AM : Network Model Service Test Client is up and running...
+12.01.2026 1:24:26 AM : Result directory: ../Results
+12.01.2026 1:25:39 AM : Network Model Service Test Client is up and running...
+12.01.2026 1:25:39 AM : Result directory: ../Results
+12.01.2026 1:25:47 AM : Apply update method started.
+12.01.2026 1:25:47 AM : Apply update method finished. 
+Update result: Succeeded
+Message: Applying delta to network model successfully finished.
+GlobalId pairs:
+Client globalId: 0x00000001ffffffff	 - Server globalId: 0x0000000100000001
+Client globalId: 0x00000002ffffffff	 - Server globalId: 0x0000000200000001
+Client globalId: 0x00000003ffffffff	 - Server globalId: 0x0000000300000001
+Client globalId: 0x00000004ffffffff	 - Server globalId: 0x0000000400000001
+Client globalId: 0x00000005ffffffff	 - Server globalId: 0x0000000500000001
+Client globalId: 0x00000006ffffffff	 - Server globalId: 0x0000000600000001
+Client globalId: 0x00000007ffffffff	 - Server globalId: 0x0000000700000003
+Client globalId: 0x00000008ffffffff	 - Server globalId: 0x0000000800000003
+Client globalId: 0x00000009ffffffff	 - Server globalId: 0x0000000900000001
+Client globalId: 0x0000000affffffff	 - Server globalId: 0x0000000a00000003
+Client globalId: 0x0000000bffffffff	 - Server globalId: 0x0000000b00000003
+Client globalId: 0x0000000cffffffff	 - Server globalId: 0x0000000c00000003
+Client globalId: 0x0000000dffffffff	 - Server globalId: 0x0000000d00000001
+Client globalId: 0x0000000effffffff	 - Server globalId: 0x0000000e00000003
+
+12.01.2026 1:25:59 AM : Getting extent values method started.
+12.01.2026 1:33:50 AM : Network Model Service Test Client is up and running...
+12.01.2026 1:33:50 AM : Result directory: ../Results
+12.01.2026 1:33:52 AM : Apply update method started.
+12.01.2026 1:33:52 AM : Apply update method finished. 
+Update result: Succeeded
+Message: Applying delta to network model successfully finished.
+GlobalId pairs:
+Client globalId: 0x00000001ffffffff	 - Server globalId: 0x0000000100000001
+Client globalId: 0x00000002ffffffff	 - Server globalId: 0x0000000200000001
+Client globalId: 0x00000003ffffffff	 - Server globalId: 0x0000000300000001
+Client globalId: 0x00000004ffffffff	 - Server globalId: 0x0000000400000001
+Client globalId: 0x00000005ffffffff	 - Server globalId: 0x0000000500000001
+Client globalId: 0x00000006ffffffff	 - Server globalId: 0x0000000600000001
+Client globalId: 0x00000007ffffffff	 - Server globalId: 0x0000000700000003
+Client globalId: 0x00000008ffffffff	 - Server globalId: 0x0000000800000003
+Client globalId: 0x00000009ffffffff	 - Server globalId: 0x0000000900000001
+Client globalId: 0x0000000affffffff	 - Server globalId: 0x0000000a00000003
+Client globalId: 0x0000000bffffffff	 - Server globalId: 0x0000000b00000003
+Client globalId: 0x0000000cffffffff	 - Server globalId: 0x0000000c00000003
+Client globalId: 0x0000000dffffffff	 - Server globalId: 0x0000000d00000001
+Client globalId: 0x0000000effffffff	 - Server globalId: 0x0000000e00000003
+
+12.01.2026 1:34:44 AM : Getting values method started.
+12.01.2026 1:34:44 AM : Getting values method for entered id = 42949672965 failed.
+	Getting values for resource with ID = 0x0000000a00000005 failed. Failed to get values for entity with GID = 0x0000000a00000005. Entity  (GID = 0x0000000a00000005) does not exist.
+12.01.2026 1:34:51 AM : Getting values method started.
+12.01.2026 1:34:51 AM : Getting values method for entered id = 51539607557 failed.
+	Getting values for resource with ID = 0x0000000c00000005 failed. Failed to get values for entity with GID = 0x0000000c00000005. Entity  (GID = 0x0000000c00000005) does not exist.
+12.01.2026 1:34:57 AM : Getting values method started.
+12.01.2026 1:34:57 AM : Getting values method for entered id = 51539607557 failed.
+	Getting values for resource with ID = 0x0000000c00000005 failed. Failed to get values for entity with GID = 0x0000000c00000005. Entity  (GID = 0x0000000c00000005) does not exist.
+12.01.2026 1:35:30 AM : Getting extent values method started.
+12.01.2026 1:35:30 AM : Getting extent values method successfully finished.
+12.01.2026 1:36:12 AM : Getting values method started.
+12.01.2026 1:36:12 AM : Getting values method for entered id = 51539607557 failed.
+	Getting values for resource with ID = 0x0000000c00000005 failed. Failed to get values for entity with GID = 0x0000000c00000005. Entity  (GID = 0x0000000c00000005) does not exist.
+12.01.2026 1:36:19 AM : Network Model Service Test Client is up and running...
+12.01.2026 1:36:19 AM : Result directory: ../Results
+12.01.2026 1:36:20 AM : Getting values method started.
+12.01.2026 1:36:21 AM : Getting values method for entered id = 51539607557 failed.
+	Getting values for resource with ID = 0x0000000c00000005 failed. Failed to get values for entity with GID = 0x0000000c00000005. Entity  (GID = 0x0000000c00000005) does not exist.
+12.01.2026 1:36:41 AM : Network Model Service Test Client is up and running...
+12.01.2026 1:36:41 AM : Result directory: ../Results
+12.01.2026 1:36:42 AM : Apply update method started.
+12.01.2026 1:36:42 AM : Apply update method finished. 
+Update result: Succeeded
+Message: Applying delta to network model successfully finished.
+GlobalId pairs:
+Client globalId: 0x00000001ffffffff	 - Server globalId: 0x0000000100000002
+Client globalId: 0x00000002ffffffff	 - Server globalId: 0x0000000200000002
+Client globalId: 0x00000003ffffffff	 - Server globalId: 0x0000000300000002
+Client globalId: 0x00000004ffffffff	 - Server globalId: 0x0000000400000002
+Client globalId: 0x00000005ffffffff	 - Server globalId: 0x0000000500000002
+Client globalId: 0x00000006ffffffff	 - Server globalId: 0x0000000600000002
+Client globalId: 0x00000007ffffffff	 - Server globalId: 0x0000000700000004
+Client globalId: 0x00000008ffffffff	 - Server globalId: 0x0000000800000004
+Client globalId: 0x00000009ffffffff	 - Server globalId: 0x0000000900000002
+Client globalId: 0x0000000affffffff	 - Server globalId: 0x0000000a00000004
+Client globalId: 0x0000000bffffffff	 - Server globalId: 0x0000000b00000004
+Client globalId: 0x0000000cffffffff	 - Server globalId: 0x0000000c00000004
+Client globalId: 0x0000000dffffffff	 - Server globalId: 0x0000000d00000002
+Client globalId: 0x0000000effffffff	 - Server globalId: 0x0000000e00000004
+
+12.01.2026 1:37:15 AM : Network Model Service Test Client is up and running...
+12.01.2026 1:37:15 AM : Result directory: ../Results
+12.01.2026 1:37:25 AM : Apply update method started.
+12.01.2026 1:37:26 AM : Apply update method finished. 
+Update result: Succeeded
+Message: Applying delta to network model successfully finished.
+GlobalId pairs:
+Client globalId: 0x00000001ffffffff	 - Server globalId: 0x0000000100000001
+Client globalId: 0x00000002ffffffff	 - Server globalId: 0x0000000200000001
+Client globalId: 0x00000003ffffffff	 - Server globalId: 0x0000000300000001
+Client globalId: 0x00000004ffffffff	 - Server globalId: 0x0000000400000001
+Client globalId: 0x00000005ffffffff	 - Server globalId: 0x0000000500000001
+Client globalId: 0x00000006ffffffff	 - Server globalId: 0x0000000600000001
+Client globalId: 0x00000007ffffffff	 - Server globalId: 0x0000000700000003
+Client globalId: 0x00000008ffffffff	 - Server globalId: 0x0000000800000003
+Client globalId: 0x00000009ffffffff	 - Server globalId: 0x0000000900000001
+Client globalId: 0x0000000affffffff	 - Server globalId: 0x0000000a00000003
+Client globalId: 0x0000000bffffffff	 - Server globalId: 0x0000000b00000003
+Client globalId: 0x0000000cffffffff	 - Server globalId: 0x0000000c00000003
+Client globalId: 0x0000000dffffffff	 - Server globalId: 0x0000000d00000001
+Client globalId: 0x0000000effffffff	 - Server globalId: 0x0000000e00000003
+
+12.01.2026 1:37:47 AM : Getting extent values method started.
+12.01.2026 1:37:47 AM : Getting extent values method successfully finished.
+12.01.2026 1:38:23 AM : Getting related values method started.
+12.01.2026 1:39:22 AM : Network Model Service Test Client is up and running...
+12.01.2026 1:39:22 AM : Result directory: ../Results
+12.01.2026 1:39:33 AM : Apply update method started.
+12.01.2026 1:39:33 AM : Apply update method finished. 
+Update result: Succeeded
+Message: Applying delta to network model successfully finished.
+GlobalId pairs:
+Client globalId: 0x00000001ffffffff	 - Server globalId: 0x0000000100000001
+Client globalId: 0x00000002ffffffff	 - Server globalId: 0x0000000200000001
+Client globalId: 0x00000003ffffffff	 - Server globalId: 0x0000000300000001
+Client globalId: 0x00000004ffffffff	 - Server globalId: 0x0000000400000001
+Client globalId: 0x00000005ffffffff	 - Server globalId: 0x0000000500000001
+Client globalId: 0x00000006ffffffff	 - Server globalId: 0x0000000600000001
+Client globalId: 0x00000007ffffffff	 - Server globalId: 0x0000000700000003
+Client globalId: 0x00000008ffffffff	 - Server globalId: 0x0000000800000003
+Client globalId: 0x00000009ffffffff	 - Server globalId: 0x0000000900000001
+Client globalId: 0x0000000affffffff	 - Server globalId: 0x0000000a00000003
+Client globalId: 0x0000000bffffffff	 - Server globalId: 0x0000000b00000003
+Client globalId: 0x0000000cffffffff	 - Server globalId: 0x0000000c00000003
+Client globalId: 0x0000000dffffffff	 - Server globalId: 0x0000000d00000001
+Client globalId: 0x0000000effffffff	 - Server globalId: 0x0000000e00000003
+
+12.01.2026 1:39:51 AM : Getting extent values method started.
+12.01.2026 1:39:52 AM : Getting extent values method successfully finished.
+12.01.2026 1:39:57 AM : Getting extent values method started.
+12.01.2026 1:40:13 AM : Error: Could not set Network Model Service Test Client's window size and position. The console buffer size must not be less than the current size and position of the console window, nor greater than or equal to Int16.MaxValue.
+Parameter name: width
+Actual value was 250.
+12.01.2026 1:40:13 AM : Network Model Service Test Client is up and running...
+12.01.2026 1:40:13 AM : Result directory: ../Results
+12.01.2026 1:40:21 AM : Getting extent values method started.
+12.01.2026 1:40:22 AM : Getting extent values method successfully finished.
+12.01.2026 1:40:30 AM : Getting extent values method started.
+12.01.2026 1:40:34 AM : Error: Could not set Network Model Service Test Client's window size and position. The console buffer size must not be less than the current size and position of the console window, nor greater than or equal to Int16.MaxValue.
+Parameter name: width
+Actual value was 250.
+12.01.2026 1:40:34 AM : Network Model Service Test Client is up and running...
+12.01.2026 1:40:34 AM : Result directory: ../Results
+12.01.2026 1:40:37 AM : Getting extent values method started.
+12.01.2026 1:40:41 AM : Error: Could not set Network Model Service Test Client's window size and position. The console buffer size must not be less than the current size and position of the console window, nor greater than or equal to Int16.MaxValue.
+Parameter name: width
+Actual value was 250.
+12.01.2026 1:40:41 AM : Network Model Service Test Client is up and running...
+12.01.2026 1:40:41 AM : Result directory: ../Results
+12.01.2026 1:40:51 AM : Getting extent values method started.
+12.01.2026 1:40:52 AM : Getting extent values method successfully finished.
+12.01.2026 1:41:41 AM : Getting values method started.
+12.01.2026 1:41:41 AM : Getting values method successfully finished.
+12.01.2026 1:42:59 AM : Getting related values method started.
+12.01.2026 1:42:59 AM : Getting related values method successfully finished.
+12.01.2026 1:43:20 AM : Getting extent values method started.
+12.01.2026 1:44:27 AM : Network Model Service Test Client is up and running...
+12.01.2026 1:44:27 AM : Result directory: ../Results
+12.01.2026 1:44:37 AM : Apply update method started.
+12.01.2026 1:44:37 AM : Apply update method finished. 
+Update result: Succeeded
+Message: Applying delta to network model successfully finished.
+GlobalId pairs:
+Client globalId: 0x00000001ffffffff	 - Server globalId: 0x0000000100000002
+Client globalId: 0x00000002ffffffff	 - Server globalId: 0x0000000200000002
+Client globalId: 0x00000003ffffffff	 - Server globalId: 0x0000000300000002
+Client globalId: 0x00000004ffffffff	 - Server globalId: 0x0000000400000002
+Client globalId: 0x00000005ffffffff	 - Server globalId: 0x0000000500000002
+Client globalId: 0x00000006ffffffff	 - Server globalId: 0x0000000600000002
+Client globalId: 0x00000007ffffffff	 - Server globalId: 0x0000000700000006
+Client globalId: 0x00000008ffffffff	 - Server globalId: 0x0000000800000006
+Client globalId: 0x00000009ffffffff	 - Server globalId: 0x0000000900000002
+Client globalId: 0x0000000affffffff	 - Server globalId: 0x0000000a00000006
+Client globalId: 0x0000000bffffffff	 - Server globalId: 0x0000000b00000006
+Client globalId: 0x0000000cffffffff	 - Server globalId: 0x0000000c00000006
+Client globalId: 0x0000000dffffffff	 - Server globalId: 0x0000000d00000002
+Client globalId: 0x0000000effffffff	 - Server globalId: 0x0000000e00000006
+
+12.01.2026 1:55:44 AM : Network Model Service Test Client is up and running...
+12.01.2026 1:55:44 AM : Result directory: ../Results
+12.01.2026 1:56:07 AM : Apply update method started.
+12.01.2026 1:56:07 AM : Apply update method finished. 
+Update result: Succeeded
+Message: Applying delta to network model successfully finished.
+GlobalId pairs:
+Client globalId: 0x00000001ffffffff	 - Server globalId: 0x0000000100000001
+Client globalId: 0x00000002ffffffff	 - Server globalId: 0x0000000200000001
+Client globalId: 0x00000003ffffffff	 - Server globalId: 0x0000000300000001
+Client globalId: 0x00000004ffffffff	 - Server globalId: 0x0000000400000001
+Client globalId: 0x00000005ffffffff	 - Server globalId: 0x0000000500000001
+Client globalId: 0x00000006ffffffff	 - Server globalId: 0x0000000600000001
+Client globalId: 0x00000007ffffffff	 - Server globalId: 0x0000000700000003
+Client globalId: 0x00000008ffffffff	 - Server globalId: 0x0000000800000003
+Client globalId: 0x00000009ffffffff	 - Server globalId: 0x0000000900000001
+Client globalId: 0x0000000affffffff	 - Server globalId: 0x0000000a00000003
+Client globalId: 0x0000000bffffffff	 - Server globalId: 0x0000000b00000003
+Client globalId: 0x0000000cffffffff	 - Server globalId: 0x0000000c00000003
+Client globalId: 0x0000000dffffffff	 - Server globalId: 0x0000000d00000001
+Client globalId: 0x0000000effffffff	 - Server globalId: 0x0000000e00000003
+
+12.01.2026 1:57:47 AM : Network Model Service Test Client is up and running...
+12.01.2026 1:57:47 AM : Result directory: ../Results
+12.01.2026 1:57:59 AM : Getting extent values method started.
+12.01.2026 1:57:59 AM : Getting extent values method failed for 2.
+	Invalid Model Code: 2
+12.01.2026 1:58:03 AM : Getting extent values method started.
+12.01.2026 1:58:03 AM : Getting extent values method failed for 4.
+	Invalid Model Code: 4
+12.01.2026 1:59:09 AM : Error: Could not set Network Model Service Test Client's window size and position. The console buffer size must not be less than the current size and position of the console window, nor greater than or equal to Int16.MaxValue.
+Parameter name: width
+Actual value was 250.
+12.01.2026 1:59:09 AM : Network Model Service Test Client is up and running...
+12.01.2026 1:59:09 AM : Result directory: ../Results
+12.01.2026 2:00:57 AM : Error: Could not set Network Model Service Test Client's window size and position. The console buffer size must not be less than the current size and position of the console window, nor greater than or equal to Int16.MaxValue.
+Parameter name: width
+Actual value was 250.
+12.01.2026 2:00:57 AM : Network Model Service Test Client is up and running...
+12.01.2026 2:00:57 AM : Result directory: ../Results
+12.01.2026 2:02:28 AM : Error: Could not set Network Model Service Test Client's window size and position. The console buffer size must not be less than the current size and position of the console window, nor greater than or equal to Int16.MaxValue.
+Parameter name: width
+Actual value was 250.
+12.01.2026 2:02:28 AM : Network Model Service Test Client is up and running...
+12.01.2026 2:02:28 AM : Result directory: ../Results
+12.01.2026 2:13:49 AM : Network Model Service Test Client is up and running...
+12.01.2026 2:13:50 AM : Result directory: ../Results
+12.01.2026 2:16:16 AM : Network Model Service Test Client is up and running...
+12.01.2026 2:16:16 AM : Result directory: ../Results
+12.01.2026 2:18:26 AM : Network Model Service Test Client is up and running...
+12.01.2026 2:18:26 AM : Result directory: ../Results
+12.01.2026 2:21:01 AM : Network Model Service Test Client is up and running...
+12.01.2026 2:21:01 AM : Result directory: ../Results
+12.01.2026 2:21:45 AM : Network Model Service Test Client is up and running...
+12.01.2026 2:21:45 AM : Result directory: ../Results
+12.01.2026 2:23:22 AM : Network Model Service Test Client is up and running...
+12.01.2026 2:23:22 AM : Result directory: ../Results
+12.01.2026 2:27:41 AM : Network Model Service Test Client is up and running...
+12.01.2026 2:27:41 AM : Result directory: ../Results
+12.01.2026 2:28:02 AM : Apply update method started.
+12.01.2026 2:28:02 AM : Apply update method finished. 
+Update result: Succeeded
+Message: Applying delta to network model successfully finished.
+GlobalId pairs:
+Client globalId: 0x00000001ffffffff	 - Server globalId: 0x0000000100000002
+Client globalId: 0x00000002ffffffff	 - Server globalId: 0x0000000200000002
+Client globalId: 0x00000003ffffffff	 - Server globalId: 0x0000000300000002
+Client globalId: 0x00000004ffffffff	 - Server globalId: 0x0000000400000002
+Client globalId: 0x00000005ffffffff	 - Server globalId: 0x0000000500000002
+Client globalId: 0x00000006ffffffff	 - Server globalId: 0x0000000600000002
+Client globalId: 0x00000007ffffffff	 - Server globalId: 0x0000000700000012
+Client globalId: 0x00000008ffffffff	 - Server globalId: 0x0000000800000012
+Client globalId: 0x00000009ffffffff	 - Server globalId: 0x0000000900000002
+Client globalId: 0x0000000affffffff	 - Server globalId: 0x0000000a00000012
+Client globalId: 0x0000000bffffffff	 - Server globalId: 0x0000000b00000012
+Client globalId: 0x0000000cffffffff	 - Server globalId: 0x0000000c00000012
+Client globalId: 0x0000000dffffffff	 - Server globalId: 0x0000000d00000002
+Client globalId: 0x0000000effffffff	 - Server globalId: 0x0000000e00000012
+
+12.01.2026 2:28:09 AM : Network Model Service Test Client is up and running...
+12.01.2026 2:28:09 AM : Result directory: ../Results
+12.01.2026 2:29:43 AM : Error: Could not set Network Model Service Test Client's window size and position. The console buffer size must not be less than the current size and position of the console window, nor greater than or equal to Int16.MaxValue.
+Parameter name: width
+Actual value was 250.
+12.01.2026 2:29:43 AM : Network Model Service Test Client is up and running...
+12.01.2026 2:29:43 AM : Result directory: ../Results
+12.01.2026 2:32:43 AM : Network Model Service Test Client is up and running...
+12.01.2026 2:32:43 AM : Result directory: ../Results
+12.01.2026 2:33:27 AM : Error: Could not set Network Model Service Test Client's window size and position. The console buffer size must not be less than the current size and position of the console window, nor greater than or equal to Int16.MaxValue.
+Parameter name: width
+Actual value was 250.
+12.01.2026 2:33:27 AM : Network Model Service Test Client is up and running...
+12.01.2026 2:33:27 AM : Result directory: ../Results
+12.01.2026 2:33:40 AM : Error: Could not set Network Model Service Test Client's window size and position. The console buffer size must not be less than the current size and position of the console window, nor greater than or equal to Int16.MaxValue.
+Parameter name: width
+Actual value was 250.
+12.01.2026 2:33:40 AM : Network Model Service Test Client is up and running...
+12.01.2026 2:33:40 AM : Result directory: ../Results
+12.01.2026 2:36:37 AM : Network Model Service Test Client is up and running...
+12.01.2026 2:36:37 AM : Result directory: ../Results
+12.01.2026 2:36:46 AM : Error: Could not set Network Model Service Test Client's window size and position. The console buffer size must not be less than the current size and position of the console window, nor greater than or equal to Int16.MaxValue.
+Parameter name: width
+Actual value was 250.
+12.01.2026 2:36:46 AM : Network Model Service Test Client is up and running...
+12.01.2026 2:36:46 AM : Result directory: ../Results
+12.01.2026 2:38:40 AM : Error: Could not set Network Model Service Test Client's window size and position. The console buffer size must not be less than the current size and position of the console window, nor greater than or equal to Int16.MaxValue.
+Parameter name: width
+Actual value was 250.
+12.01.2026 2:38:40 AM : Network Model Service Test Client is up and running...
+12.01.2026 2:38:40 AM : Result directory: ../Results
+12.01.2026 2:40:25 AM : Network Model Service Test Client is up and running...
+12.01.2026 2:40:25 AM : Result directory: ../Results
+12.01.2026 2:43:00 AM : Network Model Service Test Client is up and running...
+12.01.2026 2:43:00 AM : Result directory: ../Results
+12.01.2026 2:43:33 AM : Network Model Service Test Client is up and running...
+12.01.2026 2:43:33 AM : Result directory: ../Results
+12.01.2026 2:43:45 AM : Error: Could not set Network Model Service Test Client's window size and position. The console buffer size must not be less than the current size and position of the console window, nor greater than or equal to Int16.MaxValue.
+Parameter name: width
+Actual value was 250.
+12.01.2026 2:43:45 AM : Network Model Service Test Client is up and running...
+12.01.2026 2:43:45 AM : Result directory: ../Results
+12.01.2026 2:43:53 AM : Error: Could not set Network Model Service Test Client's window size and position. The console buffer size must not be less than the current size and position of the console window, nor greater than or equal to Int16.MaxValue.
+Parameter name: width
+Actual value was 250.
+12.01.2026 2:43:53 AM : Network Model Service Test Client is up and running...
+12.01.2026 2:43:53 AM : Result directory: ../Results
+12.01.2026 2:53:24 AM : Network Model Service Test Client is up and running...
+12.01.2026 2:53:24 AM : Result directory: ../Results
+12.01.2026 2:54:54 AM : Error: Could not set Network Model Service Test Client's window size and position. The console buffer size must not be less than the current size and position of the console window, nor greater than or equal to Int16.MaxValue.
+Parameter name: width
+Actual value was 250.
+12.01.2026 2:54:54 AM : Network Model Service Test Client is up and running...
+12.01.2026 2:54:54 AM : Result directory: ../Results
+12.01.2026 2:59:52 AM : Network Model Service Test Client is up and running...
+12.01.2026 2:59:52 AM : Result directory: ../Results
+12.01.2026 3:00:42 AM : Error: Could not set Network Model Service Test Client's window size and position. The console buffer size must not be less than the current size and position of the console window, nor greater than or equal to Int16.MaxValue.
+Parameter name: width
+Actual value was 250.
+12.01.2026 3:00:42 AM : Network Model Service Test Client is up and running...
+12.01.2026 3:00:42 AM : Result directory: ../Results
+12.01.2026 3:01:32 AM : Apply update method started.
+12.01.2026 3:01:32 AM : Apply update method finished. 
+Update result: Succeeded
+Message: Applying delta to network model successfully finished.
+GlobalId pairs:
+Client globalId: 0x00000001ffffffff	 - Server globalId: 0x0000000100000001
+Client globalId: 0x00000002ffffffff	 - Server globalId: 0x0000000200000001
+Client globalId: 0x00000003ffffffff	 - Server globalId: 0x0000000300000001
+Client globalId: 0x00000004ffffffff	 - Server globalId: 0x0000000400000001
+Client globalId: 0x00000005ffffffff	 - Server globalId: 0x0000000500000001
+Client globalId: 0x00000006ffffffff	 - Server globalId: 0x0000000600000001
+Client globalId: 0x00000007ffffffff	 - Server globalId: 0x0000000700000007
+Client globalId: 0x00000008ffffffff	 - Server globalId: 0x0000000800000007
+Client globalId: 0x00000009ffffffff	 - Server globalId: 0x0000000900000001
+Client globalId: 0x0000000affffffff	 - Server globalId: 0x0000000a00000007
+Client globalId: 0x0000000bffffffff	 - Server globalId: 0x0000000b00000007
+Client globalId: 0x0000000cffffffff	 - Server globalId: 0x0000000c00000007
+Client globalId: 0x0000000dffffffff	 - Server globalId: 0x0000000d00000001
+Client globalId: 0x0000000effffffff	 - Server globalId: 0x0000000e00000007
+
+12.01.2026 2:16:07 PM : Network Model Service Test Client is up and running...
+12.01.2026 2:16:07 PM : Result directory: ../Results
+12.01.2026 2:16:52 PM : Apply update method started.
+12.01.2026 2:16:53 PM : Apply update method finished. 
+Update result: Succeeded
+Message: Applying delta to network model successfully finished.
+GlobalId pairs:
+Client globalId: 0x00000001ffffffff	 - Server globalId: 0x0000000100000001
+Client globalId: 0x00000002ffffffff	 - Server globalId: 0x0000000200000001
+Client globalId: 0x00000003ffffffff	 - Server globalId: 0x0000000300000001
+Client globalId: 0x00000004ffffffff	 - Server globalId: 0x0000000400000001
+Client globalId: 0x00000005ffffffff	 - Server globalId: 0x0000000500000001
+Client globalId: 0x00000006ffffffff	 - Server globalId: 0x0000000600000001
+Client globalId: 0x00000007ffffffff	 - Server globalId: 0x0000000700000003
+Client globalId: 0x00000008ffffffff	 - Server globalId: 0x0000000800000003
+Client globalId: 0x00000009ffffffff	 - Server globalId: 0x0000000900000001
+Client globalId: 0x0000000affffffff	 - Server globalId: 0x0000000a00000003
+Client globalId: 0x0000000bffffffff	 - Server globalId: 0x0000000b00000003
+Client globalId: 0x0000000cffffffff	 - Server globalId: 0x0000000c00000003
+Client globalId: 0x0000000dffffffff	 - Server globalId: 0x0000000d00000001
+Client globalId: 0x0000000effffffff	 - Server globalId: 0x0000000e00000003
+
+12.01.2026 2:17:47 PM : Network Model Service Test Client is up and running...
+12.01.2026 2:17:47 PM : Result directory: ../Results
+12.01.2026 2:17:50 PM : Entering entity id failed. Please use hex (0x) or decimal format.
+12.01.2026 2:17:50 PM : GetValues failed. Input string was not in a correct format.
+12.01.2026 2:18:02 PM : Getting values method started.
+12.01.2026 2:19:31 PM : Network Model Service Test Client is up and running...
+12.01.2026 2:19:31 PM : Result directory: ../Results
+12.01.2026 2:19:45 PM : Apply update method started.
+12.01.2026 2:19:45 PM : Apply update method finished. 
+Update result: Succeeded
+Message: Applying delta to network model successfully finished.
+GlobalId pairs:
+Client globalId: 0x00000001ffffffff	 - Server globalId: 0x0000000100000001
+Client globalId: 0x00000002ffffffff	 - Server globalId: 0x0000000200000001
+Client globalId: 0x00000003ffffffff	 - Server globalId: 0x0000000300000001
+Client globalId: 0x00000004ffffffff	 - Server globalId: 0x0000000400000001
+Client globalId: 0x00000005ffffffff	 - Server globalId: 0x0000000500000001
+Client globalId: 0x00000006ffffffff	 - Server globalId: 0x0000000600000001
+Client globalId: 0x00000007ffffffff	 - Server globalId: 0x0000000700000003
+Client globalId: 0x00000008ffffffff	 - Server globalId: 0x0000000800000003
+Client globalId: 0x00000009ffffffff	 - Server globalId: 0x0000000900000001
+Client globalId: 0x0000000affffffff	 - Server globalId: 0x0000000a00000003
+Client globalId: 0x0000000bffffffff	 - Server globalId: 0x0000000b00000003
+Client globalId: 0x0000000cffffffff	 - Server globalId: 0x0000000c00000003
+Client globalId: 0x0000000dffffffff	 - Server globalId: 0x0000000d00000001
+Client globalId: 0x0000000effffffff	 - Server globalId: 0x0000000e00000003
+
+12.01.2026 2:20:53 PM : Network Model Service Test Client is up and running...
+12.01.2026 2:20:53 PM : Result directory: ../Results
+12.01.2026 2:23:29 PM : Network Model Service Test Client is up and running...
+12.01.2026 2:23:29 PM : Result directory: ../Results
+12.01.2026 2:24:18 PM : Network Model Service Test Client is up and running...
+12.01.2026 2:24:18 PM : Result directory: ../Results
+12.01.2026 2:25:16 PM : Network Model Service Test Client is up and running...
+12.01.2026 2:25:16 PM : Result directory: ../Results
+12.01.2026 2:25:49 PM : Network Model Service Test Client is up and running...
+12.01.2026 2:25:49 PM : Result directory: ../Results
+12.01.2026 2:27:07 PM : Network Model Service Test Client is up and running...
+12.01.2026 2:27:07 PM : Result directory: ../Results
+12.01.2026 2:28:09 PM : Network Model Service Test Client is up and running...
+12.01.2026 2:28:09 PM : Result directory: ../Results
+12.01.2026 2:29:12 PM : Network Model Service Test Client is up and running...
+12.01.2026 2:29:12 PM : Result directory: ../Results
+12.01.2026 2:29:55 PM : Error: Could not set Network Model Service Test Client's window size and position. The console buffer size must not be less than the current size and position of the console window, nor greater than or equal to Int16.MaxValue.
+Parameter name: width
+Actual value was 250.
+12.01.2026 2:29:55 PM : Network Model Service Test Client is up and running...
+12.01.2026 2:29:55 PM : Result directory: ../Results
+12.01.2026 2:30:34 PM : Error: Could not set Network Model Service Test Client's window size and position. The console buffer size must not be less than the current size and position of the console window, nor greater than or equal to Int16.MaxValue.
+Parameter name: width
+Actual value was 250.
+12.01.2026 2:30:34 PM : Network Model Service Test Client is up and running...
+12.01.2026 2:30:34 PM : Result directory: ../Results
+12.01.2026 2:31:16 PM : Network Model Service Test Client is up and running...
+12.01.2026 2:31:16 PM : Result directory: ../Results
+12.01.2026 2:32:24 PM : Network Model Service Test Client is up and running...
+12.01.2026 2:32:24 PM : Result directory: ../Results
+12.01.2026 2:32:57 PM : Error: Could not set Network Model Service Test Client's window size and position. The console buffer size must not be less than the current size and position of the console window, nor greater than or equal to Int16.MaxValue.
+Parameter name: width
+Actual value was 250.
+12.01.2026 2:32:57 PM : Network Model Service Test Client is up and running...
+12.01.2026 2:32:57 PM : Result directory: ../Results
+12.01.2026 2:33:31 PM : Error: Could not set Network Model Service Test Client's window size and position. The console buffer size must not be less than the current size and position of the console window, nor greater than or equal to Int16.MaxValue.
+Parameter name: width
+Actual value was 250.
+12.01.2026 2:33:31 PM : Network Model Service Test Client is up and running...
+12.01.2026 2:33:31 PM : Result directory: ../Results
+12.01.2026 2:33:48 PM : Error: Could not set Network Model Service Test Client's window size and position. The console buffer size must not be less than the current size and position of the console window, nor greater than or equal to Int16.MaxValue.
+Parameter name: width
+Actual value was 250.
+12.01.2026 2:33:48 PM : Network Model Service Test Client is up and running...
+12.01.2026 2:33:48 PM : Result directory: ../Results
+12.01.2026 2:34:21 PM : Error: Could not set Network Model Service Test Client's window size and position. The console buffer size must not be less than the current size and position of the console window, nor greater than or equal to Int16.MaxValue.
+Parameter name: width
+Actual value was 250.
+12.01.2026 2:34:21 PM : Network Model Service Test Client is up and running...
+12.01.2026 2:34:21 PM : Result directory: ../Results
+12.01.2026 2:35:04 PM : Error: Could not set Network Model Service Test Client's window size and position. The console buffer size must not be less than the current size and position of the console window, nor greater than or equal to Int16.MaxValue.
+Parameter name: width
+Actual value was 250.
+12.01.2026 2:35:04 PM : Network Model Service Test Client is up and running...
+12.01.2026 2:35:04 PM : Result directory: ../Results
+12.01.2026 2:35:23 PM : Network Model Service Test Client is up and running...
+12.01.2026 2:35:23 PM : Result directory: ../Results
+12.01.2026 2:38:18 PM : Network Model Service Test Client is up and running...
+12.01.2026 2:38:18 PM : Result directory: ../Results
+12.01.2026 2:43:25 PM : Network Model Service Test Client is up and running...
+12.01.2026 2:43:25 PM : Result directory: ../Results
+12.01.2026 2:45:16 PM : Network Model Service Test Client is up and running...
+12.01.2026 2:45:16 PM : Result directory: ../Results
+12.01.2026 2:49:41 PM : Network Model Service Test Client is up and running...
+12.01.2026 2:49:41 PM : Result directory: ../Results
+12.01.2026 2:51:01 PM : Network Model Service Test Client is up and running...
+12.01.2026 2:51:01 PM : Result directory: ../Results
+12.01.2026 2:52:08 PM : Network Model Service Test Client is up and running...
+12.01.2026 2:52:08 PM : Result directory: ../Results
+12.01.2026 2:53:55 PM : Network Model Service Test Client is up and running...
+12.01.2026 2:53:55 PM : Result directory: ../Results
+12.01.2026 2:55:12 PM : Network Model Service Test Client is up and running...
+12.01.2026 2:55:12 PM : Result directory: ../Results
+12.01.2026 2:55:53 PM : Network Model Service Test Client is up and running...
+12.01.2026 2:55:53 PM : Result directory: ../Results
+12.01.2026 3:04:52 PM : Network Model Service Test Client is up and running...
+12.01.2026 3:04:52 PM : Result directory: ../Results
+12.01.2026 3:08:14 PM : Network Model Service Test Client is up and running...
+12.01.2026 3:08:14 PM : Result directory: ../Results
+12.01.2026 3:09:28 PM : Network Model Service Test Client is up and running...
+12.01.2026 3:09:28 PM : Result directory: ../Results
+12.01.2026 3:14:59 PM : Network Model Service Test Client is up and running...
+12.01.2026 3:14:59 PM : Result directory: ../Results
+12.01.2026 3:18:44 PM : Network Model Service Test Client is up and running...
+12.01.2026 3:18:45 PM : Result directory: ../Results
+12.01.2026 3:19:58 PM : Network Model Service Test Client is up and running...
+12.01.2026 3:19:58 PM : Result directory: ../Results
+12.01.2026 3:22:31 PM : Network Model Service Test Client is up and running...
+12.01.2026 3:22:31 PM : Result directory: ../Results
+12.01.2026 3:22:44 PM : Getting extent values method started.
+12.01.2026 3:22:44 PM : Getting extent values method successfully finished.
+12.01.2026 3:22:59 PM : Getting values method started.
+12.01.2026 4:05:59 PM : Network Model Service Test Client is up and running...
+12.01.2026 4:05:59 PM : Result directory: ../Results
+12.01.2026 5:05:35 PM : Network Model Service Test Client is up and running...
+12.01.2026 5:05:35 PM : Result directory: ../Results
+12.01.2026 5:05:38 PM : Getting values method started.
+12.01.2026 5:05:39 PM : Getting values method successfully finished.
+12.01.2026 5:06:15 PM : Network Model Service Test Client is up and running...
+12.01.2026 5:06:15 PM : Result directory: ../Results
+12.01.2026 5:08:23 PM : Network Model Service Test Client is up and running...
+12.01.2026 5:08:23 PM : Result directory: ../Results
+12.01.2026 5:12:05 PM : Network Model Service Test Client is up and running...
+12.01.2026 5:12:05 PM : Result directory: ../Results
+12.01.2026 5:15:01 PM : Network Model Service Test Client is up and running...
+12.01.2026 5:15:01 PM : Result directory: ../Results
+12.01.2026 5:18:43 PM : Apply update method started.
+12.01.2026 5:18:43 PM : Apply update method finished. 
+Update result: Succeeded
+Message: Applying delta to network model successfully finished.
+GlobalId pairs:
+Client globalId: 0x00000001ffffffff	 - Server globalId: 0x0000000100000001
+Client globalId: 0x00000002ffffffff	 - Server globalId: 0x0000000200000001
+Client globalId: 0x00000003ffffffff	 - Server globalId: 0x0000000300000001
+Client globalId: 0x00000004ffffffff	 - Server globalId: 0x0000000400000001
+Client globalId: 0x00000005ffffffff	 - Server globalId: 0x0000000500000001
+Client globalId: 0x00000006ffffffff	 - Server globalId: 0x0000000600000001
+Client globalId: 0x00000007ffffffff	 - Server globalId: 0x000000070000001f
+Client globalId: 0x00000008ffffffff	 - Server globalId: 0x000000080000001f
+Client globalId: 0x00000009ffffffff	 - Server globalId: 0x0000000900000001
+Client globalId: 0x0000000affffffff	 - Server globalId: 0x0000000a0000001f
+Client globalId: 0x0000000bffffffff	 - Server globalId: 0x0000000b0000001f
+Client globalId: 0x0000000cffffffff	 - Server globalId: 0x0000000c0000001f
+Client globalId: 0x0000000dffffffff	 - Server globalId: 0x0000000d00000001
+Client globalId: 0x0000000effffffff	 - Server globalId: 0x0000000e0000001f
+
+12.01.2026 5:18:52 PM : Getting values method started.
+12.01.2026 5:18:52 PM : Getting values method successfully finished.
+12.01.2026 5:18:58 PM : Getting values method started.
+12.01.2026 5:18:58 PM : Getting values method successfully finished.
+12.01.2026 5:19:01 PM : Getting values method started.
+12.01.2026 5:19:01 PM : Getting values method successfully finished.
+12.01.2026 5:19:06 PM : Getting values method started.
+12.01.2026 5:19:06 PM : Getting values method successfully finished.
+12.01.2026 5:19:10 PM : Getting values method started.
+12.01.2026 5:19:10 PM : Getting values method successfully finished.
+12.01.2026 5:19:14 PM : Getting values method started.
+12.01.2026 5:19:14 PM : Getting values method successfully finished.
+12.01.2026 5:20:03 PM : Getting extent values method started.
+12.01.2026 5:20:04 PM : Getting extent values method successfully finished.
+12.01.2026 5:20:11 PM : Getting extent values method started.
+12.01.2026 5:20:11 PM : Getting extent values method failed for 2.
+	Invalid Model Code: 2
+12.01.2026 5:20:16 PM : Getting extent values method started.
+12.01.2026 5:20:16 PM : Getting extent values method successfully finished.
+12.01.2026 5:20:21 PM : Getting extent values method started.
+12.01.2026 5:20:21 PM : Getting extent values method successfully finished.
+12.01.2026 5:20:28 PM : Getting extent values method started.
+12.01.2026 5:20:28 PM : Getting extent values method successfully finished.
+12.01.2026 5:20:32 PM : Getting extent values method started.
+12.01.2026 5:20:32 PM : Getting extent values method successfully finished.
+12.01.2026 5:20:36 PM : Getting extent values method started.
+12.01.2026 5:20:36 PM : Getting extent values method successfully finished.
+12.01.2026 5:20:39 PM : Getting extent values method started.
+12.01.2026 5:20:39 PM : Getting extent values method failed for 2.
+	Invalid Model Code: 2
+12.01.2026 5:20:41 PM : Getting extent values method started.
+12.01.2026 5:20:41 PM : Getting extent values method successfully finished.
+12.01.2026 5:20:47 PM : Getting extent values method started.
+12.01.2026 5:20:47 PM : Getting extent values method successfully finished.
+12.01.2026 9:59:40 PM : Network Model Service Test Client is up and running...
+12.01.2026 9:59:40 PM : Result directory: ../Results
+12.01.2026 10:00:19 PM : Apply update method started.
+12.01.2026 10:00:20 PM : Apply update method finished. 
+Update result: Succeeded
+Message: Applying delta to network model successfully finished.
+GlobalId pairs:
+Client globalId: 0x00000001ffffffff	 - Server globalId: 0x0000000100000001
+Client globalId: 0x00000002ffffffff	 - Server globalId: 0x0000000200000001
+Client globalId: 0x00000003ffffffff	 - Server globalId: 0x0000000300000001
+Client globalId: 0x00000004ffffffff	 - Server globalId: 0x0000000400000001
+Client globalId: 0x00000005ffffffff	 - Server globalId: 0x0000000500000001
+Client globalId: 0x00000006ffffffff	 - Server globalId: 0x0000000600000001
+Client globalId: 0x00000007ffffffff	 - Server globalId: 0x0000000700000003
+Client globalId: 0x00000008ffffffff	 - Server globalId: 0x0000000800000003
+Client globalId: 0x00000009ffffffff	 - Server globalId: 0x0000000900000001
+Client globalId: 0x0000000affffffff	 - Server globalId: 0x0000000a00000003
+Client globalId: 0x0000000bffffffff	 - Server globalId: 0x0000000b00000003
+Client globalId: 0x0000000cffffffff	 - Server globalId: 0x0000000c00000003
+Client globalId: 0x0000000dffffffff	 - Server globalId: 0x0000000d00000001
+Client globalId: 0x0000000effffffff	 - Server globalId: 0x0000000e00000003
+
+12.01.2026 10:01:13 PM : Network Model Service Test Client is up and running...
+12.01.2026 10:01:13 PM : Result directory: ../Results
+12.01.2026 10:01:58 PM : Network Model Service Test Client is up and running...
+12.01.2026 10:01:58 PM : Result directory: ../Results
+12.01.2026 10:07:23 PM : Network Model Service Test Client is up and running...
+12.01.2026 10:07:23 PM : Result directory: ../Results
+12.01.2026 10:07:35 PM : Apply update method started.
+12.01.2026 10:07:35 PM : Apply update method finished. 
+Update result: Succeeded
+Message: Applying delta to network model successfully finished.
+GlobalId pairs:
+Client globalId: 0x00000001ffffffff	 - Server globalId: 0x0000000100000001
+Client globalId: 0x00000002ffffffff	 - Server globalId: 0x0000000200000001
+Client globalId: 0x00000003ffffffff	 - Server globalId: 0x0000000300000001
+Client globalId: 0x00000004ffffffff	 - Server globalId: 0x0000000400000001
+Client globalId: 0x00000005ffffffff	 - Server globalId: 0x0000000500000001
+Client globalId: 0x00000006ffffffff	 - Server globalId: 0x0000000600000001
+Client globalId: 0x00000007ffffffff	 - Server globalId: 0x0000000700000003
+Client globalId: 0x00000008ffffffff	 - Server globalId: 0x0000000800000003
+Client globalId: 0x00000009ffffffff	 - Server globalId: 0x0000000900000001
+Client globalId: 0x0000000affffffff	 - Server globalId: 0x0000000a00000003
+Client globalId: 0x0000000bffffffff	 - Server globalId: 0x0000000b00000003
+Client globalId: 0x0000000cffffffff	 - Server globalId: 0x0000000c00000003
+Client globalId: 0x0000000dffffffff	 - Server globalId: 0x0000000d00000001
+Client globalId: 0x0000000effffffff	 - Server globalId: 0x0000000e00000003
+
+12.01.2026 10:08:09 PM : Network Model Service Test Client is up and running...
+12.01.2026 10:08:09 PM : Result directory: ../Results
+12.01.2026 10:08:43 PM : Network Model Service Test Client is up and running...
+12.01.2026 10:08:43 PM : Result directory: ../Results
+12.01.2026 10:11:26 PM : Network Model Service Test Client is up and running...
+12.01.2026 10:11:26 PM : Result directory: ../Results
+12.01.2026 10:11:51 PM : Network Model Service Test Client is up and running...
+12.01.2026 10:11:51 PM : Result directory: ../Results
+12.01.2026 10:12:32 PM : Network Model Service Test Client is up and running...
+12.01.2026 10:12:32 PM : Result directory: ../Results
+12.01.2026 10:18:42 PM : Getting related values method started.
+12.01.2026 10:18:42 PM : Getting related values method  failed for sourceGlobalId = 30064771077 and association (propertyId = 1517713074424348673, type = 0). Reason: There was an error while trying to serialize parameter http://tempuri.org/:association. The InnerException message was 'Enum value '1517713074424348673' is invalid for type 'FTN.Common.ModelCode' and cannot be serialized. Ensure that the necessary enum values are present and are marked with EnumMemberAttribute attribute if the type has DataContractAttribute attribute.'.  Please see InnerException for more details.
+12.01.2026 10:41:47 PM : Network Model Service Test Client is up and running...
+12.01.2026 10:41:47 PM : Result directory: ../Results
+12.01.2026 10:43:05 PM : Apply update method started.
+12.01.2026 10:43:06 PM : Apply update method finished. 
+Update result: Succeeded
+Message: Applying delta to network model successfully finished.
+GlobalId pairs:
+Client globalId: 0x00000001ffffffff	 - Server globalId: 0x0000000100000001
+Client globalId: 0x00000002ffffffff	 - Server globalId: 0x0000000200000001
+Client globalId: 0x00000003ffffffff	 - Server globalId: 0x0000000300000001
+Client globalId: 0x00000004ffffffff	 - Server globalId: 0x0000000400000001
+Client globalId: 0x00000005ffffffff	 - Server globalId: 0x0000000500000001
+Client globalId: 0x00000006ffffffff	 - Server globalId: 0x0000000600000001
+Client globalId: 0x00000007ffffffff	 - Server globalId: 0x0000000700000001
+Client globalId: 0x00000008ffffffff	 - Server globalId: 0x0000000800000001
+Client globalId: 0x00000009ffffffff	 - Server globalId: 0x0000000900000001
+Client globalId: 0x0000000affffffff	 - Server globalId: 0x0000000a00000001
+Client globalId: 0x0000000bffffffff	 - Server globalId: 0x0000000b00000001
+Client globalId: 0x0000000cffffffff	 - Server globalId: 0x0000000c00000001
+Client globalId: 0x0000000dffffffff	 - Server globalId: 0x0000000d00000001
+Client globalId: 0x0000000effffffff	 - Server globalId: 0x0000000e00000001
+
+13.01.2026 12:13:10 AM : Network Model Service Test Client is up and running...
+13.01.2026 12:13:10 AM : Result directory: ../Results
+13.01.2026 12:14:25 AM : Network Model Service Test Client is up and running...
+13.01.2026 12:14:25 AM : Result directory: ../Results
+13.01.2026 12:16:17 AM : Network Model Service Test Client is up and running...
+13.01.2026 12:16:17 AM : Result directory: ../Results
+13.01.2026 12:16:47 AM : Apply update method started.
+13.01.2026 12:16:47 AM : Apply update method finished. 
+Update result: Succeeded
+Message: Applying delta to network model successfully finished.
+GlobalId pairs:
+Client globalId: 0x00000001ffffffff	 - Server globalId: 0x0000000100000001
+Client globalId: 0x00000002ffffffff	 - Server globalId: 0x0000000200000001
+Client globalId: 0x00000003ffffffff	 - Server globalId: 0x0000000300000001
+Client globalId: 0x00000004ffffffff	 - Server globalId: 0x0000000400000001
+Client globalId: 0x00000005ffffffff	 - Server globalId: 0x0000000500000001
+Client globalId: 0x00000006ffffffff	 - Server globalId: 0x0000000600000001
+Client globalId: 0x00000007ffffffff	 - Server globalId: 0x0000000700000003
+Client globalId: 0x00000008ffffffff	 - Server globalId: 0x0000000800000003
+Client globalId: 0x00000009ffffffff	 - Server globalId: 0x0000000900000001
+Client globalId: 0x0000000affffffff	 - Server globalId: 0x0000000a00000003
+Client globalId: 0x0000000bffffffff	 - Server globalId: 0x0000000b00000003
+Client globalId: 0x0000000cffffffff	 - Server globalId: 0x0000000c00000003
+Client globalId: 0x0000000dffffffff	 - Server globalId: 0x0000000d00000003
+Client globalId: 0x0000000effffffff	 - Server globalId: 0x0000000e00000003
+
+13.01.2026 12:17:55 AM : Apply update method started.
+13.01.2026 12:17:55 AM : Apply update method finished. 
+Update result: Succeeded
+Message: Applying delta to network model successfully finished.
+GlobalId pairs:
+Client globalId: 0x00000001ffffffff	 - Server globalId: 0x0000000100000002
+Client globalId: 0x00000002ffffffff	 - Server globalId: 0x0000000200000002
+Client globalId: 0x00000003ffffffff	 - Server globalId: 0x0000000300000002
+Client globalId: 0x00000004ffffffff	 - Server globalId: 0x0000000400000002
+Client globalId: 0x00000005ffffffff	 - Server globalId: 0x0000000500000002
+Client globalId: 0x00000006ffffffff	 - Server globalId: 0x0000000600000002
+Client globalId: 0x00000007ffffffff	 - Server globalId: 0x0000000700000004
+Client globalId: 0x00000008ffffffff	 - Server globalId: 0x0000000800000004
+Client globalId: 0x00000009ffffffff	 - Server globalId: 0x0000000900000002
+Client globalId: 0x0000000affffffff	 - Server globalId: 0x0000000a00000004
+Client globalId: 0x0000000bffffffff	 - Server globalId: 0x0000000b00000004
+Client globalId: 0x0000000cffffffff	 - Server globalId: 0x0000000c00000004
+Client globalId: 0x0000000dffffffff	 - Server globalId: 0x0000000d00000004
+Client globalId: 0x0000000effffffff	 - Server globalId: 0x0000000e00000004
+
+13.01.2026 12:17:56 AM : Apply update method started.
+13.01.2026 12:17:57 AM : Apply update method finished. 
+Update result: Succeeded
+Message: Applying delta to network model successfully finished.
+GlobalId pairs:
+Client globalId: 0x00000001ffffffff	 - Server globalId: 0x0000000100000003
+Client globalId: 0x00000002ffffffff	 - Server globalId: 0x0000000200000003
+Client globalId: 0x00000003ffffffff	 - Server globalId: 0x0000000300000003
+Client globalId: 0x00000004ffffffff	 - Server globalId: 0x0000000400000003
+Client globalId: 0x00000005ffffffff	 - Server globalId: 0x0000000500000003
+Client globalId: 0x00000006ffffffff	 - Server globalId: 0x0000000600000003
+Client globalId: 0x00000007ffffffff	 - Server globalId: 0x0000000700000005
+Client globalId: 0x00000008ffffffff	 - Server globalId: 0x0000000800000005
+Client globalId: 0x00000009ffffffff	 - Server globalId: 0x0000000900000003
+Client globalId: 0x0000000affffffff	 - Server globalId: 0x0000000a00000005
+Client globalId: 0x0000000bffffffff	 - Server globalId: 0x0000000b00000005
+Client globalId: 0x0000000cffffffff	 - Server globalId: 0x0000000c00000005
+Client globalId: 0x0000000dffffffff	 - Server globalId: 0x0000000d00000005
+Client globalId: 0x0000000effffffff	 - Server globalId: 0x0000000e00000005
+
+13.01.2026 12:17:59 AM : Apply update method started.
+13.01.2026 12:17:59 AM : Apply update method finished. 
+Update result: Succeeded
+Message: Applying delta to network model successfully finished.
+GlobalId pairs:
+Client globalId: 0x00000001ffffffff	 - Server globalId: 0x0000000100000004
+Client globalId: 0x00000002ffffffff	 - Server globalId: 0x0000000200000004
+Client globalId: 0x00000003ffffffff	 - Server globalId: 0x0000000300000004
+Client globalId: 0x00000004ffffffff	 - Server globalId: 0x0000000400000004
+Client globalId: 0x00000005ffffffff	 - Server globalId: 0x0000000500000004
+Client globalId: 0x00000006ffffffff	 - Server globalId: 0x0000000600000004
+Client globalId: 0x00000007ffffffff	 - Server globalId: 0x0000000700000006
+Client globalId: 0x00000008ffffffff	 - Server globalId: 0x0000000800000006
+Client globalId: 0x00000009ffffffff	 - Server globalId: 0x0000000900000004
+Client globalId: 0x0000000affffffff	 - Server globalId: 0x0000000a00000006
+Client globalId: 0x0000000bffffffff	 - Server globalId: 0x0000000b00000006
+Client globalId: 0x0000000cffffffff	 - Server globalId: 0x0000000c00000006
+Client globalId: 0x0000000dffffffff	 - Server globalId: 0x0000000d00000006
+Client globalId: 0x0000000effffffff	 - Server globalId: 0x0000000e00000006
+
+13.01.2026 12:18:14 AM : Network Model Service Test Client is up and running...
+13.01.2026 12:18:14 AM : Result directory: ../Results
+13.01.2026 12:18:45 AM : Network Model Service Test Client is up and running...
+13.01.2026 12:18:45 AM : Result directory: ../Results
+13.01.2026 12:22:45 AM : Apply update method started.
+13.01.2026 12:22:46 AM : Apply update method finished. 
+Update result: Succeeded
+Message: Applying delta to network model successfully finished.
+GlobalId pairs:
+Client globalId: 0x00000001ffffffff	 - Server globalId: 0x0000000100000001
+Client globalId: 0x00000002ffffffff	 - Server globalId: 0x0000000200000001
+Client globalId: 0x00000003ffffffff	 - Server globalId: 0x0000000300000001
+Client globalId: 0x00000004ffffffff	 - Server globalId: 0x0000000400000001
+Client globalId: 0x00000005ffffffff	 - Server globalId: 0x0000000500000001
+Client globalId: 0x00000006ffffffff	 - Server globalId: 0x0000000600000001
+Client globalId: 0x00000007ffffffff	 - Server globalId: 0x0000000700000003
+Client globalId: 0x00000008ffffffff	 - Server globalId: 0x0000000800000003
+Client globalId: 0x00000009ffffffff	 - Server globalId: 0x0000000900000001
+Client globalId: 0x0000000affffffff	 - Server globalId: 0x0000000a00000003
+Client globalId: 0x0000000bffffffff	 - Server globalId: 0x0000000b00000003
+Client globalId: 0x0000000cffffffff	 - Server globalId: 0x0000000c00000003
+Client globalId: 0x0000000dffffffff	 - Server globalId: 0x0000000d00000003
+Client globalId: 0x0000000effffffff	 - Server globalId: 0x0000000e00000003
+
+13.01.2026 12:23:09 AM : Getting values method started.
+13.01.2026 12:23:09 AM : Getting values method successfully finished.
+13.01.2026 12:23:20 AM : Entering Model Code failed. System.FormatException: Input string was not in a correct format.
+   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt64(String value, NumberStyles options, NumberFormatInfo numfmt)
+   at System.Int64.Parse(String s)
+   at FTN.Services.NetworkModelService.TestClient.Program.InputModelCode() in D:\FTN\4 GODINA\MPPM\PROJEKAT\Projekat2025_26\Projekat2025_26\ModelLabsProjekat\ModelLabsProjekat\ModelLabs\NetworkModelService\Test\NMSTestClient\Program.cs:line 198
+13.01.2026 12:23:20 AM : GetExtentValues failed. Input string was not in a correct format.
+13.01.2026 12:23:33 AM : Entering Model Code failed. System.FormatException: Input string was not in a correct format.
+   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt64(String value, NumberStyles options, NumberFormatInfo numfmt)
+   at System.Int64.Parse(String s)
+   at FTN.Services.NetworkModelService.TestClient.Program.InputModelCode() in D:\FTN\4 GODINA\MPPM\PROJEKAT\Projekat2025_26\Projekat2025_26\ModelLabsProjekat\ModelLabsProjekat\ModelLabs\NetworkModelService\Test\NMSTestClient\Program.cs:line 198
+13.01.2026 12:23:33 AM : GetExtentValues failed. Input string was not in a correct format.
+13.01.2026 12:23:57 AM : Getting extent values method started.
+13.01.2026 12:23:57 AM : Getting extent values method successfully finished.
+13.01.2026 12:24:28 AM : Getting related values method started.
+13.01.2026 12:24:28 AM : Getting related values method successfully finished.
+13.01.2026 12:24:50 AM : Network Model Service Test Client is up and running...
+13.01.2026 12:24:50 AM : Result directory: ../Results
+13.01.2026 12:35:01 AM : Network Model Service Test Client is up and running...
+13.01.2026 12:35:01 AM : Result directory: ../Results
+13.01.2026 12:39:43 AM : Network Model Service Test Client is up and running...
+13.01.2026 12:39:43 AM : Result directory: ../Results
+13.01.2026 12:40:41 AM : Network Model Service Test Client is up and running...
+13.01.2026 12:40:41 AM : Result directory: ../Results
+13.01.2026 1:25:57 PM : Network Model Service Test Client is up and running...
+13.01.2026 1:25:57 PM : Result directory: ../Results
+13.01.2026 1:26:34 PM : Network Model Service Test Client is up and running...
+13.01.2026 1:26:34 PM : Result directory: ../Results
+13.01.2026 1:27:00 PM : Network Model Service Test Client is up and running...
+13.01.2026 1:27:00 PM : Result directory: ../Results
+13.01.2026 1:27:50 PM : Network Model Service Test Client is up and running...
+13.01.2026 1:27:50 PM : Result directory: ../Results
+13.01.2026 1:27:59 PM : Apply update method started.
+13.01.2026 1:28:00 PM : Apply update method finished. 
+Update result: Succeeded
+Message: Applying delta to network model successfully finished.
+GlobalId pairs:
+Client globalId: 0x00000001ffffffff	 - Server globalId: 0x0000000100000001
+Client globalId: 0x00000002ffffffff	 - Server globalId: 0x0000000200000001
+Client globalId: 0x00000003ffffffff	 - Server globalId: 0x0000000300000001
+Client globalId: 0x00000004ffffffff	 - Server globalId: 0x0000000400000001
+Client globalId: 0x00000005ffffffff	 - Server globalId: 0x0000000500000001
+Client globalId: 0x00000006ffffffff	 - Server globalId: 0x0000000600000001
+Client globalId: 0x00000007ffffffff	 - Server globalId: 0x000000070000000b
+Client globalId: 0x00000008ffffffff	 - Server globalId: 0x000000080000000b
+Client globalId: 0x00000009ffffffff	 - Server globalId: 0x0000000900000001
+Client globalId: 0x0000000affffffff	 - Server globalId: 0x0000000a0000000b
+Client globalId: 0x0000000bffffffff	 - Server globalId: 0x0000000b0000000b
+Client globalId: 0x0000000cffffffff	 - Server globalId: 0x0000000c0000000b
+Client globalId: 0x0000000dffffffff	 - Server globalId: 0x0000000d0000000b
+Client globalId: 0x0000000effffffff	 - Server globalId: 0x0000000e0000000b
+
+13.01.2026 10:16:40 PM : Network Model Service Test Client is up and running...
+13.01.2026 10:16:40 PM : Result directory: ../Results
+13.01.2026 10:17:14 PM : Apply update method started.
+13.01.2026 10:17:15 PM : Apply update method finished. 
+Update result: Succeeded
+Message: Applying delta to network model successfully finished.
+GlobalId pairs:
+Client globalId: 0x00000001ffffffff	 - Server globalId: 0x0000000100000002
+Client globalId: 0x00000002ffffffff	 - Server globalId: 0x0000000200000002
+Client globalId: 0x00000003ffffffff	 - Server globalId: 0x0000000300000002
+Client globalId: 0x00000004ffffffff	 - Server globalId: 0x0000000400000002
+Client globalId: 0x00000005ffffffff	 - Server globalId: 0x0000000500000002
+Client globalId: 0x00000006ffffffff	 - Server globalId: 0x0000000600000002
+Client globalId: 0x00000007ffffffff	 - Server globalId: 0x000000070000000e
+Client globalId: 0x00000008ffffffff	 - Server globalId: 0x000000080000000e
+Client globalId: 0x00000009ffffffff	 - Server globalId: 0x0000000900000002
+Client globalId: 0x0000000affffffff	 - Server globalId: 0x0000000a0000000e
+Client globalId: 0x0000000bffffffff	 - Server globalId: 0x0000000b0000000e
+Client globalId: 0x0000000cffffffff	 - Server globalId: 0x0000000c0000000e
+Client globalId: 0x0000000dffffffff	 - Server globalId: 0x0000000d0000000e
+Client globalId: 0x0000000effffffff	 - Server globalId: 0x0000000e0000000e
+
+13.01.2026 10:21:09 PM : Network Model Service Test Client is up and running...
+13.01.2026 10:21:09 PM : Result directory: ../Results
+13.01.2026 10:22:12 PM : Network Model Service Test Client is up and running...
+13.01.2026 10:22:12 PM : Result directory: ../Results
+13.01.2026 10:25:12 PM : Network Model Service Test Client is up and running...
+13.01.2026 10:25:12 PM : Result directory: ../Results
+13.01.2026 10:25:26 PM : Apply update method started.
+13.01.2026 10:25:27 PM : Apply update method finished. 
+Update result: Succeeded
+Message: Applying delta to network model successfully finished.
+GlobalId pairs:
+Client globalId: 0x00000001ffffffff	 - Server globalId: 0x0000000100000001
+Client globalId: 0x00000002ffffffff	 - Server globalId: 0x0000000200000001
+Client globalId: 0x00000003ffffffff	 - Server globalId: 0x0000000300000001
+Client globalId: 0x00000004ffffffff	 - Server globalId: 0x0000000400000001
+Client globalId: 0x00000005ffffffff	 - Server globalId: 0x0000000500000001
+Client globalId: 0x00000006ffffffff	 - Server globalId: 0x0000000600000001
+Client globalId: 0x00000007ffffffff	 - Server globalId: 0x0000000700000003
+Client globalId: 0x00000008ffffffff	 - Server globalId: 0x0000000800000003
+Client globalId: 0x00000009ffffffff	 - Server globalId: 0x0000000900000001
+Client globalId: 0x0000000affffffff	 - Server globalId: 0x0000000a00000003
+Client globalId: 0x0000000bffffffff	 - Server globalId: 0x0000000b00000003
+Client globalId: 0x0000000cffffffff	 - Server globalId: 0x0000000c00000003
+Client globalId: 0x0000000dffffffff	 - Server globalId: 0x0000000d00000003
+Client globalId: 0x0000000effffffff	 - Server globalId: 0x0000000e00000003
+
+13.01.2026 10:44:03 PM : Network Model Service Test Client is up and running...
+13.01.2026 10:44:03 PM : Result directory: ../Results
+13.01.2026 10:44:24 PM : Apply update method started.
+13.01.2026 10:44:24 PM : Apply update method finished. 
+Update result: Succeeded
+Message: Applying delta to network model successfully finished.
+GlobalId pairs:
+Client globalId: 0x00000001ffffffff	 - Server globalId: 0x0000000100000002
+Client globalId: 0x00000002ffffffff	 - Server globalId: 0x0000000200000002
+Client globalId: 0x00000003ffffffff	 - Server globalId: 0x0000000300000002
+Client globalId: 0x00000004ffffffff	 - Server globalId: 0x0000000400000002
+Client globalId: 0x00000005ffffffff	 - Server globalId: 0x0000000500000002
+Client globalId: 0x00000006ffffffff	 - Server globalId: 0x0000000600000002
+Client globalId: 0x00000007ffffffff	 - Server globalId: 0x0000000700000006
+Client globalId: 0x00000008ffffffff	 - Server globalId: 0x0000000800000006
+Client globalId: 0x00000009ffffffff	 - Server globalId: 0x0000000900000002
+Client globalId: 0x0000000affffffff	 - Server globalId: 0x0000000a00000006
+Client globalId: 0x0000000bffffffff	 - Server globalId: 0x0000000b00000006
+Client globalId: 0x0000000cffffffff	 - Server globalId: 0x0000000c00000006
+Client globalId: 0x0000000dffffffff	 - Server globalId: 0x0000000d00000004
+Client globalId: 0x0000000effffffff	 - Server globalId: 0x0000000e00000006
+
+13.01.2026 10:44:32 PM : Network Model Service Test Client is up and running...
+13.01.2026 10:44:32 PM : Result directory: ../Results
+13.01.2026 10:53:09 PM : Network Model Service Test Client is up and running...
+13.01.2026 10:53:09 PM : Result directory: ../Results
+20.01.2026 4:39:42 PM : Network Model Service Test Client is up and running...
+20.01.2026 4:39:42 PM : Result directory: ../Results
+20.01.2026 4:39:46 PM : Apply update method started.
+20.01.2026 4:39:47 PM : Apply update method finished. 
+Update result: Succeeded
+Message: Applying delta to network model successfully finished.
+GlobalId pairs:
+Client globalId: 0x00000001ffffffff	 - Server globalId: 0x0000000100000001
+Client globalId: 0x00000002ffffffff	 - Server globalId: 0x0000000200000001
+Client globalId: 0x00000003ffffffff	 - Server globalId: 0x0000000300000001
+Client globalId: 0x00000004ffffffff	 - Server globalId: 0x0000000400000001
+Client globalId: 0x00000005ffffffff	 - Server globalId: 0x0000000500000001
+Client globalId: 0x00000006ffffffff	 - Server globalId: 0x0000000600000001
+Client globalId: 0x00000007ffffffff	 - Server globalId: 0x0000000700000005
+Client globalId: 0x00000008ffffffff	 - Server globalId: 0x0000000800000005
+Client globalId: 0x00000009ffffffff	 - Server globalId: 0x0000000900000001
+Client globalId: 0x0000000affffffff	 - Server globalId: 0x0000000a00000005
+Client globalId: 0x0000000bffffffff	 - Server globalId: 0x0000000b00000005
+Client globalId: 0x0000000cffffffff	 - Server globalId: 0x0000000c00000005
+Client globalId: 0x0000000dffffffff	 - Server globalId: 0x0000000d00000001
+Client globalId: 0x0000000effffffff	 - Server globalId: 0x0000000e00000005
+
+20.01.2026 8:44:21 PM : Network Model Service Test Client is up and running...
+20.01.2026 8:44:21 PM : Result directory: ../Results
+20.01.2026 8:44:31 PM : Apply update method started.
+20.01.2026 8:44:32 PM : Apply update method finished. 
+Update result: Succeeded
+Message: Applying delta to network model successfully finished.
+GlobalId pairs:
+Client globalId: 0x00000001ffffffff	 - Server globalId: 0x0000000100000002
+Client globalId: 0x00000002ffffffff	 - Server globalId: 0x0000000200000002
+Client globalId: 0x00000003ffffffff	 - Server globalId: 0x0000000300000002
+Client globalId: 0x00000004ffffffff	 - Server globalId: 0x0000000400000002
+Client globalId: 0x00000005ffffffff	 - Server globalId: 0x0000000500000002
+Client globalId: 0x00000006ffffffff	 - Server globalId: 0x0000000600000002
+Client globalId: 0x00000007ffffffff	 - Server globalId: 0x0000000700000008
+Client globalId: 0x00000008ffffffff	 - Server globalId: 0x0000000800000008
+Client globalId: 0x00000009ffffffff	 - Server globalId: 0x0000000900000002
+Client globalId: 0x0000000affffffff	 - Server globalId: 0x0000000a00000008
+Client globalId: 0x0000000bffffffff	 - Server globalId: 0x0000000b00000008
+Client globalId: 0x0000000cffffffff	 - Server globalId: 0x0000000c00000008
+Client globalId: 0x0000000dffffffff	 - Server globalId: 0x0000000d00000002
+Client globalId: 0x0000000effffffff	 - Server globalId: 0x0000000e00000008
+
+20.01.2026 8:44:35 PM : Getting extent values method started.
+20.01.2026 8:44:35 PM : Getting extent values method successfully finished.
+20.01.2026 8:44:35 PM : Getting related values method started.
+20.01.2026 8:44:35 PM : Getting related values method successfully finished.
+20.01.2026 8:44:35 PM : Network Model Service Test Client stopped.
+20.01.2026 8:45:01 PM : Network Model Service Test Client is up and running...
+20.01.2026 8:45:01 PM : Result directory: ../Results
+20.01.2026 8:45:03 PM : Getting extent values method started.
+20.01.2026 8:45:04 PM : Getting extent values method successfully finished.
+20.01.2026 8:45:04 PM : Getting related values method started.
+20.01.2026 8:45:04 PM : Getting related values method successfully finished.
+20.01.2026 8:45:04 PM : Network Model Service Test Client stopped.
+20.01.2026 8:45:11 PM : Network Model Service Test Client is up and running...
+20.01.2026 8:45:11 PM : Result directory: ../Results
+20.01.2026 8:45:14 PM : Getting extent values method started.
+20.01.2026 8:45:15 PM : Getting extent values method successfully finished.
+20.01.2026 8:45:15 PM : Getting related values method started.
+20.01.2026 8:45:15 PM : Getting related values method successfully finished.
+20.01.2026 8:45:15 PM : Network Model Service Test Client stopped.
+20.01.2026 8:46:20 PM : Network Model Service Test Client is up and running...
+20.01.2026 8:46:20 PM : Result directory: ../Results
+20.01.2026 8:46:23 PM : Getting extent values method started.
+20.01.2026 8:46:24 PM : Getting extent values method successfully finished.
+20.01.2026 8:46:24 PM : Getting related values method started.
+20.01.2026 8:46:24 PM : Getting related values method successfully finished.
+20.01.2026 8:46:24 PM : Network Model Service Test Client stopped.
+20.01.2026 8:48:14 PM : Network Model Service Test Client is up and running...
+20.01.2026 8:48:14 PM : Result directory: ../Results
+20.01.2026 8:48:16 PM : Getting extent values method started.
+20.01.2026 8:48:17 PM : Getting extent values method successfully finished.
+20.01.2026 8:48:17 PM : Getting related values method started.
+20.01.2026 8:48:17 PM : Getting related values method successfully finished.
+20.01.2026 8:50:43 PM : Network Model Service Test Client is up and running...
+20.01.2026 8:50:43 PM : Result directory: ../Results
+20.01.2026 8:50:47 PM : Apply update method started.
+20.01.2026 8:50:48 PM : Apply update method finished. 
+Update result: Succeeded
+Message: Applying delta to network model successfully finished.
+GlobalId pairs:
+Client globalId: 0x00000001ffffffff	 - Server globalId: 0x0000000100000003
+Client globalId: 0x00000002ffffffff	 - Server globalId: 0x0000000200000003
+Client globalId: 0x00000003ffffffff	 - Server globalId: 0x0000000300000003
+Client globalId: 0x00000004ffffffff	 - Server globalId: 0x0000000400000003
+Client globalId: 0x00000005ffffffff	 - Server globalId: 0x0000000500000003
+Client globalId: 0x00000006ffffffff	 - Server globalId: 0x0000000600000003
+Client globalId: 0x00000007ffffffff	 - Server globalId: 0x0000000700000009
+Client globalId: 0x00000008ffffffff	 - Server globalId: 0x0000000800000009
+Client globalId: 0x00000009ffffffff	 - Server globalId: 0x0000000900000003
+Client globalId: 0x0000000affffffff	 - Server globalId: 0x0000000a00000009
+Client globalId: 0x0000000bffffffff	 - Server globalId: 0x0000000b00000009
+Client globalId: 0x0000000cffffffff	 - Server globalId: 0x0000000c00000009
+Client globalId: 0x0000000dffffffff	 - Server globalId: 0x0000000d00000003
+Client globalId: 0x0000000effffffff	 - Server globalId: 0x0000000e00000009
+
+20.01.2026 8:50:48 PM : Getting extent values method started.
+20.01.2026 8:50:48 PM : Getting extent values method successfully finished.
+20.01.2026 8:50:48 PM : Getting related values method started.
+20.01.2026 8:50:48 PM : Getting related values method successfully finished.
+20.01.2026 8:51:10 PM : Getting extent values method started.
+20.01.2026 8:51:10 PM : Getting extent values method successfully finished.
+20.01.2026 8:51:10 PM : Getting related values method started.
+20.01.2026 8:51:10 PM : Getting related values method successfully finished.
+20.01.2026 8:51:12 PM : Getting extent values method started.
+20.01.2026 8:51:12 PM : Getting extent values method successfully finished.
+20.01.2026 8:51:12 PM : Getting related values method started.
+20.01.2026 8:51:12 PM : Getting related values method successfully finished.
+20.01.2026 8:51:33 PM : Network Model Service Test Client is up and running...
+20.01.2026 8:51:33 PM : Result directory: ../Results
+20.01.2026 8:51:35 PM : Apply update method started.
+20.01.2026 8:51:36 PM : Apply update method finished. 
+Update result: Succeeded
+Message: Applying delta to network model successfully finished.
+GlobalId pairs:
+Client globalId: 0x00000001ffffffff	 - Server globalId: 0x0000000100000004
+Client globalId: 0x00000002ffffffff	 - Server globalId: 0x0000000200000004
+Client globalId: 0x00000003ffffffff	 - Server globalId: 0x0000000300000004
+Client globalId: 0x00000004ffffffff	 - Server globalId: 0x0000000400000004
+Client globalId: 0x00000005ffffffff	 - Server globalId: 0x0000000500000004
+Client globalId: 0x00000006ffffffff	 - Server globalId: 0x0000000600000004
+Client globalId: 0x00000007ffffffff	 - Server globalId: 0x000000070000000c
+Client globalId: 0x00000008ffffffff	 - Server globalId: 0x000000080000000c
+Client globalId: 0x00000009ffffffff	 - Server globalId: 0x0000000900000004
+Client globalId: 0x0000000affffffff	 - Server globalId: 0x0000000a0000000c
+Client globalId: 0x0000000bffffffff	 - Server globalId: 0x0000000b0000000c
+Client globalId: 0x0000000cffffffff	 - Server globalId: 0x0000000c0000000c
+Client globalId: 0x0000000dffffffff	 - Server globalId: 0x0000000d00000004
+Client globalId: 0x0000000effffffff	 - Server globalId: 0x0000000e0000000c
+
+20.01.2026 8:51:37 PM : Getting extent values method started.
+20.01.2026 8:51:37 PM : Getting extent values method successfully finished.
+20.01.2026 8:51:37 PM : Getting related values method started.
+20.01.2026 8:51:37 PM : Getting related values method successfully finished.
+20.01.2026 8:51:38 PM : Apply update method started.
+20.01.2026 8:51:38 PM : Apply update method finished. 
+Update result: Succeeded
+Message: Applying delta to network model successfully finished.
+GlobalId pairs:
+Client globalId: 0x00000001ffffffff	 - Server globalId: 0x0000000100000005
+Client globalId: 0x00000002ffffffff	 - Server globalId: 0x0000000200000005
+Client globalId: 0x00000003ffffffff	 - Server globalId: 0x0000000300000005
+Client globalId: 0x00000004ffffffff	 - Server globalId: 0x0000000400000005
+Client globalId: 0x00000005ffffffff	 - Server globalId: 0x0000000500000005
+Client globalId: 0x00000006ffffffff	 - Server globalId: 0x0000000600000005
+Client globalId: 0x00000007ffffffff	 - Server globalId: 0x000000070000000d
+Client globalId: 0x00000008ffffffff	 - Server globalId: 0x000000080000000d
+Client globalId: 0x00000009ffffffff	 - Server globalId: 0x0000000900000005
+Client globalId: 0x0000000affffffff	 - Server globalId: 0x0000000a0000000d
+Client globalId: 0x0000000bffffffff	 - Server globalId: 0x0000000b0000000d
+Client globalId: 0x0000000cffffffff	 - Server globalId: 0x0000000c0000000d
+Client globalId: 0x0000000dffffffff	 - Server globalId: 0x0000000d00000005
+Client globalId: 0x0000000effffffff	 - Server globalId: 0x0000000e0000000d
+
+20.01.2026 8:51:38 PM : Getting extent values method started.
+20.01.2026 8:51:38 PM : Getting extent values method successfully finished.
+20.01.2026 8:51:38 PM : Getting related values method started.
+20.01.2026 8:51:38 PM : Getting related values method successfully finished.
+20.01.2026 8:51:39 PM : Apply update method started.
+20.01.2026 8:51:39 PM : Apply update method finished. 
+Update result: Succeeded
+Message: Applying delta to network model successfully finished.
+GlobalId pairs:
+Client globalId: 0x00000001ffffffff	 - Server globalId: 0x0000000100000006
+Client globalId: 0x00000002ffffffff	 - Server globalId: 0x0000000200000006
+Client globalId: 0x00000003ffffffff	 - Server globalId: 0x0000000300000006
+Client globalId: 0x00000004ffffffff	 - Server globalId: 0x0000000400000006
+Client globalId: 0x00000005ffffffff	 - Server globalId: 0x0000000500000006
+Client globalId: 0x00000006ffffffff	 - Server globalId: 0x0000000600000006
+Client globalId: 0x00000007ffffffff	 - Server globalId: 0x000000070000000e
+Client globalId: 0x00000008ffffffff	 - Server globalId: 0x000000080000000e
+Client globalId: 0x00000009ffffffff	 - Server globalId: 0x0000000900000006
+Client globalId: 0x0000000affffffff	 - Server globalId: 0x0000000a0000000e
+Client globalId: 0x0000000bffffffff	 - Server globalId: 0x0000000b0000000e
+Client globalId: 0x0000000cffffffff	 - Server globalId: 0x0000000c0000000e
+Client globalId: 0x0000000dffffffff	 - Server globalId: 0x0000000d00000006
+Client globalId: 0x0000000effffffff	 - Server globalId: 0x0000000e0000000e
+
+20.01.2026 8:51:39 PM : Getting extent values method started.
+20.01.2026 8:51:39 PM : Getting extent values method successfully finished.
+20.01.2026 8:51:39 PM : Getting related values method started.
+20.01.2026 8:51:39 PM : Getting related values method successfully finished.
+20.01.2026 8:51:50 PM : Getting extent values method started.
+20.01.2026 8:51:50 PM : Getting extent values method successfully finished.
+20.01.2026 8:51:50 PM : Getting related values method started.
+20.01.2026 8:51:50 PM : Getting related values method successfully finished.
+20.01.2026 8:54:25 PM : Network Model Service Test Client is up and running...
+20.01.2026 8:54:25 PM : Result directory: ../Results
+20.01.2026 9:21:46 PM : Network Model Service Test Client is up and running...
+20.01.2026 9:21:46 PM : Result directory: ../Results
+20.01.2026 9:22:12 PM : Apply update method started.
+20.01.2026 9:22:13 PM : Apply update method finished. 
+Update result: Succeeded
+Message: Applying delta to network model successfully finished.
+GlobalId pairs:
+Client globalId: 0x00000001ffffffff	 - Server globalId: 0x0000000100000007
+Client globalId: 0x00000002ffffffff	 - Server globalId: 0x0000000200000007
+Client globalId: 0x00000003ffffffff	 - Server globalId: 0x0000000300000007
+Client globalId: 0x00000004ffffffff	 - Server globalId: 0x0000000400000007
+Client globalId: 0x00000005ffffffff	 - Server globalId: 0x0000000500000007
+Client globalId: 0x00000006ffffffff	 - Server globalId: 0x0000000600000007
+Client globalId: 0x00000007ffffffff	 - Server globalId: 0x0000000700000015
+Client globalId: 0x00000008ffffffff	 - Server globalId: 0x0000000800000015
+Client globalId: 0x00000009ffffffff	 - Server globalId: 0x0000000900000007
+Client globalId: 0x0000000affffffff	 - Server globalId: 0x0000000a00000015
+Client globalId: 0x0000000bffffffff	 - Server globalId: 0x0000000b00000015
+Client globalId: 0x0000000cffffffff	 - Server globalId: 0x0000000c00000015
+Client globalId: 0x0000000dffffffff	 - Server globalId: 0x0000000d00000007
+Client globalId: 0x0000000effffffff	 - Server globalId: 0x0000000e00000015
+
+20.01.2026 11:49:42 PM : Network Model Service Test Client is up and running...
+20.01.2026 11:49:42 PM : Result directory: ../Results
+20.01.2026 11:49:55 PM : Apply update method started.
+20.01.2026 11:49:56 PM : Apply update method finished. 
+Update result: Succeeded
+Message: Applying delta to network model successfully finished.
+GlobalId pairs:
+Client globalId: 0x00000001ffffffff	 - Server globalId: 0x0000000100000001
+Client globalId: 0x00000002ffffffff	 - Server globalId: 0x0000000200000001
+Client globalId: 0x00000003ffffffff	 - Server globalId: 0x0000000300000001
+Client globalId: 0x00000004ffffffff	 - Server globalId: 0x0000000400000001
+Client globalId: 0x00000005ffffffff	 - Server globalId: 0x0000000500000001
+Client globalId: 0x00000006ffffffff	 - Server globalId: 0x0000000600000001
+Client globalId: 0x00000007ffffffff	 - Server globalId: 0x0000000700000005
+Client globalId: 0x00000008ffffffff	 - Server globalId: 0x0000000800000005
+Client globalId: 0x00000009ffffffff	 - Server globalId: 0x0000000900000001
+Client globalId: 0x0000000affffffff	 - Server globalId: 0x0000000a00000005
+Client globalId: 0x0000000bffffffff	 - Server globalId: 0x0000000b00000005
+Client globalId: 0x0000000cffffffff	 - Server globalId: 0x0000000c00000005
+Client globalId: 0x0000000dffffffff	 - Server globalId: 0x0000000d00000001
+Client globalId: 0x0000000effffffff	 - Server globalId: 0x0000000e00000005
+
+20.01.2026 11:50:47 PM : Getting values method started.
+20.01.2026 11:50:47 PM : Getting values method successfully finished.
+20.01.2026 11:50:54 PM : Getting values method started.
+20.01.2026 11:50:54 PM : Getting values method successfully finished.
+20.01.2026 11:51:03 PM : Getting extent values method started.
+20.01.2026 11:51:03 PM : Getting extent values method successfully finished.
+20.01.2026 11:51:32 PM : Getting related values method started.
+20.01.2026 11:51:32 PM : Getting related values method successfully finished.
+20.01.2026 11:51:35 PM : Apply update method started.
+20.01.2026 11:51:35 PM : Apply update method finished. 
+Update result: Succeeded
+Message: Applying delta to network model successfully finished.
+GlobalId pairs:
+Client globalId: 0x00000001ffffffff	 - Server globalId: 0x0000000100000002
+Client globalId: 0x00000002ffffffff	 - Server globalId: 0x0000000200000002
+Client globalId: 0x00000003ffffffff	 - Server globalId: 0x0000000300000002
+Client globalId: 0x00000004ffffffff	 - Server globalId: 0x0000000400000002
+Client globalId: 0x00000005ffffffff	 - Server globalId: 0x0000000500000002
+Client globalId: 0x00000006ffffffff	 - Server globalId: 0x0000000600000002
+Client globalId: 0x00000007ffffffff	 - Server globalId: 0x0000000700000006
+Client globalId: 0x00000008ffffffff	 - Server globalId: 0x0000000800000006
+Client globalId: 0x00000009ffffffff	 - Server globalId: 0x0000000900000002
+Client globalId: 0x0000000affffffff	 - Server globalId: 0x0000000a00000006
+Client globalId: 0x0000000bffffffff	 - Server globalId: 0x0000000b00000006
+Client globalId: 0x0000000cffffffff	 - Server globalId: 0x0000000c00000006
+Client globalId: 0x0000000dffffffff	 - Server globalId: 0x0000000d00000002
+Client globalId: 0x0000000effffffff	 - Server globalId: 0x0000000e00000006
+
+20.01.2026 11:51:39 PM : Apply update method started.
+20.01.2026 11:51:39 PM : Apply update method finished. 
+Update result: Succeeded
+Message: Applying delta to network model successfully finished.
+GlobalId pairs:
+Client globalId: 0x00000001ffffffff	 - Server globalId: 0x0000000100000003
+Client globalId: 0x00000002ffffffff	 - Server globalId: 0x0000000200000003
+Client globalId: 0x00000003ffffffff	 - Server globalId: 0x0000000300000003
+Client globalId: 0x00000004ffffffff	 - Server globalId: 0x0000000400000003
+Client globalId: 0x00000005ffffffff	 - Server globalId: 0x0000000500000003
+Client globalId: 0x00000006ffffffff	 - Server globalId: 0x0000000600000003
+Client globalId: 0x00000007ffffffff	 - Server globalId: 0x0000000700000007
+Client globalId: 0x00000008ffffffff	 - Server globalId: 0x0000000800000007
+Client globalId: 0x00000009ffffffff	 - Server globalId: 0x0000000900000003
+Client globalId: 0x0000000affffffff	 - Server globalId: 0x0000000a00000007
+Client globalId: 0x0000000bffffffff	 - Server globalId: 0x0000000b00000007
+Client globalId: 0x0000000cffffffff	 - Server globalId: 0x0000000c00000007
+Client globalId: 0x0000000dffffffff	 - Server globalId: 0x0000000d00000003
+Client globalId: 0x0000000effffffff	 - Server globalId: 0x0000000e00000007
+
+20.01.2026 11:51:41 PM : Apply update method started.
+20.01.2026 11:51:41 PM : Apply update method finished. 
+Update result: Succeeded
+Message: Applying delta to network model successfully finished.
+GlobalId pairs:
+Client globalId: 0x00000001ffffffff	 - Server globalId: 0x0000000100000004
+Client globalId: 0x00000002ffffffff	 - Server globalId: 0x0000000200000004
+Client globalId: 0x00000003ffffffff	 - Server globalId: 0x0000000300000004
+Client globalId: 0x00000004ffffffff	 - Server globalId: 0x0000000400000004
+Client globalId: 0x00000005ffffffff	 - Server globalId: 0x0000000500000004
+Client globalId: 0x00000006ffffffff	 - Server globalId: 0x0000000600000004
+Client globalId: 0x00000007ffffffff	 - Server globalId: 0x0000000700000008
+Client globalId: 0x00000008ffffffff	 - Server globalId: 0x0000000800000008
+Client globalId: 0x00000009ffffffff	 - Server globalId: 0x0000000900000004
+Client globalId: 0x0000000affffffff	 - Server globalId: 0x0000000a00000008
+Client globalId: 0x0000000bffffffff	 - Server globalId: 0x0000000b00000008
+Client globalId: 0x0000000cffffffff	 - Server globalId: 0x0000000c00000008
+Client globalId: 0x0000000dffffffff	 - Server globalId: 0x0000000d00000004
+Client globalId: 0x0000000effffffff	 - Server globalId: 0x0000000e00000008
+
+20.01.2026 11:51:41 PM : Apply update method started.
+20.01.2026 11:51:41 PM : Apply update method finished. 
+Update result: Succeeded
+Message: Applying delta to network model successfully finished.
+GlobalId pairs:
+Client globalId: 0x00000001ffffffff	 - Server globalId: 0x0000000100000005
+Client globalId: 0x00000002ffffffff	 - Server globalId: 0x0000000200000005
+Client globalId: 0x00000003ffffffff	 - Server globalId: 0x0000000300000005
+Client globalId: 0x00000004ffffffff	 - Server globalId: 0x0000000400000005
+Client globalId: 0x00000005ffffffff	 - Server globalId: 0x0000000500000005
+Client globalId: 0x00000006ffffffff	 - Server globalId: 0x0000000600000005
+Client globalId: 0x00000007ffffffff	 - Server globalId: 0x0000000700000009
+Client globalId: 0x00000008ffffffff	 - Server globalId: 0x0000000800000009
+Client globalId: 0x00000009ffffffff	 - Server globalId: 0x0000000900000005
+Client globalId: 0x0000000affffffff	 - Server globalId: 0x0000000a00000009
+Client globalId: 0x0000000bffffffff	 - Server globalId: 0x0000000b00000009
+Client globalId: 0x0000000cffffffff	 - Server globalId: 0x0000000c00000009
+Client globalId: 0x0000000dffffffff	 - Server globalId: 0x0000000d00000005
+Client globalId: 0x0000000effffffff	 - Server globalId: 0x0000000e00000009
+
+20.01.2026 11:51:42 PM : Apply update method started.
+20.01.2026 11:51:42 PM : Apply update method finished. 
+Update result: Succeeded
+Message: Applying delta to network model successfully finished.
+GlobalId pairs:
+Client globalId: 0x00000001ffffffff	 - Server globalId: 0x0000000100000006
+Client globalId: 0x00000002ffffffff	 - Server globalId: 0x0000000200000006
+Client globalId: 0x00000003ffffffff	 - Server globalId: 0x0000000300000006
+Client globalId: 0x00000004ffffffff	 - Server globalId: 0x0000000400000006
+Client globalId: 0x00000005ffffffff	 - Server globalId: 0x0000000500000006
+Client globalId: 0x00000006ffffffff	 - Server globalId: 0x0000000600000006
+Client globalId: 0x00000007ffffffff	 - Server globalId: 0x000000070000000a
+Client globalId: 0x00000008ffffffff	 - Server globalId: 0x000000080000000a
+Client globalId: 0x00000009ffffffff	 - Server globalId: 0x0000000900000006
+Client globalId: 0x0000000affffffff	 - Server globalId: 0x0000000a0000000a
+Client globalId: 0x0000000bffffffff	 - Server globalId: 0x0000000b0000000a
+Client globalId: 0x0000000cffffffff	 - Server globalId: 0x0000000c0000000a
+Client globalId: 0x0000000dffffffff	 - Server globalId: 0x0000000d00000006
+Client globalId: 0x0000000effffffff	 - Server globalId: 0x0000000e0000000a
+
+20.01.2026 11:51:42 PM : Apply update method started.
+20.01.2026 11:51:42 PM : Apply update method finished. 
+Update result: Succeeded
+Message: Applying delta to network model successfully finished.
+GlobalId pairs:
+Client globalId: 0x00000001ffffffff	 - Server globalId: 0x0000000100000007
+Client globalId: 0x00000002ffffffff	 - Server globalId: 0x0000000200000007
+Client globalId: 0x00000003ffffffff	 - Server globalId: 0x0000000300000007
+Client globalId: 0x00000004ffffffff	 - Server globalId: 0x0000000400000007
+Client globalId: 0x00000005ffffffff	 - Server globalId: 0x0000000500000007
+Client globalId: 0x00000006ffffffff	 - Server globalId: 0x0000000600000007
+Client globalId: 0x00000007ffffffff	 - Server globalId: 0x000000070000000b
+Client globalId: 0x00000008ffffffff	 - Server globalId: 0x000000080000000b
+Client globalId: 0x00000009ffffffff	 - Server globalId: 0x0000000900000007
+Client globalId: 0x0000000affffffff	 - Server globalId: 0x0000000a0000000b
+Client globalId: 0x0000000bffffffff	 - Server globalId: 0x0000000b0000000b
+Client globalId: 0x0000000cffffffff	 - Server globalId: 0x0000000c0000000b
+Client globalId: 0x0000000dffffffff	 - Server globalId: 0x0000000d00000007
+Client globalId: 0x0000000effffffff	 - Server globalId: 0x0000000e0000000b
+
+20.01.2026 11:51:43 PM : Apply update method started.
+20.01.2026 11:51:43 PM : Apply update method finished. 
+Update result: Succeeded
+Message: Applying delta to network model successfully finished.
+GlobalId pairs:
+Client globalId: 0x00000001ffffffff	 - Server globalId: 0x0000000100000008
+Client globalId: 0x00000002ffffffff	 - Server globalId: 0x0000000200000008
+Client globalId: 0x00000003ffffffff	 - Server globalId: 0x0000000300000008
+Client globalId: 0x00000004ffffffff	 - Server globalId: 0x0000000400000008
+Client globalId: 0x00000005ffffffff	 - Server globalId: 0x0000000500000008
+Client globalId: 0x00000006ffffffff	 - Server globalId: 0x0000000600000008
+Client globalId: 0x00000007ffffffff	 - Server globalId: 0x000000070000000c
+Client globalId: 0x00000008ffffffff	 - Server globalId: 0x000000080000000c
+Client globalId: 0x00000009ffffffff	 - Server globalId: 0x0000000900000008
+Client globalId: 0x0000000affffffff	 - Server globalId: 0x0000000a0000000c
+Client globalId: 0x0000000bffffffff	 - Server globalId: 0x0000000b0000000c
+Client globalId: 0x0000000cffffffff	 - Server globalId: 0x0000000c0000000c
+Client globalId: 0x0000000dffffffff	 - Server globalId: 0x0000000d00000008
+Client globalId: 0x0000000effffffff	 - Server globalId: 0x0000000e0000000c
+
+20.01.2026 11:51:43 PM : Apply update method started.
+20.01.2026 11:51:43 PM : Apply update method finished. 
+Update result: Succeeded
+Message: Applying delta to network model successfully finished.
+GlobalId pairs:
+Client globalId: 0x00000001ffffffff	 - Server globalId: 0x0000000100000009
+Client globalId: 0x00000002ffffffff	 - Server globalId: 0x0000000200000009
+Client globalId: 0x00000003ffffffff	 - Server globalId: 0x0000000300000009
+Client globalId: 0x00000004ffffffff	 - Server globalId: 0x0000000400000009
+Client globalId: 0x00000005ffffffff	 - Server globalId: 0x0000000500000009
+Client globalId: 0x00000006ffffffff	 - Server globalId: 0x0000000600000009
+Client globalId: 0x00000007ffffffff	 - Server globalId: 0x000000070000000d
+Client globalId: 0x00000008ffffffff	 - Server globalId: 0x000000080000000d
+Client globalId: 0x00000009ffffffff	 - Server globalId: 0x0000000900000009
+Client globalId: 0x0000000affffffff	 - Server globalId: 0x0000000a0000000d
+Client globalId: 0x0000000bffffffff	 - Server globalId: 0x0000000b0000000d
+Client globalId: 0x0000000cffffffff	 - Server globalId: 0x0000000c0000000d
+Client globalId: 0x0000000dffffffff	 - Server globalId: 0x0000000d00000009
+Client globalId: 0x0000000effffffff	 - Server globalId: 0x0000000e0000000d
+
+20.01.2026 11:51:43 PM : Apply update method started.
+20.01.2026 11:51:43 PM : Apply update method finished. 
+Update result: Succeeded
+Message: Applying delta to network model successfully finished.
+GlobalId pairs:
+Client globalId: 0x00000001ffffffff	 - Server globalId: 0x000000010000000a
+Client globalId: 0x00000002ffffffff	 - Server globalId: 0x000000020000000a
+Client globalId: 0x00000003ffffffff	 - Server globalId: 0x000000030000000a
+Client globalId: 0x00000004ffffffff	 - Server globalId: 0x000000040000000a
+Client globalId: 0x00000005ffffffff	 - Server globalId: 0x000000050000000a
+Client globalId: 0x00000006ffffffff	 - Server globalId: 0x000000060000000a
+Client globalId: 0x00000007ffffffff	 - Server globalId: 0x000000070000000e
+Client globalId: 0x00000008ffffffff	 - Server globalId: 0x000000080000000e
+Client globalId: 0x00000009ffffffff	 - Server globalId: 0x000000090000000a
+Client globalId: 0x0000000affffffff	 - Server globalId: 0x0000000a0000000e
+Client globalId: 0x0000000bffffffff	 - Server globalId: 0x0000000b0000000e
+Client globalId: 0x0000000cffffffff	 - Server globalId: 0x0000000c0000000e
+Client globalId: 0x0000000dffffffff	 - Server globalId: 0x0000000d0000000a
+Client globalId: 0x0000000effffffff	 - Server globalId: 0x0000000e0000000e
+
+20.01.2026 11:51:44 PM : Apply update method started.
+20.01.2026 11:51:44 PM : Apply update method finished. 
+Update result: Succeeded
+Message: Applying delta to network model successfully finished.
+GlobalId pairs:
+Client globalId: 0x00000001ffffffff	 - Server globalId: 0x000000010000000b
+Client globalId: 0x00000002ffffffff	 - Server globalId: 0x000000020000000b
+Client globalId: 0x00000003ffffffff	 - Server globalId: 0x000000030000000b
+Client globalId: 0x00000004ffffffff	 - Server globalId: 0x000000040000000b
+Client globalId: 0x00000005ffffffff	 - Server globalId: 0x000000050000000b
+Client globalId: 0x00000006ffffffff	 - Server globalId: 0x000000060000000b
+Client globalId: 0x00000007ffffffff	 - Server globalId: 0x000000070000000f
+Client globalId: 0x00000008ffffffff	 - Server globalId: 0x000000080000000f
+Client globalId: 0x00000009ffffffff	 - Server globalId: 0x000000090000000b
+Client globalId: 0x0000000affffffff	 - Server globalId: 0x0000000a0000000f
+Client globalId: 0x0000000bffffffff	 - Server globalId: 0x0000000b0000000f
+Client globalId: 0x0000000cffffffff	 - Server globalId: 0x0000000c0000000f
+Client globalId: 0x0000000dffffffff	 - Server globalId: 0x0000000d0000000b
+Client globalId: 0x0000000effffffff	 - Server globalId: 0x0000000e0000000f
+
+20.01.2026 11:51:44 PM : Apply update method started.
+20.01.2026 11:51:44 PM : Apply update method finished. 
+Update result: Succeeded
+Message: Applying delta to network model successfully finished.
+GlobalId pairs:
+Client globalId: 0x00000001ffffffff	 - Server globalId: 0x000000010000000c
+Client globalId: 0x00000002ffffffff	 - Server globalId: 0x000000020000000c
+Client globalId: 0x00000003ffffffff	 - Server globalId: 0x000000030000000c
+Client globalId: 0x00000004ffffffff	 - Server globalId: 0x000000040000000c
+Client globalId: 0x00000005ffffffff	 - Server globalId: 0x000000050000000c
+Client globalId: 0x00000006ffffffff	 - Server globalId: 0x000000060000000c
+Client globalId: 0x00000007ffffffff	 - Server globalId: 0x0000000700000010
+Client globalId: 0x00000008ffffffff	 - Server globalId: 0x0000000800000010
+Client globalId: 0x00000009ffffffff	 - Server globalId: 0x000000090000000c
+Client globalId: 0x0000000affffffff	 - Server globalId: 0x0000000a00000010
+Client globalId: 0x0000000bffffffff	 - Server globalId: 0x0000000b00000010
+Client globalId: 0x0000000cffffffff	 - Server globalId: 0x0000000c00000010
+Client globalId: 0x0000000dffffffff	 - Server globalId: 0x0000000d0000000c
+Client globalId: 0x0000000effffffff	 - Server globalId: 0x0000000e00000010
+
+20.01.2026 11:51:44 PM : Apply update method started.
+20.01.2026 11:51:44 PM : Apply update method finished. 
+Update result: Succeeded
+Message: Applying delta to network model successfully finished.
+GlobalId pairs:
+Client globalId: 0x00000001ffffffff	 - Server globalId: 0x000000010000000d
+Client globalId: 0x00000002ffffffff	 - Server globalId: 0x000000020000000d
+Client globalId: 0x00000003ffffffff	 - Server globalId: 0x000000030000000d
+Client globalId: 0x00000004ffffffff	 - Server globalId: 0x000000040000000d
+Client globalId: 0x00000005ffffffff	 - Server globalId: 0x000000050000000d
+Client globalId: 0x00000006ffffffff	 - Server globalId: 0x000000060000000d
+Client globalId: 0x00000007ffffffff	 - Server globalId: 0x0000000700000011
+Client globalId: 0x00000008ffffffff	 - Server globalId: 0x0000000800000011
+Client globalId: 0x00000009ffffffff	 - Server globalId: 0x000000090000000d
+Client globalId: 0x0000000affffffff	 - Server globalId: 0x0000000a00000011
+Client globalId: 0x0000000bffffffff	 - Server globalId: 0x0000000b00000011
+Client globalId: 0x0000000cffffffff	 - Server globalId: 0x0000000c00000011
+Client globalId: 0x0000000dffffffff	 - Server globalId: 0x0000000d0000000d
+Client globalId: 0x0000000effffffff	 - Server globalId: 0x0000000e00000011
+
+20.01.2026 11:51:44 PM : Apply update method started.
+20.01.2026 11:51:44 PM : Apply update method finished. 
+Update result: Succeeded
+Message: Applying delta to network model successfully finished.
+GlobalId pairs:
+Client globalId: 0x00000001ffffffff	 - Server globalId: 0x000000010000000e
+Client globalId: 0x00000002ffffffff	 - Server globalId: 0x000000020000000e
+Client globalId: 0x00000003ffffffff	 - Server globalId: 0x000000030000000e
+Client globalId: 0x00000004ffffffff	 - Server globalId: 0x000000040000000e
+Client globalId: 0x00000005ffffffff	 - Server globalId: 0x000000050000000e
+Client globalId: 0x00000006ffffffff	 - Server globalId: 0x000000060000000e
+Client globalId: 0x00000007ffffffff	 - Server globalId: 0x0000000700000012
+Client globalId: 0x00000008ffffffff	 - Server globalId: 0x0000000800000012
+Client globalId: 0x00000009ffffffff	 - Server globalId: 0x000000090000000e
+Client globalId: 0x0000000affffffff	 - Server globalId: 0x0000000a00000012
+Client globalId: 0x0000000bffffffff	 - Server globalId: 0x0000000b00000012
+Client globalId: 0x0000000cffffffff	 - Server globalId: 0x0000000c00000012
+Client globalId: 0x0000000dffffffff	 - Server globalId: 0x0000000d0000000e
+Client globalId: 0x0000000effffffff	 - Server globalId: 0x0000000e00000012
+
+20.01.2026 11:51:45 PM : Apply update method started.
+20.01.2026 11:51:45 PM : Apply update method finished. 
+Update result: Succeeded
+Message: Applying delta to network model successfully finished.
+GlobalId pairs:
+Client globalId: 0x00000001ffffffff	 - Server globalId: 0x000000010000000f
+Client globalId: 0x00000002ffffffff	 - Server globalId: 0x000000020000000f
+Client globalId: 0x00000003ffffffff	 - Server globalId: 0x000000030000000f
+Client globalId: 0x00000004ffffffff	 - Server globalId: 0x000000040000000f
+Client globalId: 0x00000005ffffffff	 - Server globalId: 0x000000050000000f
+Client globalId: 0x00000006ffffffff	 - Server globalId: 0x000000060000000f
+Client globalId: 0x00000007ffffffff	 - Server globalId: 0x0000000700000013
+Client globalId: 0x00000008ffffffff	 - Server globalId: 0x0000000800000013
+Client globalId: 0x00000009ffffffff	 - Server globalId: 0x000000090000000f
+Client globalId: 0x0000000affffffff	 - Server globalId: 0x0000000a00000013
+Client globalId: 0x0000000bffffffff	 - Server globalId: 0x0000000b00000013
+Client globalId: 0x0000000cffffffff	 - Server globalId: 0x0000000c00000013
+Client globalId: 0x0000000dffffffff	 - Server globalId: 0x0000000d0000000f
+Client globalId: 0x0000000effffffff	 - Server globalId: 0x0000000e00000013
+
+20.01.2026 11:51:45 PM : Apply update method started.
+20.01.2026 11:51:45 PM : Apply update method finished. 
+Update result: Succeeded
+Message: Applying delta to network model successfully finished.
+GlobalId pairs:
+Client globalId: 0x00000001ffffffff	 - Server globalId: 0x0000000100000010
+Client globalId: 0x00000002ffffffff	 - Server globalId: 0x0000000200000010
+Client globalId: 0x00000003ffffffff	 - Server globalId: 0x0000000300000010
+Client globalId: 0x00000004ffffffff	 - Server globalId: 0x0000000400000010
+Client globalId: 0x00000005ffffffff	 - Server globalId: 0x0000000500000010
+Client globalId: 0x00000006ffffffff	 - Server globalId: 0x0000000600000010
+Client globalId: 0x00000007ffffffff	 - Server globalId: 0x0000000700000014
+Client globalId: 0x00000008ffffffff	 - Server globalId: 0x0000000800000014
+Client globalId: 0x00000009ffffffff	 - Server globalId: 0x0000000900000010
+Client globalId: 0x0000000affffffff	 - Server globalId: 0x0000000a00000014
+Client globalId: 0x0000000bffffffff	 - Server globalId: 0x0000000b00000014
+Client globalId: 0x0000000cffffffff	 - Server globalId: 0x0000000c00000014
+Client globalId: 0x0000000dffffffff	 - Server globalId: 0x0000000d00000010
+Client globalId: 0x0000000effffffff	 - Server globalId: 0x0000000e00000014
+
+20.01.2026 11:51:45 PM : Apply update method started.
+20.01.2026 11:51:45 PM : Apply update method finished. 
+Update result: Succeeded
+Message: Applying delta to network model successfully finished.
+GlobalId pairs:
+Client globalId: 0x00000001ffffffff	 - Server globalId: 0x0000000100000011
+Client globalId: 0x00000002ffffffff	 - Server globalId: 0x0000000200000011
+Client globalId: 0x00000003ffffffff	 - Server globalId: 0x0000000300000011
+Client globalId: 0x00000004ffffffff	 - Server globalId: 0x0000000400000011
+Client globalId: 0x00000005ffffffff	 - Server globalId: 0x0000000500000011
+Client globalId: 0x00000006ffffffff	 - Server globalId: 0x0000000600000011
+Client globalId: 0x00000007ffffffff	 - Server globalId: 0x0000000700000015
+Client globalId: 0x00000008ffffffff	 - Server globalId: 0x0000000800000015
+Client globalId: 0x00000009ffffffff	 - Server globalId: 0x0000000900000011
+Client globalId: 0x0000000affffffff	 - Server globalId: 0x0000000a00000015
+Client globalId: 0x0000000bffffffff	 - Server globalId: 0x0000000b00000015
+Client globalId: 0x0000000cffffffff	 - Server globalId: 0x0000000c00000015
+Client globalId: 0x0000000dffffffff	 - Server globalId: 0x0000000d00000011
+Client globalId: 0x0000000effffffff	 - Server globalId: 0x0000000e00000015
+
+20.01.2026 11:51:45 PM : Apply update method started.
+20.01.2026 11:51:45 PM : Apply update method finished. 
+Update result: Succeeded
+Message: Applying delta to network model successfully finished.
+GlobalId pairs:
+Client globalId: 0x00000001ffffffff	 - Server globalId: 0x0000000100000012
+Client globalId: 0x00000002ffffffff	 - Server globalId: 0x0000000200000012
+Client globalId: 0x00000003ffffffff	 - Server globalId: 0x0000000300000012
+Client globalId: 0x00000004ffffffff	 - Server globalId: 0x0000000400000012
+Client globalId: 0x00000005ffffffff	 - Server globalId: 0x0000000500000012
+Client globalId: 0x00000006ffffffff	 - Server globalId: 0x0000000600000012
+Client globalId: 0x00000007ffffffff	 - Server globalId: 0x0000000700000016
+Client globalId: 0x00000008ffffffff	 - Server globalId: 0x0000000800000016
+Client globalId: 0x00000009ffffffff	 - Server globalId: 0x0000000900000012
+Client globalId: 0x0000000affffffff	 - Server globalId: 0x0000000a00000016
+Client globalId: 0x0000000bffffffff	 - Server globalId: 0x0000000b00000016
+Client globalId: 0x0000000cffffffff	 - Server globalId: 0x0000000c00000016
+Client globalId: 0x0000000dffffffff	 - Server globalId: 0x0000000d00000012
+Client globalId: 0x0000000effffffff	 - Server globalId: 0x0000000e00000016
+
+20.01.2026 11:51:46 PM : Apply update method started.
+20.01.2026 11:51:46 PM : Apply update method finished. 
+Update result: Succeeded
+Message: Applying delta to network model successfully finished.
+GlobalId pairs:
+Client globalId: 0x00000001ffffffff	 - Server globalId: 0x0000000100000013
+Client globalId: 0x00000002ffffffff	 - Server globalId: 0x0000000200000013
+Client globalId: 0x00000003ffffffff	 - Server globalId: 0x0000000300000013
+Client globalId: 0x00000004ffffffff	 - Server globalId: 0x0000000400000013
+Client globalId: 0x00000005ffffffff	 - Server globalId: 0x0000000500000013
+Client globalId: 0x00000006ffffffff	 - Server globalId: 0x0000000600000013
+Client globalId: 0x00000007ffffffff	 - Server globalId: 0x0000000700000017
+Client globalId: 0x00000008ffffffff	 - Server globalId: 0x0000000800000017
+Client globalId: 0x00000009ffffffff	 - Server globalId: 0x0000000900000013
+Client globalId: 0x0000000affffffff	 - Server globalId: 0x0000000a00000017
+Client globalId: 0x0000000bffffffff	 - Server globalId: 0x0000000b00000017
+Client globalId: 0x0000000cffffffff	 - Server globalId: 0x0000000c00000017
+Client globalId: 0x0000000dffffffff	 - Server globalId: 0x0000000d00000013
+Client globalId: 0x0000000effffffff	 - Server globalId: 0x0000000e00000017
+
+20.01.2026 11:51:46 PM : Apply update method started.
+20.01.2026 11:51:46 PM : Apply update method finished. 
+Update result: Succeeded
+Message: Applying delta to network model successfully finished.
+GlobalId pairs:
+Client globalId: 0x00000001ffffffff	 - Server globalId: 0x0000000100000014
+Client globalId: 0x00000002ffffffff	 - Server globalId: 0x0000000200000014
+Client globalId: 0x00000003ffffffff	 - Server globalId: 0x0000000300000014
+Client globalId: 0x00000004ffffffff	 - Server globalId: 0x0000000400000014
+Client globalId: 0x00000005ffffffff	 - Server globalId: 0x0000000500000014
+Client globalId: 0x00000006ffffffff	 - Server globalId: 0x0000000600000014
+Client globalId: 0x00000007ffffffff	 - Server globalId: 0x0000000700000018
+Client globalId: 0x00000008ffffffff	 - Server globalId: 0x0000000800000018
+Client globalId: 0x00000009ffffffff	 - Server globalId: 0x0000000900000014
+Client globalId: 0x0000000affffffff	 - Server globalId: 0x0000000a00000018
+Client globalId: 0x0000000bffffffff	 - Server globalId: 0x0000000b00000018
+Client globalId: 0x0000000cffffffff	 - Server globalId: 0x0000000c00000018
+Client globalId: 0x0000000dffffffff	 - Server globalId: 0x0000000d00000014
+Client globalId: 0x0000000effffffff	 - Server globalId: 0x0000000e00000018
+
+20.01.2026 11:51:46 PM : Apply update method started.
+20.01.2026 11:51:46 PM : Apply update method finished. 
+Update result: Succeeded
+Message: Applying delta to network model successfully finished.
+GlobalId pairs:
+Client globalId: 0x00000001ffffffff	 - Server globalId: 0x0000000100000015
+Client globalId: 0x00000002ffffffff	 - Server globalId: 0x0000000200000015
+Client globalId: 0x00000003ffffffff	 - Server globalId: 0x0000000300000015
+Client globalId: 0x00000004ffffffff	 - Server globalId: 0x0000000400000015
+Client globalId: 0x00000005ffffffff	 - Server globalId: 0x0000000500000015
+Client globalId: 0x00000006ffffffff	 - Server globalId: 0x0000000600000015
+Client globalId: 0x00000007ffffffff	 - Server globalId: 0x0000000700000019
+Client globalId: 0x00000008ffffffff	 - Server globalId: 0x0000000800000019
+Client globalId: 0x00000009ffffffff	 - Server globalId: 0x0000000900000015
+Client globalId: 0x0000000affffffff	 - Server globalId: 0x0000000a00000019
+Client globalId: 0x0000000bffffffff	 - Server globalId: 0x0000000b00000019
+Client globalId: 0x0000000cffffffff	 - Server globalId: 0x0000000c00000019
+Client globalId: 0x0000000dffffffff	 - Server globalId: 0x0000000d00000015
+Client globalId: 0x0000000effffffff	 - Server globalId: 0x0000000e00000019
+
+20.01.2026 11:51:46 PM : Apply update method started.
+20.01.2026 11:51:46 PM : Apply update method finished. 
+Update result: Succeeded
+Message: Applying delta to network model successfully finished.
+GlobalId pairs:
+Client globalId: 0x00000001ffffffff	 - Server globalId: 0x0000000100000016
+Client globalId: 0x00000002ffffffff	 - Server globalId: 0x0000000200000016
+Client globalId: 0x00000003ffffffff	 - Server globalId: 0x0000000300000016
+Client globalId: 0x00000004ffffffff	 - Server globalId: 0x0000000400000016
+Client globalId: 0x00000005ffffffff	 - Server globalId: 0x0000000500000016
+Client globalId: 0x00000006ffffffff	 - Server globalId: 0x0000000600000016
+Client globalId: 0x00000007ffffffff	 - Server globalId: 0x000000070000001a
+Client globalId: 0x00000008ffffffff	 - Server globalId: 0x000000080000001a
+Client globalId: 0x00000009ffffffff	 - Server globalId: 0x0000000900000016
+Client globalId: 0x0000000affffffff	 - Server globalId: 0x0000000a0000001a
+Client globalId: 0x0000000bffffffff	 - Server globalId: 0x0000000b0000001a
+Client globalId: 0x0000000cffffffff	 - Server globalId: 0x0000000c0000001a
+Client globalId: 0x0000000dffffffff	 - Server globalId: 0x0000000d00000016
+Client globalId: 0x0000000effffffff	 - Server globalId: 0x0000000e0000001a
+
+20.01.2026 11:51:46 PM : Apply update method started.
+20.01.2026 11:51:46 PM : Apply update method finished. 
+Update result: Succeeded
+Message: Applying delta to network model successfully finished.
+GlobalId pairs:
+Client globalId: 0x00000001ffffffff	 - Server globalId: 0x0000000100000017
+Client globalId: 0x00000002ffffffff	 - Server globalId: 0x0000000200000017
+Client globalId: 0x00000003ffffffff	 - Server globalId: 0x0000000300000017
+Client globalId: 0x00000004ffffffff	 - Server globalId: 0x0000000400000017
+Client globalId: 0x00000005ffffffff	 - Server globalId: 0x0000000500000017
+Client globalId: 0x00000006ffffffff	 - Server globalId: 0x0000000600000017
+Client globalId: 0x00000007ffffffff	 - Server globalId: 0x000000070000001b
+Client globalId: 0x00000008ffffffff	 - Server globalId: 0x000000080000001b
+Client globalId: 0x00000009ffffffff	 - Server globalId: 0x0000000900000017
+Client globalId: 0x0000000affffffff	 - Server globalId: 0x0000000a0000001b
+Client globalId: 0x0000000bffffffff	 - Server globalId: 0x0000000b0000001b
+Client globalId: 0x0000000cffffffff	 - Server globalId: 0x0000000c0000001b
+Client globalId: 0x0000000dffffffff	 - Server globalId: 0x0000000d00000017
+Client globalId: 0x0000000effffffff	 - Server globalId: 0x0000000e0000001b
+
+20.01.2026 11:51:47 PM : Apply update method started.
+20.01.2026 11:51:47 PM : Apply update method finished. 
+Update result: Succeeded
+Message: Applying delta to network model successfully finished.
+GlobalId pairs:
+Client globalId: 0x00000001ffffffff	 - Server globalId: 0x0000000100000018
+Client globalId: 0x00000002ffffffff	 - Server globalId: 0x0000000200000018
+Client globalId: 0x00000003ffffffff	 - Server globalId: 0x0000000300000018
+Client globalId: 0x00000004ffffffff	 - Server globalId: 0x0000000400000018
+Client globalId: 0x00000005ffffffff	 - Server globalId: 0x0000000500000018
+Client globalId: 0x00000006ffffffff	 - Server globalId: 0x0000000600000018
+Client globalId: 0x00000007ffffffff	 - Server globalId: 0x000000070000001c
+Client globalId: 0x00000008ffffffff	 - Server globalId: 0x000000080000001c
+Client globalId: 0x00000009ffffffff	 - Server globalId: 0x0000000900000018
+Client globalId: 0x0000000affffffff	 - Server globalId: 0x0000000a0000001c
+Client globalId: 0x0000000bffffffff	 - Server globalId: 0x0000000b0000001c
+Client globalId: 0x0000000cffffffff	 - Server globalId: 0x0000000c0000001c
+Client globalId: 0x0000000dffffffff	 - Server globalId: 0x0000000d00000018
+Client globalId: 0x0000000effffffff	 - Server globalId: 0x0000000e0000001c
+
+20.01.2026 11:51:47 PM : Apply update method started.
+20.01.2026 11:51:47 PM : Apply update method finished. 
+Update result: Succeeded
+Message: Applying delta to network model successfully finished.
+GlobalId pairs:
+Client globalId: 0x00000001ffffffff	 - Server globalId: 0x0000000100000019
+Client globalId: 0x00000002ffffffff	 - Server globalId: 0x0000000200000019
+Client globalId: 0x00000003ffffffff	 - Server globalId: 0x0000000300000019
+Client globalId: 0x00000004ffffffff	 - Server globalId: 0x0000000400000019
+Client globalId: 0x00000005ffffffff	 - Server globalId: 0x0000000500000019
+Client globalId: 0x00000006ffffffff	 - Server globalId: 0x0000000600000019
+Client globalId: 0x00000007ffffffff	 - Server globalId: 0x000000070000001d
+Client globalId: 0x00000008ffffffff	 - Server globalId: 0x000000080000001d
+Client globalId: 0x00000009ffffffff	 - Server globalId: 0x0000000900000019
+Client globalId: 0x0000000affffffff	 - Server globalId: 0x0000000a0000001d
+Client globalId: 0x0000000bffffffff	 - Server globalId: 0x0000000b0000001d
+Client globalId: 0x0000000cffffffff	 - Server globalId: 0x0000000c0000001d
+Client globalId: 0x0000000dffffffff	 - Server globalId: 0x0000000d00000019
+Client globalId: 0x0000000effffffff	 - Server globalId: 0x0000000e0000001d
+
+20.01.2026 11:51:47 PM : Apply update method started.
+20.01.2026 11:51:47 PM : Apply update method finished. 
+Update result: Succeeded
+Message: Applying delta to network model successfully finished.
+GlobalId pairs:
+Client globalId: 0x00000001ffffffff	 - Server globalId: 0x000000010000001a
+Client globalId: 0x00000002ffffffff	 - Server globalId: 0x000000020000001a
+Client globalId: 0x00000003ffffffff	 - Server globalId: 0x000000030000001a
+Client globalId: 0x00000004ffffffff	 - Server globalId: 0x000000040000001a
+Client globalId: 0x00000005ffffffff	 - Server globalId: 0x000000050000001a
+Client globalId: 0x00000006ffffffff	 - Server globalId: 0x000000060000001a
+Client globalId: 0x00000007ffffffff	 - Server globalId: 0x000000070000001e
+Client globalId: 0x00000008ffffffff	 - Server globalId: 0x000000080000001e
+Client globalId: 0x00000009ffffffff	 - Server globalId: 0x000000090000001a
+Client globalId: 0x0000000affffffff	 - Server globalId: 0x0000000a0000001e
+Client globalId: 0x0000000bffffffff	 - Server globalId: 0x0000000b0000001e
+Client globalId: 0x0000000cffffffff	 - Server globalId: 0x0000000c0000001e
+Client globalId: 0x0000000dffffffff	 - Server globalId: 0x0000000d0000001a
+Client globalId: 0x0000000effffffff	 - Server globalId: 0x0000000e0000001e
+
+20.01.2026 11:51:47 PM : Apply update method started.
+20.01.2026 11:51:47 PM : Apply update method finished. 
+Update result: Succeeded
+Message: Applying delta to network model successfully finished.
+GlobalId pairs:
+Client globalId: 0x00000001ffffffff	 - Server globalId: 0x000000010000001b
+Client globalId: 0x00000002ffffffff	 - Server globalId: 0x000000020000001b
+Client globalId: 0x00000003ffffffff	 - Server globalId: 0x000000030000001b
+Client globalId: 0x00000004ffffffff	 - Server globalId: 0x000000040000001b
+Client globalId: 0x00000005ffffffff	 - Server globalId: 0x000000050000001b
+Client globalId: 0x00000006ffffffff	 - Server globalId: 0x000000060000001b
+Client globalId: 0x00000007ffffffff	 - Server globalId: 0x000000070000001f
+Client globalId: 0x00000008ffffffff	 - Server globalId: 0x000000080000001f
+Client globalId: 0x00000009ffffffff	 - Server globalId: 0x000000090000001b
+Client globalId: 0x0000000affffffff	 - Server globalId: 0x0000000a0000001f
+Client globalId: 0x0000000bffffffff	 - Server globalId: 0x0000000b0000001f
+Client globalId: 0x0000000cffffffff	 - Server globalId: 0x0000000c0000001f
+Client globalId: 0x0000000dffffffff	 - Server globalId: 0x0000000d0000001b
+Client globalId: 0x0000000effffffff	 - Server globalId: 0x0000000e0000001f
+
+20.01.2026 11:51:47 PM : Apply update method started.
+20.01.2026 11:51:47 PM : Apply update method finished. 
+Update result: Succeeded
+Message: Applying delta to network model successfully finished.
+GlobalId pairs:
+Client globalId: 0x00000001ffffffff	 - Server globalId: 0x000000010000001c
+Client globalId: 0x00000002ffffffff	 - Server globalId: 0x000000020000001c
+Client globalId: 0x00000003ffffffff	 - Server globalId: 0x000000030000001c
+Client globalId: 0x00000004ffffffff	 - Server globalId: 0x000000040000001c
+Client globalId: 0x00000005ffffffff	 - Server globalId: 0x000000050000001c
+Client globalId: 0x00000006ffffffff	 - Server globalId: 0x000000060000001c
+Client globalId: 0x00000007ffffffff	 - Server globalId: 0x0000000700000020
+Client globalId: 0x00000008ffffffff	 - Server globalId: 0x0000000800000020
+Client globalId: 0x00000009ffffffff	 - Server globalId: 0x000000090000001c
+Client globalId: 0x0000000affffffff	 - Server globalId: 0x0000000a00000020
+Client globalId: 0x0000000bffffffff	 - Server globalId: 0x0000000b00000020
+Client globalId: 0x0000000cffffffff	 - Server globalId: 0x0000000c00000020
+Client globalId: 0x0000000dffffffff	 - Server globalId: 0x0000000d0000001c
+Client globalId: 0x0000000effffffff	 - Server globalId: 0x0000000e00000020
+

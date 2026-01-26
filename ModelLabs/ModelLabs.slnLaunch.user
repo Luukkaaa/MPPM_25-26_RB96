@@ -1,0 +1,19 @@
+[
+  {
+    "Name": "New Profile",
+    "Projects": [
+      {
+        "Path": "NetworkModelService\\ServiceHost\\NetworkModelServiceSelfHost\\NetworkModelServiceSelfHost.csproj",
+        "Action": "Start"
+      },
+      {
+        "Path": "ModelLabsWpfApp\\ModelLabsWpfApp.csproj",
+        "Action": "Start"
+      },
+      {
+        "Path": "CIMProfileCreator\\CIMProfileCreator.csproj",
+        "Action": "Start"
+      }
+    ]
+  }
+]

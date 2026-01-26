@@ -1,0 +1,6 @@
+D:\FTN\4 GODINA\MPPM\PROJEKAT\Projekat2025_26\Projekat2025_26\ModelLabsProjekat\ModelLabsProjekat\ModelLabs\bin\CIMParser.dll
+D:\FTN\4 GODINA\MPPM\PROJEKAT\Projekat2025_26\Projekat2025_26\ModelLabsProjekat\ModelLabsProjekat\ModelLabs\bin\CIMParser.pdb
+D:\FTN\4 GODINA\MPPM\PROJEKAT\Projekat2025_26\Projekat2025_26\ModelLabsProjekat\ModelLabsProjekat\ModelLabs\CIMParser\obj\x86\Debug\CIMParser.csproj.AssemblyReference.cache
+D:\FTN\4 GODINA\MPPM\PROJEKAT\Projekat2025_26\Projekat2025_26\ModelLabsProjekat\ModelLabsProjekat\ModelLabs\CIMParser\obj\x86\Debug\CIMParser.csproj.CoreCompileInputs.cache
+D:\FTN\4 GODINA\MPPM\PROJEKAT\Projekat2025_26\Projekat2025_26\ModelLabsProjekat\ModelLabsProjekat\ModelLabs\CIMParser\obj\x86\Debug\CIMParser.dll
+D:\FTN\4 GODINA\MPPM\PROJEKAT\Projekat2025_26\Projekat2025_26\ModelLabsProjekat\ModelLabsProjekat\ModelLabs\CIMParser\obj\x86\Debug\CIMParser.pdb

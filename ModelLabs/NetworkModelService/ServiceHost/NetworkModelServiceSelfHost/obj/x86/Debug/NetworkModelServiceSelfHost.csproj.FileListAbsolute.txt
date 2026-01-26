@@ -1,0 +1,9 @@
+D:\FTN\4 GODINA\MPPM\PROJEKAT\Projekat2025_26\Projekat2025_26\ModelLabsProjekat\ModelLabsProjekat\ModelLabs\bin\FTN_NetworkModelService.exe.config
+D:\FTN\4 GODINA\MPPM\PROJEKAT\Projekat2025_26\Projekat2025_26\ModelLabsProjekat\ModelLabsProjekat\ModelLabs\bin\FTN_NetworkModelService.exe
+D:\FTN\4 GODINA\MPPM\PROJEKAT\Projekat2025_26\Projekat2025_26\ModelLabsProjekat\ModelLabsProjekat\ModelLabs\bin\FTN_NetworkModelService.pdb
+D:\FTN\4 GODINA\MPPM\PROJEKAT\Projekat2025_26\Projekat2025_26\ModelLabsProjekat\ModelLabsProjekat\ModelLabs\NetworkModelService\ServiceHost\NetworkModelServiceSelfHost\obj\x86\Debug\NetworkModelServiceSelfHost.csproj.AssemblyReference.cache
+D:\FTN\4 GODINA\MPPM\PROJEKAT\Projekat2025_26\Projekat2025_26\ModelLabsProjekat\ModelLabsProjekat\ModelLabs\NetworkModelService\ServiceHost\NetworkModelServiceSelfHost\obj\x86\Debug\NetworkModelServiceSelfHost.csproj.CoreCompileInputs.cache
+D:\FTN\4 GODINA\MPPM\PROJEKAT\Projekat2025_26\Projekat2025_26\ModelLabsProjekat\ModelLabsProjekat\ModelLabs\NetworkModelService\ServiceHost\NetworkModelServiceSelfHost\obj\x86\Debug\NetworkM.C8FE02EA.Up2Date
+D:\FTN\4 GODINA\MPPM\PROJEKAT\Projekat2025_26\Projekat2025_26\ModelLabsProjekat\ModelLabsProjekat\ModelLabs\NetworkModelService\ServiceHost\NetworkModelServiceSelfHost\obj\x86\Debug\FTN_NetworkModelService.exe
+D:\FTN\4 GODINA\MPPM\PROJEKAT\Projekat2025_26\Projekat2025_26\ModelLabsProjekat\ModelLabsProjekat\ModelLabs\NetworkModelService\ServiceHost\NetworkModelServiceSelfHost\obj\x86\Debug\FTN_NetworkModelService.pdb
+D:\FTN\4 GODINA\MPPM\PROJEKAT\Projekat2025_26\Projekat2025_26\ModelLabsProjekat\ModelLabsProjekat\ModelLabs\NetworkModelService\ServiceHost\NetworkModelServiceSelfHost\obj\x86\Debug\FTN_NetworkModelService.exe.config

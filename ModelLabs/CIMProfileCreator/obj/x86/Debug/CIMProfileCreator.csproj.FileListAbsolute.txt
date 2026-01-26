@@ -1,0 +1,14 @@
+D:\FTN\4 GODINA\MPPM\PROJEKAT\Projekat2025_26\Projekat2025_26\ModelLabsProjekat\ModelLabsProjekat\ModelLabs\bin\Predefined\PredefinedClasses.xml
+D:\FTN\4 GODINA\MPPM\PROJEKAT\Projekat2025_26\Projekat2025_26\ModelLabsProjekat\ModelLabsProjekat\ModelLabs\bin\Predefined\PredefinedEnumerations.xml
+D:\FTN\4 GODINA\MPPM\PROJEKAT\Projekat2025_26\Projekat2025_26\ModelLabsProjekat\ModelLabsProjekat\ModelLabs\bin\Predefined\PredefinedPackages.xml
+D:\FTN\4 GODINA\MPPM\PROJEKAT\Projekat2025_26\Projekat2025_26\ModelLabsProjekat\ModelLabsProjekat\ModelLabs\bin\FTN.ESI.SIMES.CIM.CIMProfileCreator.exe.config
+D:\FTN\4 GODINA\MPPM\PROJEKAT\Projekat2025_26\Projekat2025_26\ModelLabsProjekat\ModelLabsProjekat\ModelLabs\bin\FTN.ESI.SIMES.CIM.CIMProfileCreator.exe
+D:\FTN\4 GODINA\MPPM\PROJEKAT\Projekat2025_26\Projekat2025_26\ModelLabsProjekat\ModelLabsProjekat\ModelLabs\bin\FTN.ESI.SIMES.CIM.CIMProfileCreator.pdb
+D:\FTN\4 GODINA\MPPM\PROJEKAT\Projekat2025_26\Projekat2025_26\ModelLabsProjekat\ModelLabsProjekat\ModelLabs\CIMProfileCreator\obj\x86\Debug\CIMProfileCreator.csproj.AssemblyReference.cache
+D:\FTN\4 GODINA\MPPM\PROJEKAT\Projekat2025_26\Projekat2025_26\ModelLabsProjekat\ModelLabsProjekat\ModelLabs\CIMProfileCreator\obj\x86\Debug\FTN.ESI.SIMES.CIM.CIMProfileCreator.CIMProfileCreatorForm.resources
+D:\FTN\4 GODINA\MPPM\PROJEKAT\Projekat2025_26\Projekat2025_26\ModelLabsProjekat\ModelLabsProjekat\ModelLabs\CIMProfileCreator\obj\x86\Debug\FTN.ESI.SIMES.CIM.CIMProfileCreator.Properties.Resources.resources
+D:\FTN\4 GODINA\MPPM\PROJEKAT\Projekat2025_26\Projekat2025_26\ModelLabsProjekat\ModelLabsProjekat\ModelLabs\CIMProfileCreator\obj\x86\Debug\CIMProfileCreator.csproj.GenerateResource.cache
+D:\FTN\4 GODINA\MPPM\PROJEKAT\Projekat2025_26\Projekat2025_26\ModelLabsProjekat\ModelLabsProjekat\ModelLabs\CIMProfileCreator\obj\x86\Debug\CIMProfileCreator.csproj.CoreCompileInputs.cache
+D:\FTN\4 GODINA\MPPM\PROJEKAT\Projekat2025_26\Projekat2025_26\ModelLabsProjekat\ModelLabsProjekat\ModelLabs\CIMProfileCreator\obj\x86\Debug\FTN.ESI.SIMES.CIM.CIMProfileCreator.exe
+D:\FTN\4 GODINA\MPPM\PROJEKAT\Projekat2025_26\Projekat2025_26\ModelLabsProjekat\ModelLabsProjekat\ModelLabs\CIMProfileCreator\obj\x86\Debug\FTN.ESI.SIMES.CIM.CIMProfileCreator.pdb
+D:\FTN\4 GODINA\MPPM\PROJEKAT\Projekat2025_26\Projekat2025_26\ModelLabsProjekat\ModelLabsProjekat\ModelLabs\CIMProfileCreator\obj\x86\Debug\FTN.ESI.SIMES.CIM.CIMProfileCreator.exe.config

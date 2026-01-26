@@ -1,0 +1,649 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:dc="http://purl.org/dc/elements/1.1/"
+    xmlns:owl="http://www.w3.org/2002/07/owl#"
+    xmlns:msg="http://langdale.com.au/2005/Message#"
+    xmlns:cims="http://iec.ch/TC57/1999/rdf-schema-extensions-19990926#"
+    xmlns:uml="http://langdale.com.au/2005/UML#"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+    xmlns:j.0="http://iec.ch/TC57/CIM100#"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+  xml:base="http://iec.ch/TC57/CIM100" > 
+  <rdf:Description rdf:about="#AcceptanceTest">
+    <cims:belongsToCategory rdf:resource="#Package_Assets"/>
+    <cims:stereotype rdf:resource="http://langdale.com.au/2005/UML#attribute"/>
+    <cims:stereotype rdf:resource="http://langdale.com.au/2005/UML#compound"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <rdfs:comment>Acceptance test for assets.</rdfs:comment>
+    <rdfs:label>AcceptanceTest</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="#Asset">
+    <cims:belongsToCategory rdf:resource="#Package_Assets"/>
+    <cims:stereotype rdf:resource="http://langdale.com.au/2005/UML#byreference"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <rdfs:comment>Tangible resource of the utility, including power system equipment, various end devices, cabinets, buildings, etc. For electrical network equipment, the role of the asset is defined through PowerSystemResource and its subclasses, defined mainly in the Wires model (refer to IEC61970-301 and model package IEC61970::Wires). Asset description places emphasis on the physical characteristics of the equipment fulfilling that role.</rdfs:comment>
+    <rdfs:label>Asset</rdfs:label>
+    <rdfs:subClassOf rdf:resource="#IdentifiedObject"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#Asset.AssetContainer">
+    <cims:inverseRoleName rdf:resource="#AssetContainer.Assets"/>
+    <cims:multiplicity rdf:resource="http://iec.ch/TC57/1999/rdf-schema-extensions-19990926#M:0..1"/>
+    <cims:stereotype rdf:resource="http://langdale.com.au/2005/UML#byreference"/>
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+    <rdfs:comment>Container of this asset.</rdfs:comment>
+    <rdfs:domain rdf:resource="#Asset"/>
+    <rdfs:label>AssetContainer</rdfs:label>
+    <rdfs:range rdf:resource="#AssetContainer"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#Asset.AssetInfo">
+    <cims:inverseRoleName rdf:resource="#AssetInfo.Assets"/>
+    <cims:multiplicity rdf:resource="http://iec.ch/TC57/1999/rdf-schema-extensions-19990926#M:0..1"/>
+    <cims:stereotype rdf:resource="http://langdale.com.au/2005/UML#byreference"/>
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+    <rdfs:comment>Data applicable to this asset.</rdfs:comment>
+    <rdfs:domain rdf:resource="#Asset"/>
+    <rdfs:label>AssetInfo</rdfs:label>
+    <rdfs:range rdf:resource="#AssetInfo"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#Asset.OrganisationRoles">
+    <cims:inverseRoleName rdf:resource="#AssetOrganisationRole.Assets"/>
+    <cims:multiplicity rdf:resource="http://iec.ch/TC57/1999/rdf-schema-extensions-19990926#M:0..n"/>
+    <cims:stereotype rdf:resource="http://langdale.com.au/2005/UML#byreference"/>
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+    <rdfs:comment>All roles an organisation plays for this asset.</rdfs:comment>
+    <rdfs:domain rdf:resource="#Asset"/>
+    <rdfs:label>OrganisationRoles</rdfs:label>
+    <rdfs:range rdf:resource="#AssetOrganisationRole"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#Asset.acceptanceTest">
+    <cims:multiplicity rdf:resource="http://iec.ch/TC57/1999/rdf-schema-extensions-19990926#M:0..1"/>
+    <cims:stereotype rdf:resource="http://langdale.com.au/2005/UML#attribute"/>
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+    <rdfs:comment>Information on acceptance test.</rdfs:comment>
+    <rdfs:domain rdf:resource="#Asset"/>
+    <rdfs:label>acceptanceTest</rdfs:label>
+    <rdfs:range rdf:resource="#AcceptanceTest"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#Asset.critical">
+    <cims:dataType rdf:resource="http://www.w3.org/2001/XMLSchema#boolean"/>
+    <cims:multiplicity rdf:resource="http://iec.ch/TC57/1999/rdf-schema-extensions-19990926#M:0..1"/>
+    <cims:stereotype rdf:resource="http://langdale.com.au/2005/UML#attribute"/>
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+    <rdfs:comment>True if asset is considered critical for some reason (for example, a pole with critical attachments).</rdfs:comment>
+    <rdfs:domain rdf:resource="#Asset"/>
+    <rdfs:label>critical</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="#Asset.electronicAddress">
+    <cims:multiplicity rdf:resource="http://iec.ch/TC57/1999/rdf-schema-extensions-19990926#M:0..1"/>
+    <cims:stereotype rdf:resource="http://langdale.com.au/2005/UML#attribute"/>
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+    <rdfs:comment>Electronic address.</rdfs:comment>
+    <rdfs:domain rdf:resource="#Asset"/>
+    <rdfs:label>electronicAddress</rdfs:label>
+    <rdfs:range rdf:resource="#ElectronicAddress"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#Asset.initialCondition">
+    <cims:dataType rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    <cims:multiplicity rdf:resource="http://iec.ch/TC57/1999/rdf-schema-extensions-19990926#M:0..1"/>
+    <cims:stereotype rdf:resource="http://langdale.com.au/2005/UML#attribute"/>
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+    <rdfs:comment>Condition of asset in inventory or at time of installation. Examples include new, rebuilt, overhaul required, other. Refer to inspection data for information on the most current condition of the asset.</rdfs:comment>
+    <rdfs:domain rdf:resource="#Asset"/>
+    <rdfs:label>initialCondition</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="#Asset.initialLossOfLife">
+    <cims:dataType rdf:resource="#PerCent"/>
+    <cims:multiplicity rdf:resource="http://iec.ch/TC57/1999/rdf-schema-extensions-19990926#M:0..1"/>
+    <cims:stereotype rdf:resource="http://langdale.com.au/2005/UML#attribute"/>
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+    <rdfs:comment>Whenever an asset is reconditioned, percentage of expected life for the asset when it was new; zero for new devices.</rdfs:comment>
+    <rdfs:domain rdf:resource="#Asset"/>
+    <rdfs:label>initialLossOfLife</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="#Asset.lifecycle">
+    <cims:multiplicity rdf:resource="http://iec.ch/TC57/1999/rdf-schema-extensions-19990926#M:0..1"/>
+    <cims:stereotype rdf:resource="http://langdale.com.au/2005/UML#attribute"/>
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+    <rdfs:comment>Lifecycle dates for this asset.</rdfs:comment>
+    <rdfs:domain rdf:resource="#Asset"/>
+    <rdfs:label>lifecycle</rdfs:label>
+    <rdfs:range rdf:resource="#LifecycleDate"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#Asset.lotNumber">
+    <cims:dataType rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    <cims:multiplicity rdf:resource="http://iec.ch/TC57/1999/rdf-schema-extensions-19990926#M:0..1"/>
+    <cims:stereotype rdf:resource="http://langdale.com.au/2005/UML#attribute"/>
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+    <rdfs:comment>Lot number for this asset. Even for the same model and version number, many assets are manufactured in lots.</rdfs:comment>
+    <rdfs:domain rdf:resource="#Asset"/>
+    <rdfs:label>lotNumber</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="#Asset.purchasePrice">
+    <cims:dataType rdf:resource="#Money"/>
+    <cims:multiplicity rdf:resource="http://iec.ch/TC57/1999/rdf-schema-extensions-19990926#M:0..1"/>
+    <cims:stereotype rdf:resource="http://langdale.com.au/2005/UML#attribute"/>
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+    <rdfs:comment>Purchase price of asset.</rdfs:comment>
+    <rdfs:domain rdf:resource="#Asset"/>
+    <rdfs:label>purchasePrice</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="#Asset.serialNumber">
+    <cims:dataType rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    <cims:multiplicity rdf:resource="http://iec.ch/TC57/1999/rdf-schema-extensions-19990926#M:0..1"/>
+    <cims:stereotype rdf:resource="http://langdale.com.au/2005/UML#attribute"/>
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+    <rdfs:comment>Serial number of this asset.</rdfs:comment>
+    <rdfs:domain rdf:resource="#Asset"/>
+    <rdfs:label>serialNumber</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="#Asset.status">
+    <cims:multiplicity rdf:resource="http://iec.ch/TC57/1999/rdf-schema-extensions-19990926#M:0..1"/>
+    <cims:stereotype rdf:resource="http://langdale.com.au/2005/UML#attribute"/>
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+    <rdfs:comment>Status of this asset.</rdfs:comment>
+    <rdfs:domain rdf:resource="#Asset"/>
+    <rdfs:label>status</rdfs:label>
+    <rdfs:range rdf:resource="#Status"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#Asset.type">
+    <cims:dataType rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    <cims:multiplicity rdf:resource="http://iec.ch/TC57/1999/rdf-schema-extensions-19990926#M:0..1"/>
+    <cims:stereotype rdf:resource="http://langdale.com.au/2005/UML#attribute"/>
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+    <rdfs:comment>Utility-specific classification of Asset and its subtypes, according to their corporate standards, practices, and existing IT systems (e.g., for management of assets, maintenance, work, outage, customers, etc.).</rdfs:comment>
+    <rdfs:domain rdf:resource="#Asset"/>
+    <rdfs:label>type</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="#Asset.utcNumber">
+    <cims:dataType rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    <cims:multiplicity rdf:resource="http://iec.ch/TC57/1999/rdf-schema-extensions-19990926#M:0..1"/>
+    <cims:stereotype rdf:resource="http://langdale.com.au/2005/UML#attribute"/>
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+    <rdfs:comment>Uniquely tracked commodity (UTC) number.</rdfs:comment>
+    <rdfs:domain rdf:resource="#Asset"/>
+    <rdfs:label>utcNumber</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="#AssetContainer">
+    <cims:belongsToCategory rdf:resource="#Package_IES_Projects"/>
+    <cims:stereotype rdf:resource="http://langdale.com.au/2005/UML#byreference"/>
+    <cims:stereotype rdf:resource="http://langdale.com.au/2005/UML#concrete"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <rdfs:comment>Asset that is aggregation of other assets such as conductors, transformers, switchgear, land, fences, buildings, equipment, vehicles, etc.</rdfs:comment>
+    <rdfs:label>AssetContainer</rdfs:label>
+    <rdfs:subClassOf rdf:resource="#Asset"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#AssetContainer.Assets">
+    <cims:inverseRoleName rdf:resource="#Asset.AssetContainer"/>
+    <cims:multiplicity rdf:resource="http://iec.ch/TC57/1999/rdf-schema-extensions-19990926#M:0..n"/>
+    <cims:stereotype rdf:resource="http://langdale.com.au/2005/UML#byreference"/>
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+    <rdfs:comment>All assets within this container asset.</rdfs:comment>
+    <rdfs:domain rdf:resource="#AssetContainer"/>
+    <rdfs:label>Assets</rdfs:label>
+    <rdfs:range rdf:resource="#Asset"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#AssetContainer.Seals">
+    <cims:inverseRoleName rdf:resource="#Seal.AssetContainer"/>
+    <cims:multiplicity rdf:resource="http://iec.ch/TC57/1999/rdf-schema-extensions-19990926#M:0..n"/>
+    <cims:stereotype rdf:resource="http://langdale.com.au/2005/UML#byreference"/>
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+    <rdfs:comment>All seals applied to this asset container.</rdfs:comment>
+    <rdfs:domain rdf:resource="#AssetContainer"/>
+    <rdfs:label>Seals</rdfs:label>
+    <rdfs:range rdf:resource="#Seal"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#AssetInfo">
+    <cims:belongsToCategory rdf:resource="#Package_Assets"/>
+    <cims:stereotype rdf:resource="http://langdale.com.au/2005/UML#byreference"/>
+    <cims:stereotype rdf:resource="http://langdale.com.au/2005/UML#concrete"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <rdfs:comment>Set of attributes of an asset, representing typical data-sheet information of a physical device that can be instantiated and shared in different data exchange contexts:
+- as attributes of an asset instance (installed or in stock)
+- as attributes of an asset model (product by a manufacturer)
+- as attributes of a type asset (generic type of an asset as used in designs/extension planning).</rdfs:comment>
+    <rdfs:label>AssetInfo</rdfs:label>
+    <rdfs:subClassOf rdf:resource="#IdentifiedObject"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#AssetInfo.AssetModel">
+    <cims:inverseRoleName rdf:resource="#AssetModel.AssetInfo"/>
+    <cims:multiplicity rdf:resource="http://iec.ch/TC57/1999/rdf-schema-extensions-19990926#M:0..1"/>
+    <cims:stereotype rdf:resource="http://langdale.com.au/2005/UML#byreference"/>
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+    <rdfs:comment>Asset model described by this data.</rdfs:comment>
+    <rdfs:domain rdf:resource="#AssetInfo"/>
+    <rdfs:label>AssetModel</rdfs:label>
+    <rdfs:range rdf:resource="#AssetModel"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#AssetInfo.Assets">
+    <cims:inverseRoleName rdf:resource="#Asset.AssetInfo"/>
+    <cims:multiplicity rdf:resource="http://iec.ch/TC57/1999/rdf-schema-extensions-19990926#M:0..n"/>
+    <cims:stereotype rdf:resource="http://langdale.com.au/2005/UML#byreference"/>
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+    <rdfs:comment>All assets described by this data.</rdfs:comment>
+    <rdfs:domain rdf:resource="#AssetInfo"/>
+    <rdfs:label>Assets</rdfs:label>
+    <rdfs:range rdf:resource="#Asset"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#AssetModel">
+    <cims:belongsToCategory rdf:resource="#Package_IES_Projects"/>
+    <cims:stereotype rdf:resource="http://langdale.com.au/2005/UML#byreference"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <rdfs:comment>Model of an asset, either a product of a specific manufacturer or a generic asset model or material item. Data-sheet characteristics are available through the associated AssetInfo subclass and can be shared with asset or power system resource instances.</rdfs:comment>
+    <rdfs:label>AssetModel</rdfs:label>
+    <rdfs:subClassOf rdf:resource="#IdentifiedObject"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#AssetModel.AssetInfo">
+    <cims:inverseRoleName rdf:resource="#AssetInfo.AssetModel"/>
+    <cims:multiplicity rdf:resource="http://iec.ch/TC57/1999/rdf-schema-extensions-19990926#M:0..1"/>
+    <cims:stereotype rdf:resource="http://langdale.com.au/2005/UML#byreference"/>
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+    <rdfs:comment>Data applicable to this asset model.</rdfs:comment>
+    <rdfs:domain rdf:resource="#AssetModel"/>
+    <rdfs:label>AssetInfo</rdfs:label>
+    <rdfs:range rdf:resource="#AssetInfo"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#AssetModelUsageKind">
+    <cims:belongsToCategory rdf:resource="#Package_Assets"/>
+    <cims:stereotype rdf:resource="http://langdale.com.au/2005/UML#attribute"/>
+    <cims:stereotype rdf:resource="http://langdale.com.au/2005/UML#enumeration"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <rdfs:comment>Usage for an asset model.</rdfs:comment>
+    <rdfs:label>AssetModelUsageKind</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="#AssetModelUsageKind.customerSubstation">
+    <rdf:type rdf:resource="#AssetModelUsageKind"/>
+    <rdfs:comment>Asset model is intended for use in customer substation.</rdfs:comment>
+    <rdfs:label>customerSubstation</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="#AssetModelUsageKind.distributionOverhead">
+    <rdf:type rdf:resource="#AssetModelUsageKind"/>
+    <rdfs:comment>Asset model is intended for use in distribution overhead network.</rdfs:comment>
+    <rdfs:label>distributionOverhead</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="#AssetModelUsageKind.distributionUnderground">
+    <rdf:type rdf:resource="#AssetModelUsageKind"/>
+    <rdfs:comment>Asset model is intended for use in underground distribution network.</rdfs:comment>
+    <rdfs:label>distributionUnderground</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="#AssetModelUsageKind.other">
+    <rdf:type rdf:resource="#AssetModelUsageKind"/>
+    <rdfs:comment>Other kind of asset model usage.</rdfs:comment>
+    <rdfs:label>other</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="#AssetModelUsageKind.streetlight">
+    <rdf:type rdf:resource="#AssetModelUsageKind"/>
+    <rdfs:comment>Asset model is intended for use as streetlight.</rdfs:comment>
+    <rdfs:label>streetlight</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="#AssetModelUsageKind.substation">
+    <rdf:type rdf:resource="#AssetModelUsageKind"/>
+    <rdfs:comment>Asset model is intended for use in substation.</rdfs:comment>
+    <rdfs:label>substation</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="#AssetModelUsageKind.transmission">
+    <rdf:type rdf:resource="#AssetModelUsageKind"/>
+    <rdfs:comment>Asset model is intended for use in transmission network.</rdfs:comment>
+    <rdfs:label>transmission</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="#AssetModelUsageKind.unknown">
+    <rdf:type rdf:resource="#AssetModelUsageKind"/>
+    <rdfs:comment>Usage of the asset model is unknown.</rdfs:comment>
+    <rdfs:label>unknown</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="#AssetOrganisationRole">
+    <cims:belongsToCategory rdf:resource="#Package_Assets"/>
+    <cims:stereotype rdf:resource="http://langdale.com.au/2005/UML#byreference"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <rdfs:comment>Role an organisation plays with respect to asset.</rdfs:comment>
+    <rdfs:label>AssetOrganisationRole</rdfs:label>
+    <rdfs:subClassOf rdf:resource="#OrganisationRole"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#AssetOrganisationRole.Assets">
+    <cims:inverseRoleName rdf:resource="#Asset.OrganisationRoles"/>
+    <cims:multiplicity rdf:resource="http://iec.ch/TC57/1999/rdf-schema-extensions-19990926#M:0..n"/>
+    <cims:stereotype rdf:resource="http://langdale.com.au/2005/UML#byreference"/>
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+    <rdfs:comment>All assets for this organisation role.</rdfs:comment>
+    <rdfs:domain rdf:resource="#AssetOrganisationRole"/>
+    <rdfs:label>Assets</rdfs:label>
+    <rdfs:range rdf:resource="#Asset"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#AssetOwner">
+    <cims:belongsToCategory rdf:resource="#Package_IES_Projects"/>
+    <cims:stereotype rdf:resource="http://langdale.com.au/2005/UML#concrete"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <rdfs:comment>Owner of the asset.</rdfs:comment>
+    <rdfs:label>AssetOwner</rdfs:label>
+    <rdfs:subClassOf rdf:resource="#AssetOrganisationRole"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#ComMedia">
+    <cims:belongsToCategory rdf:resource="#Package_IES_Projects"/>
+    <cims:stereotype rdf:resource="http://langdale.com.au/2005/UML#concrete"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <rdfs:comment>Communication media such as fibre optic cable, power-line, telephone, etc.</rdfs:comment>
+    <rdfs:label>ComMedia</rdfs:label>
+    <rdfs:subClassOf rdf:resource="#Asset"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#CorporateStandardKind">
+    <cims:belongsToCategory rdf:resource="#Package_Assets"/>
+    <cims:stereotype rdf:resource="http://langdale.com.au/2005/UML#attribute"/>
+    <cims:stereotype rdf:resource="http://langdale.com.au/2005/UML#enumeration"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <rdfs:comment>Kind of corporate standard.</rdfs:comment>
+    <rdfs:label>CorporateStandardKind</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="#CorporateStandardKind.experimental">
+    <rdf:type rdf:resource="#CorporateStandardKind"/>
+    <rdfs:comment>Asset model is used experimentally.</rdfs:comment>
+    <rdfs:label>experimental</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="#CorporateStandardKind.other">
+    <rdf:type rdf:resource="#CorporateStandardKind"/>
+    <rdfs:comment>Other kind of corporate standard for the asset model.</rdfs:comment>
+    <rdfs:label>other</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="#CorporateStandardKind.standard">
+    <rdf:type rdf:resource="#CorporateStandardKind"/>
+    <rdfs:comment>Asset model is used as corporate standard.</rdfs:comment>
+    <rdfs:label>standard</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="#CorporateStandardKind.underEvaluation">
+    <rdf:type rdf:resource="#CorporateStandardKind"/>
+    <rdfs:comment>Asset model usage is under evaluation.</rdfs:comment>
+    <rdfs:label>underEvaluation</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="#ElectronicAddress">
+    <cims:belongsToCategory rdf:resource="#Package_Common"/>
+    <cims:stereotype rdf:resource="http://langdale.com.au/2005/UML#attribute"/>
+    <cims:stereotype rdf:resource="http://langdale.com.au/2005/UML#compound"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <rdfs:comment>Electronic address information.</rdfs:comment>
+    <rdfs:label>ElectronicAddress</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="#IdentifiedObject">
+    <cims:belongsToCategory rdf:resource="#Package_Core"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <rdfs:comment>This is a root class to provide common identification for all classes needing identification and naming attributes.</rdfs:comment>
+    <rdfs:label>IdentifiedObject</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="#IdentifiedObject.aliasName">
+    <cims:dataType rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    <cims:multiplicity rdf:resource="http://iec.ch/TC57/1999/rdf-schema-extensions-19990926#M:0..1"/>
+    <cims:stereotype rdf:resource="http://langdale.com.au/2005/UML#attribute"/>
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+    <rdfs:comment>The aliasName is free text human readable name of the object alternative to IdentifiedObject.name. It may be non unique and may not correlate to a naming hierarchy.
+The attribute aliasName is retained because of backwards compatibility between CIM relases. It is however recommended to replace aliasName with the Name class as aliasName is planned for retirement at a future time.</rdfs:comment>
+    <rdfs:domain rdf:resource="#IdentifiedObject"/>
+    <rdfs:label>aliasName</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="#IdentifiedObject.mRID">
+    <cims:dataType rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    <cims:multiplicity rdf:resource="http://iec.ch/TC57/1999/rdf-schema-extensions-19990926#M:0..1"/>
+    <cims:stereotype rdf:resource="http://langdale.com.au/2005/UML#attribute"/>
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+    <rdfs:comment>Master resource identifier issued by a model authority. The mRID is globally unique within an exchange context.
+Global uniqeness is easily achived by using a UUID for the mRID. It is strongly recommended to do this.
+For CIMXML data files in RDF syntax, the mRID is mapped to rdf:ID or rdf:about attributes that identify CIM object elements.</rdfs:comment>
+    <rdfs:domain rdf:resource="#IdentifiedObject"/>
+    <rdfs:label>mRID</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="#IdentifiedObject.name">
+    <cims:dataType rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    <cims:multiplicity rdf:resource="http://iec.ch/TC57/1999/rdf-schema-extensions-19990926#M:0..1"/>
+    <cims:stereotype rdf:resource="http://langdale.com.au/2005/UML#attribute"/>
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+    <rdfs:comment>The name is any free human readable and possibly non unique text naming the object.</rdfs:comment>
+    <rdfs:domain rdf:resource="#IdentifiedObject"/>
+    <rdfs:label>name</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="#LifecycleDate">
+    <cims:belongsToCategory rdf:resource="#Package_Assets"/>
+    <cims:stereotype rdf:resource="http://langdale.com.au/2005/UML#attribute"/>
+    <cims:stereotype rdf:resource="http://langdale.com.au/2005/UML#compound"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <rdfs:comment>Dates for lifecycle events of an asset.</rdfs:comment>
+    <rdfs:label>LifecycleDate</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="#Money">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <rdfs:comment>Amount of money.</rdfs:comment>
+    <rdfs:label>Money</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="#OrganisationRole">
+    <cims:belongsToCategory rdf:resource="#Package_IES_Projects"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <rdfs:comment>Identifies a way in which an organisation may participate in the utility enterprise (e.g., customer, manufacturer, etc).</rdfs:comment>
+    <rdfs:label>OrganisationRole</rdfs:label>
+    <rdfs:subClassOf rdf:resource="#IdentifiedObject"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#Package_Assets">
+    <cims:belongsToCategory rdf:resource="#Package_IEC61968"/>
+    <rdf:type rdf:resource="http://iec.ch/TC57/1999/rdf-schema-extensions-19990926#ClassCategory"/>
+    <rdfs:comment>This package contains the core information classes that support asset management applications that deal with the physical and lifecycle aspects of various network resources (as opposed to power system resource models defined in IEC61970::Wires package, which support network applications).</rdfs:comment>
+    <rdfs:label>Assets</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="#Package_Common">
+    <cims:belongsToCategory rdf:resource="#Package_IEC61968"/>
+    <rdf:type rdf:resource="http://iec.ch/TC57/1999/rdf-schema-extensions-19990926#ClassCategory"/>
+    <rdfs:comment>This package contains the information classes that support distribution management in general.</rdfs:comment>
+    <rdfs:label>Common</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="#Package_Core">
+    <cims:belongsToCategory rdf:resource="#Package_IEC61970"/>
+    <rdf:type rdf:resource="http://iec.ch/TC57/1999/rdf-schema-extensions-19990926#ClassCategory"/>
+    <rdfs:comment>Contains the core PowerSystemResource and ConductingEquipment entities shared by all applications plus common collections of those entities. Not all applications require all the Core entities.  This package does not depend on any other package except the Domain package, but most of the other packages have associations and generalizations that depend on it.</rdfs:comment>
+    <rdfs:label>Core</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="#Package_IEC61968">
+    <cims:belongsToCategory rdf:resource="#Package_TC57CIM"/>
+    <rdf:type rdf:resource="http://iec.ch/TC57/1999/rdf-schema-extensions-19990926#ClassCategory"/>
+    <rdfs:comment>The IEC 61968 subpackages of the CIM are developed, standardized and maintained by IEC TC57 Working Group 14: interfaces for distribution management (WG14).
+Currently, normative parts of the model support the needs of information exchange defined in IEC 61968-3, IEC 61968-4, IEC 61968-9 and in IEC 61968-13.
+</rdfs:comment>
+    <rdfs:label>IEC61968</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="#Package_IEC61970">
+    <cims:belongsToCategory rdf:resource="#Package_TC57CIM"/>
+    <rdf:type rdf:resource="http://iec.ch/TC57/1999/rdf-schema-extensions-19990926#ClassCategory"/>
+    <rdfs:comment>Top package for IEC 61970.</rdfs:comment>
+    <rdfs:label>IEC61970</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="#Package_IES_Projects">
+    <cims:belongsToCategory rdf:resource="#Package_TC57CIM"/>
+    <rdf:type rdf:resource="http://iec.ch/TC57/1999/rdf-schema-extensions-19990926#ClassCategory"/>
+    <rdfs:label>IES_Projects</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="#Package_TC57CIM">
+    <rdf:type rdf:resource="http://iec.ch/TC57/1999/rdf-schema-extensions-19990926#ClassCategory"/>
+    <rdfs:comment>Top package for IEC TC57 CIM.</rdfs:comment>
+    <rdfs:label>TC57CIM</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="#PerCent">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <rdfs:comment>Percentage on a defined base.   For example, specify as 100 to indicate at the defined base.</rdfs:comment>
+    <rdfs:label>PerCent</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="#ProductAssetModel">
+    <cims:belongsToCategory rdf:resource="#Package_Assets"/>
+    <cims:stereotype rdf:resource="http://langdale.com.au/2005/UML#concrete"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <rdfs:comment>Asset model by a specific manufacturer.</rdfs:comment>
+    <rdfs:label>ProductAssetModel</rdfs:label>
+    <rdfs:subClassOf rdf:resource="#AssetModel"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#ProductAssetModel.corporateStandardKind">
+    <cims:multiplicity rdf:resource="http://iec.ch/TC57/1999/rdf-schema-extensions-19990926#M:0..1"/>
+    <cims:stereotype rdf:resource="http://langdale.com.au/2005/UML#attribute"/>
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+    <rdfs:comment>Kind of corporate standard for this asset model.</rdfs:comment>
+    <rdfs:domain rdf:resource="#ProductAssetModel"/>
+    <rdfs:label>corporateStandardKind</rdfs:label>
+    <rdfs:range rdf:resource="#CorporateStandardKind"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#ProductAssetModel.modelNumber">
+    <cims:dataType rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    <cims:multiplicity rdf:resource="http://iec.ch/TC57/1999/rdf-schema-extensions-19990926#M:0..1"/>
+    <cims:stereotype rdf:resource="http://langdale.com.au/2005/UML#attribute"/>
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+    <rdfs:comment>Manufacturer's model number.</rdfs:comment>
+    <rdfs:domain rdf:resource="#ProductAssetModel"/>
+    <rdfs:label>modelNumber</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="#ProductAssetModel.modelVersion">
+    <cims:dataType rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    <cims:multiplicity rdf:resource="http://iec.ch/TC57/1999/rdf-schema-extensions-19990926#M:0..1"/>
+    <cims:stereotype rdf:resource="http://langdale.com.au/2005/UML#attribute"/>
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+    <rdfs:comment>Version number for product model, which indicates vintage of the product.</rdfs:comment>
+    <rdfs:domain rdf:resource="#ProductAssetModel"/>
+    <rdfs:label>modelVersion</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="#ProductAssetModel.usageKind">
+    <cims:multiplicity rdf:resource="http://iec.ch/TC57/1999/rdf-schema-extensions-19990926#M:0..1"/>
+    <cims:stereotype rdf:resource="http://langdale.com.au/2005/UML#attribute"/>
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+    <rdfs:comment>Intended usage for this asset model.</rdfs:comment>
+    <rdfs:domain rdf:resource="#ProductAssetModel"/>
+    <rdfs:label>usageKind</rdfs:label>
+    <rdfs:range rdf:resource="#AssetModelUsageKind"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#ProductAssetModel.weightTotal">
+    <cims:dataType rdf:resource="#Weight"/>
+    <cims:multiplicity rdf:resource="http://iec.ch/TC57/1999/rdf-schema-extensions-19990926#M:0..1"/>
+    <cims:stereotype rdf:resource="http://langdale.com.au/2005/UML#attribute"/>
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+    <rdfs:comment>Total manufactured weight of asset.</rdfs:comment>
+    <rdfs:domain rdf:resource="#ProductAssetModel"/>
+    <rdfs:label>weightTotal</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="#Seal">
+    <cims:belongsToCategory rdf:resource="#Package_IES_Projects"/>
+    <cims:stereotype rdf:resource="http://langdale.com.au/2005/UML#byreference"/>
+    <cims:stereotype rdf:resource="http://langdale.com.au/2005/UML#concrete"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <rdfs:comment>Physically controls access to AssetContainers.</rdfs:comment>
+    <rdfs:label>Seal</rdfs:label>
+    <rdfs:subClassOf rdf:resource="#IdentifiedObject"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#Seal.AssetContainer">
+    <cims:inverseRoleName rdf:resource="#AssetContainer.Seals"/>
+    <cims:multiplicity rdf:resource="http://iec.ch/TC57/1999/rdf-schema-extensions-19990926#M:0..1"/>
+    <cims:stereotype rdf:resource="http://langdale.com.au/2005/UML#byreference"/>
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+    <rdfs:comment>Asset container to which this seal is applied.</rdfs:comment>
+    <rdfs:domain rdf:resource="#Seal"/>
+    <rdfs:label>AssetContainer</rdfs:label>
+    <rdfs:range rdf:resource="#AssetContainer"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#Seal.appliedDateTime">
+    <cims:dataType rdf:resource="http://www.w3.org/2001/XMLSchema#dateTime"/>
+    <cims:multiplicity rdf:resource="http://iec.ch/TC57/1999/rdf-schema-extensions-19990926#M:0..1"/>
+    <cims:stereotype rdf:resource="http://langdale.com.au/2005/UML#attribute"/>
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+    <rdfs:comment>Date and time this seal has been applied.</rdfs:comment>
+    <rdfs:domain rdf:resource="#Seal"/>
+    <rdfs:label>appliedDateTime</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="#Seal.condition">
+    <cims:multiplicity rdf:resource="http://iec.ch/TC57/1999/rdf-schema-extensions-19990926#M:0..1"/>
+    <cims:stereotype rdf:resource="http://langdale.com.au/2005/UML#attribute"/>
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+    <rdfs:comment>Condition of seal.</rdfs:comment>
+    <rdfs:domain rdf:resource="#Seal"/>
+    <rdfs:label>condition</rdfs:label>
+    <rdfs:range rdf:resource="#SealConditionKind"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#Seal.kind">
+    <cims:multiplicity rdf:resource="http://iec.ch/TC57/1999/rdf-schema-extensions-19990926#M:0..1"/>
+    <cims:stereotype rdf:resource="http://langdale.com.au/2005/UML#attribute"/>
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+    <rdfs:comment>Kind of seal.</rdfs:comment>
+    <rdfs:domain rdf:resource="#Seal"/>
+    <rdfs:label>kind</rdfs:label>
+    <rdfs:range rdf:resource="#SealKind"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#Seal.sealNumber">
+    <cims:dataType rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    <cims:multiplicity rdf:resource="http://iec.ch/TC57/1999/rdf-schema-extensions-19990926#M:0..1"/>
+    <cims:stereotype rdf:resource="http://langdale.com.au/2005/UML#attribute"/>
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+    <rdfs:comment>(reserved word) Seal number.</rdfs:comment>
+    <rdfs:domain rdf:resource="#Seal"/>
+    <rdfs:label>sealNumber</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="#SealConditionKind">
+    <cims:belongsToCategory rdf:resource="#Package_Assets"/>
+    <cims:stereotype rdf:resource="http://langdale.com.au/2005/UML#attribute"/>
+    <cims:stereotype rdf:resource="http://langdale.com.au/2005/UML#enumeration"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <rdfs:comment>Kind of seal condition.</rdfs:comment>
+    <rdfs:label>SealConditionKind</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="#SealConditionKind.broken">
+    <rdf:type rdf:resource="#SealConditionKind"/>
+    <rdfs:comment>Seal is broken.</rdfs:comment>
+    <rdfs:label>broken</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="#SealConditionKind.locked">
+    <rdf:type rdf:resource="#SealConditionKind"/>
+    <rdfs:comment>Seal is locked.</rdfs:comment>
+    <rdfs:label>locked</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="#SealConditionKind.missing">
+    <rdf:type rdf:resource="#SealConditionKind"/>
+    <rdfs:comment>Seal is missing.</rdfs:comment>
+    <rdfs:label>missing</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="#SealConditionKind.open">
+    <rdf:type rdf:resource="#SealConditionKind"/>
+    <rdfs:comment>Seal is open.</rdfs:comment>
+    <rdfs:label>open</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="#SealConditionKind.other">
+    <rdf:type rdf:resource="#SealConditionKind"/>
+    <rdfs:comment>Other kind of seal condition.</rdfs:comment>
+    <rdfs:label>other</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="#SealKind">
+    <cims:belongsToCategory rdf:resource="#Package_Assets"/>
+    <cims:stereotype rdf:resource="http://langdale.com.au/2005/UML#attribute"/>
+    <cims:stereotype rdf:resource="http://langdale.com.au/2005/UML#enumeration"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <rdfs:comment>Kind of seal.</rdfs:comment>
+    <rdfs:label>SealKind</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="#SealKind.lead">
+    <rdf:type rdf:resource="#SealKind"/>
+    <rdfs:comment>Lead seal.</rdfs:comment>
+    <rdfs:label>lead</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="#SealKind.lock">
+    <rdf:type rdf:resource="#SealKind"/>
+    <rdfs:comment>Lock seal.</rdfs:comment>
+    <rdfs:label>lock</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="#SealKind.other">
+    <rdf:type rdf:resource="#SealKind"/>
+    <rdfs:comment>Other kind of seal.</rdfs:comment>
+    <rdfs:label>other</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="#SealKind.steel">
+    <rdf:type rdf:resource="#SealKind"/>
+    <rdfs:comment>Steel seal.</rdfs:comment>
+    <rdfs:label>steel</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="#Status">
+    <cims:belongsToCategory rdf:resource="#Package_Common"/>
+    <cims:stereotype rdf:resource="http://langdale.com.au/2005/UML#attribute"/>
+    <cims:stereotype rdf:resource="http://langdale.com.au/2005/UML#compound"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <rdfs:comment>Current status information relevant to an entity.</rdfs:comment>
+    <rdfs:label>Status</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="#Weight">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <rdfs:comment>The weight of an object.</rdfs:comment>
+    <rdfs:label>Weight</rdfs:label>
+  </rdf:Description>
+</rdf:RDF>

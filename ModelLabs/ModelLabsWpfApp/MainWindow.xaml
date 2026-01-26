@@ -1,0 +1,78 @@
+﻿<Window x:Class="ModelLabsWpfApp.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Model Labs WPF" Height="720" Width="1100" MinHeight="600" MinWidth="900">
+    <Grid Margin="10">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*"/>
+        </Grid.ColumnDefinitions>
+
+        <!-- CIM fajl i profil -->
+        <Grid Grid.Row="0" Margin="0 0 0 8">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="100"/>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="90"/>
+            </Grid.ColumnDefinitions>
+            <TextBlock Text="CIM/XML file:" VerticalAlignment="Center" Margin="0,0,6,0"/>
+            <TextBox x:Name="txtCimPath" Grid.Column="1" Margin="0,0,6,0"/>
+            <Button x:Name="btnBrowse" Grid.Column="2" Content="Browse..." Click="BtnBrowse_OnClick" />
+        </Grid>
+
+        <Grid Grid.Row="1" Margin="0 0 0 8">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="100"/>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="90"/>
+                <ColumnDefinition Width="90"/>
+            </Grid.ColumnDefinitions>
+            <TextBlock Text="CIM Profile:" VerticalAlignment="Center" Margin="0,0,6,0"/>
+            <ComboBox x:Name="cmbProfile" Grid.Column="1" Margin="0,0,6,0" />
+            <Button x:Name="btnConvert" Grid.Column="2" Content="Convert" Click="BtnConvert_OnClick"/>
+            <Button x:Name="btnApply" Grid.Column="3" Content="Apply Delta" Click="BtnApply_OnClick"/>
+        </Grid>
+
+        <!-- GDA čitanje -->
+        <GroupBox Grid.Row="2" Header="GDA čitanje" Padding="8" Margin="0 0 0 8">
+            <StackPanel>
+                <UniformGrid Columns="3" Rows="1" Margin="0 0 0 6">
+                    <StackPanel Orientation="Horizontal" Margin="0 0 12 0">
+                        <TextBlock Text="GID:" VerticalAlignment="Center" Width="40"/>
+                        <TextBox x:Name="txtGid" Width="200" Margin="4 0 0 0"/>
+                    </StackPanel>
+                    <Button x:Name="btnGetValues" Content="Get values" Width="120" HorizontalAlignment="Left" Click="BtnGetValues_OnClick"/>
+                    <StackPanel Orientation="Horizontal">
+                        <TextBlock Text="ModelCode:" VerticalAlignment="Center" Width="80"/>
+                        <TextBox x:Name="txtModelCode" Width="200" Margin="4 0 0 0"/>
+                        <Button x:Name="btnGetExtent" Content="Get extent" Width="120" Margin="8 0 0 0" Click="BtnGetExtent_OnClick"/>
+                    </StackPanel>
+                </UniformGrid>
+
+                <UniformGrid Columns="3" Rows="1">
+                    <StackPanel Orientation="Horizontal">
+                        <TextBlock Text="Src GID:" VerticalAlignment="Center" Width="60"/>
+                        <TextBox x:Name="txtSrcGid" Width="200" Margin="4 0 0 0"/>
+                    </StackPanel>
+                    <StackPanel Orientation="Horizontal">
+                        <TextBlock Text="PropertyId:" VerticalAlignment="Center" Width="70"/>
+                        <TextBox x:Name="txtPropertyId" Width="220" Margin="4 0 0 0"/>
+                    </StackPanel>
+                    <StackPanel Orientation="Horizontal">
+                        <TextBlock Text="Type:" VerticalAlignment="Center" Width="40"/>
+                        <TextBox x:Name="txtAssociationType" Width="60" Margin="4 0 0 0"/>
+                        <Button x:Name="btnGetRelated" Content="Get related" Width="120" Margin="8 0 0 0" Click="BtnGetRelated_OnClick"/>
+                    </StackPanel>
+                </UniformGrid>
+            </StackPanel>
+        </GroupBox>
+
+        <!-- Report -->
+        <TextBox x:Name="txtReport" Grid.Row="3" TextWrapping="Wrap" VerticalScrollBarVisibility="Auto" HorizontalScrollBarVisibility="Auto" AcceptsReturn="True" IsReadOnly="True" />
+    </Grid>
+</Window>

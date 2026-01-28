@@ -103,6 +103,7 @@
     <Compile Include="Assets\ComMedia.cs" />
     <Compile Include="Assets\Seal.cs" />
     <Compile Include="Assets\AssetOrganisationRole.cs" />
+    <Compile Include="Assets\OrganisationRole.cs" />
     <Compile Include="Assets\AssetOwner.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Wires\WindingTest.cs" />

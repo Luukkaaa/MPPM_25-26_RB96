@@ -4,7 +4,7 @@ using System.Collections.Generic;
 
 namespace FTN.Services.NetworkModelService.DataModel.Assets
 {
-    public class AssetOrganisationRole : IdentifiedObject
+    public class AssetOrganisationRole : OrganisationRole
     {
         private List<long> assets = new List<long>();
 

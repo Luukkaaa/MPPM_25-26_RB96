@@ -167,8 +167,11 @@ namespace FTN.Services.NetworkModelService
 				case DMSType.ASSETOWNER:
 					io = new AssetOwner(globalId);
 					break;
+                case DMSType.ORGANISATIONROLE:
+                    io = new OrganisationRole(globalId);
+                    break;
 
-				default:					
+                default:					
 					string message = String.Format("Failed to create entity because specified type ({0}) is not supported.", type);
 					CommonTrace.WriteTrace(CommonTrace.TraceError, message);
 					throw new Exception(message);					

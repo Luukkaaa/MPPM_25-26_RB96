@@ -226,6 +226,15 @@ namespace TelventDMS.Services.NetworkModelService.TestClient.Tests
                         ModelCode.SEAL_SEALNUMBER,
                         ModelCode.SEAL_ASSETCONTAINER
                     };
+                case DMSType.ORGANISATIONROLE:
+                    return new List<ModelCode>
+                    {
+                        ModelCode.IDOBJ_GID,
+                        ModelCode.IDOBJ_MRID,
+                        ModelCode.IDOBJ_NAME,
+                        ModelCode.IDOBJ_ALIASNAME,
+                        ModelCode.IDOBJ_DESCRIPTION
+                    };
                 case DMSType.COMMEDIA:
                     return new List<ModelCode>
                     {

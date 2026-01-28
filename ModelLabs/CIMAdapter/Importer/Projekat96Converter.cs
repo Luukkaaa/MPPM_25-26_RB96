@@ -34,6 +34,14 @@ namespace FTN.ESI.SIMES.CIM.CIMAdapter.Importer
 
         #region Asset hierarchy
 
+        public static void PopulateOrganisationRoleProperties(FTN.OrganisationRole cimObj, ResourceDescription rd, ImportHelper importHelper, TransformAndLoadReport report)
+        {
+            if ((cimObj != null) && (rd != null))
+            {
+                PopulateIdentifiedObjectProperties(cimObj, rd);
+            }
+        }
+
         public static void PopulateAssetProperties(FTN.Asset cimAsset, ResourceDescription rd, ImportHelper importHelper, TransformAndLoadReport report)
         {
             if ((cimAsset != null) && (rd != null))

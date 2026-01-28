@@ -87,6 +87,7 @@ namespace FTN.ESI.SIMES.CIM.CIMAdapter.Importer
             ImportAssets();
             ImportSeals();
             ImportComMedias();
+            ImportOrganisationRoles();
             ImportAssetOrgRoles();
             ImportAssetOwners();
 
@@ -295,6 +296,35 @@ namespace FTN.ESI.SIMES.CIM.CIMAdapter.Importer
             ResourceDescription rd = new ResourceDescription(gid);
             importHelper.DefineIDMapping(cimObj.ID, gid);
             Projekat96Converter.PopulateComMediaProperties(cimObj, rd, importHelper, report);
+            return rd;
+        }
+
+        private void ImportOrganisationRoles()
+        {
+            SortedDictionary<string, object> cimObjects = concreteModel.GetAllObjectsOfType("FTN.OrganisationRole");
+            if (cimObjects != null)
+            {
+                foreach (var pair in cimObjects)
+                {
+                    FTN.OrganisationRole cimObj = pair.Value as FTN.OrganisationRole;
+                    ResourceDescription rd = CreateOrganisationRoleResourceDescription(cimObj);
+                    AddInsertOperation(rd, cimObj, "OrganisationRole");
+                }
+                report.Report.AppendLine();
+            }
+        }
+
+        private ResourceDescription CreateOrganisationRoleResourceDescription(FTN.OrganisationRole cimObj)
+        {
+            if (cimObj == null)
+            {
+                return null;
+            }
+
+            long gid = ModelCodeHelper.CreateGlobalId(0, (short)DMSType.ORGANISATIONROLE, importHelper.CheckOutIndexForDMSType(DMSType.ORGANISATIONROLE));
+            ResourceDescription rd = new ResourceDescription(gid);
+            importHelper.DefineIDMapping(cimObj.ID, gid);
+            Projekat96Converter.PopulateOrganisationRoleProperties(cimObj, rd, importHelper, report);
             return rd;
         }
 

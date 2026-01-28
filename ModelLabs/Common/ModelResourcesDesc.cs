@@ -894,9 +894,10 @@ namespace FTN.Common
 			typeIdsInInsertOrder.Add(ModelCode.ASSET);
 			typeIdsInInsertOrder.Add(ModelCode.COMMEDIA);
 			typeIdsInInsertOrder.Add(ModelCode.SEAL);
-			typeIdsInInsertOrder.Add(ModelCode.ASSETORGROLE);
+            typeIdsInInsertOrder.Add(ModelCode.ORGANISATIONROLE);
+            typeIdsInInsertOrder.Add(ModelCode.ASSETORGROLE);
 			typeIdsInInsertOrder.Add(ModelCode.ASSETOWNER);
-		}
+        }
 
 		private void InitializeNotSettablePropertyIds()
 		{			

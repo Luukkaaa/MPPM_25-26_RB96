@@ -1,5 +1,6 @@
 # MPPM_25-26_RB96
 Modeli podataka u pametnim mrežama -> Projekat#96
+
 VAŽNE NAPOMENE:
 1. Projekat treba da se izvršava na x86 platformi pre samog pokretanja
 2. Configure startup projects -> NetworkModelServiceSelfHost, ModelLabsWpfApp, CIMProfileCreator

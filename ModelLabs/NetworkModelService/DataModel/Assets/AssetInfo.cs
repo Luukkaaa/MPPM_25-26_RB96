@@ -102,6 +102,7 @@ namespace FTN.Services.NetworkModelService.DataModel.Assets
                     assets.Add(globalId);
                     break;
                 case ModelCode.ASSETMODEL_ASSETINFO:
+                case ModelCode.PRODASSETMODEL_ASSETINFO:
                     if (!assetModels.Contains(globalId))
                     {
                         assetModels.Add(globalId);
@@ -122,6 +123,7 @@ namespace FTN.Services.NetworkModelService.DataModel.Assets
                     assets.Remove(globalId);
                     break;
                 case ModelCode.ASSETMODEL_ASSETINFO:
+                case ModelCode.PRODASSETMODEL_ASSETINFO:
                     assetModels.Remove(globalId);
                     break;
                 default:
@@ -139,10 +141,6 @@ namespace FTN.Services.NetworkModelService.DataModel.Assets
             if (assets.Count > 0 && (refType == TypeOfReference.Target || refType == TypeOfReference.Both))
             {
                 references[ModelCode.ASSETINFO_ASSETS] = new List<long>(assets);
-            }
-            if (assetModels.Count > 0 && (refType == TypeOfReference.Target || refType == TypeOfReference.Both))
-            {
-                references[ModelCode.ASSETMODEL_ASSETINFO] = new List<long>(assetModels);
             }
             base.GetReferences(references, refType);
         }

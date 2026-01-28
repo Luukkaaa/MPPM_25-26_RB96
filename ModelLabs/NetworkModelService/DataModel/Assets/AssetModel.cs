@@ -78,10 +78,6 @@ namespace FTN.Services.NetworkModelService.DataModel.Assets
             {
                 references[ModelCode.ASSETMODEL_ASSETINFO] = new List<long>() { assetInfo };
             }
-            if (assetInfos.Count > 0 && (refType == TypeOfReference.Target || refType == TypeOfReference.Both))
-            {
-                references[ModelCode.ASSETINFO_ASSETMODEL] = new List<long>(assetInfos);
-            }
             base.GetReferences(references, refType);
         }
 

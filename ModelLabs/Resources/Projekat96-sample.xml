@@ -4,7 +4,6 @@
 
   <!-- ProductAssetModels -->
   <cim:ProductAssetModel rdf:ID="PAM_1">
-    <cim:AssetModel.AssetInfo rdf:resource="AI_1#"/>
     <cim:ProductAssetModel.corporateStandardKind>standard</cim:ProductAssetModel.corporateStandardKind>
     <cim:ProductAssetModel.modelNumber>SM-A100</cim:ProductAssetModel.modelNumber>
     <cim:ProductAssetModel.modelVersion>1.0</cim:ProductAssetModel.modelVersion>
@@ -16,7 +15,6 @@
   </cim:ProductAssetModel>
 
   <cim:ProductAssetModel rdf:ID="PAM_2">
-  <cim:AssetModel.AssetInfo rdf:resource="AI_2#"/>
     <cim:ProductAssetModel.corporateStandardKind>underEvaluation</cim:ProductAssetModel.corporateStandardKind>
     <cim:ProductAssetModel.modelNumber>SM-B200</cim:ProductAssetModel.modelNumber>
     <cim:ProductAssetModel.modelVersion>2.1</cim:ProductAssetModel.modelVersion>
@@ -48,7 +46,6 @@
   <!-- AssetContainers -->
   <cim:AssetContainer rdf:ID="AC_1">
     <cim:Asset.AssetInfo rdf:resource="#AI_1"/>
-    <cim:Asset.AssetContainer rdf:resource="AC_1#"/>
     <cim:Asset.critical>true</cim:Asset.critical>
     <cim:Asset.initialCondition>New</cim:Asset.initialCondition>
     <cim:Asset.initialLossOfLife>0.0</cim:Asset.initialLossOfLife>
@@ -65,7 +62,6 @@
 
   <cim:AssetContainer rdf:ID="AC_2">
     <cim:Asset.AssetInfo rdf:resource="#AI_2"/>
-    <cim:Asset.AssetContainer rdf:resource="AC_2#"/>
     <cim:Asset.critical>false</cim:Asset.critical>
     <cim:Asset.initialCondition>InService</cim:Asset.initialCondition>
     <cim:Asset.initialLossOfLife>1.5</cim:Asset.initialLossOfLife>
@@ -108,7 +104,6 @@
   
   <!-- ComMedias -->
   <cim:ComMedia rdf:ID="CM_1">
-    <cim:Asset.AssetContainer rdf:resource="#AC_1"/>
     <cim:Asset.AssetInfo rdf:resource="#AI_1"/>
     <cim:Asset.critical>false</cim:Asset.critical>
     <cim:Asset.initialCondition>New</cim:Asset.initialCondition>
@@ -126,7 +121,6 @@
 
 
   <cim:ComMedia rdf:ID="CM_2">
-    <cim:Asset.AssetContainer rdf:resource="#AC_2"/>
     <cim:Asset.AssetInfo rdf:resource="#AI_2"/>
     <cim:Asset.critical>false</cim:Asset.critical>
     <cim:Asset.initialCondition>InService</cim:Asset.initialCondition>

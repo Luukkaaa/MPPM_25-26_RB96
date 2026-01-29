@@ -72,10 +72,6 @@ namespace FTN.ESI.SIMES.CIM.CIMAdapter.Importer
                 {
                     rd.AddProperty(new Property(ModelCode.ASSET_SERIALNUMBER, cimAsset.SerialNumber));
                 }
-                if (cimAsset.StatusHasValue)
-                {
-                    rd.AddProperty(new Property(ModelCode.ASSET_STATUS, cimAsset.Status.ID));
-                }
                 if (cimAsset.TypeHasValue)
                 {
                     rd.AddProperty(new Property(ModelCode.ASSET_TYPE, cimAsset.Type));

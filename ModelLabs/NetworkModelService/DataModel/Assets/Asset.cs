@@ -12,7 +12,6 @@ namespace FTN.Services.NetworkModelService.DataModel.Assets
         private string lotNumber;
         private float purchasePrice;
         private string serialNumber;
-        private string status;
         private string type;
         private string utcNumber;
         private long assetContainer = 0;
@@ -60,12 +59,6 @@ namespace FTN.Services.NetworkModelService.DataModel.Assets
             set { serialNumber = value; }
         }
 
-        public string Status
-        {
-            get { return status; }
-            set { status = value; }
-        }
-
         public string Type
         {
             get { return this.type; }
@@ -106,7 +99,6 @@ namespace FTN.Services.NetworkModelService.DataModel.Assets
                        x.lotNumber == lotNumber &&
                        x.purchasePrice == purchasePrice &&
                        x.serialNumber == serialNumber &&
-                       x.status == status &&
                        x.type == type &&
                        x.utcNumber == utcNumber &&
                        x.assetContainer == assetContainer &&
@@ -131,7 +123,6 @@ namespace FTN.Services.NetworkModelService.DataModel.Assets
                 case ModelCode.ASSET_LOTNUMBER:
                 case ModelCode.ASSET_PURCHASEPRICE:
                 case ModelCode.ASSET_SERIALNUMBER:
-                case ModelCode.ASSET_STATUS:
                 case ModelCode.ASSET_TYPE:
                 case ModelCode.ASSET_UTCNUMBER:
                 case ModelCode.ASSET_ASSETCONTAINER:
@@ -166,8 +157,6 @@ namespace FTN.Services.NetworkModelService.DataModel.Assets
                 case ModelCode.ASSET_SERIALNUMBER:
                     property.SetValue(serialNumber);
                     break;
-                case ModelCode.ASSET_STATUS:
-                    property.SetValue(status);
                     break;
                 case ModelCode.ASSET_TYPE:
                     property.SetValue(type);
@@ -211,9 +200,6 @@ namespace FTN.Services.NetworkModelService.DataModel.Assets
                     break;
                 case ModelCode.ASSET_SERIALNUMBER:
                     serialNumber = property.AsString();
-                    break;
-                case ModelCode.ASSET_STATUS:
-                    status = property.AsString();
                     break;
                 case ModelCode.ASSET_TYPE:
                     type = property.AsString();

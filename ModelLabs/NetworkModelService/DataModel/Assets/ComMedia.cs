@@ -6,26 +6,14 @@ namespace FTN.Services.NetworkModelService.DataModel.Assets
 {
     public class ComMedia : Asset
     {
-        private string lifecycle;
-
         public ComMedia(long globalId) : base(globalId)
         {
         }
 
-        public string Lifecycle
-        {
-            get { return lifecycle; }
-            set { lifecycle = value; }
-        }
 
         public override bool Equals(object obj)
         {
-            if (base.Equals(obj))
-            {
-                ComMedia x = (ComMedia)obj;
-                return x.lifecycle == lifecycle;
-            }
-            return false;
+            return base.Equals(obj);
         }
 
         public override int GetHashCode()
@@ -44,8 +32,6 @@ namespace FTN.Services.NetworkModelService.DataModel.Assets
                 case ModelCode.COMMEDIA_INITIALCONDITION:
                 case ModelCode.COMMEDIA_INITIALLOSSOFLIFE:
                 case ModelCode.COMMEDIA_PURCHASEPRICE:
-                case ModelCode.COMMEDIA_LIFECYCLE:
-                case ModelCode.COMMEDIA_STATUS:
                 case ModelCode.COMMEDIA_TYPE:
                 case ModelCode.COMMEDIA_UTCNUMBER:
                 case ModelCode.COMMEDIA_LOTNUMBER:
@@ -81,12 +67,6 @@ namespace FTN.Services.NetworkModelService.DataModel.Assets
                     break;
                 case ModelCode.COMMEDIA_PURCHASEPRICE:
                     property.SetValue(PurchasePrice);
-                    break;
-                case ModelCode.COMMEDIA_LIFECYCLE:
-                    property.SetValue(lifecycle);
-                    break;
-                case ModelCode.COMMEDIA_STATUS:
-                    property.SetValue(Status);
                     break;
                 case ModelCode.COMMEDIA_TYPE:
                     property.SetValue(Type);
@@ -135,12 +115,6 @@ namespace FTN.Services.NetworkModelService.DataModel.Assets
                     break;
                 case ModelCode.COMMEDIA_PURCHASEPRICE:
                     PurchasePrice = property.AsFloat();
-                    break;
-                case ModelCode.COMMEDIA_LIFECYCLE:
-                    lifecycle = property.AsString();
-                    break;
-                case ModelCode.COMMEDIA_STATUS:
-                    Status = property.AsString();
                     break;
                 case ModelCode.COMMEDIA_TYPE:
                     Type = property.AsString();

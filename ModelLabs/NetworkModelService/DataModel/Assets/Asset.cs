@@ -157,7 +157,6 @@ namespace FTN.Services.NetworkModelService.DataModel.Assets
                 case ModelCode.ASSET_SERIALNUMBER:
                     property.SetValue(serialNumber);
                     break;
-                    break;
                 case ModelCode.ASSET_TYPE:
                     property.SetValue(type);
                     break;

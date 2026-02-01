@@ -98,11 +98,9 @@ namespace FTN.Services.NetworkModelService.DataModel.Assets
             switch (referenceId)
             {
                 case ModelCode.ASSET_ASSETINFO:
-                case ModelCode.COMMEDIA_ASSETINFO:
                     assets.Add(globalId);
                     break;
                 case ModelCode.ASSETMODEL_ASSETINFO:
-                case ModelCode.PRODASSETMODEL_ASSETINFO:
                     if (!assetModels.Contains(globalId))
                     {
                         assetModels.Add(globalId);
@@ -119,11 +117,9 @@ namespace FTN.Services.NetworkModelService.DataModel.Assets
             switch (referenceId)
             {
                 case ModelCode.ASSET_ASSETINFO:
-                case ModelCode.COMMEDIA_ASSETINFO:
                     assets.Remove(globalId);
                     break;
                 case ModelCode.ASSETMODEL_ASSETINFO:
-                case ModelCode.PRODASSETMODEL_ASSETINFO:
                     assetModels.Remove(globalId);
                     break;
                 default:

@@ -4,9 +4,6 @@ using CommonSealKind = FTN.Common.SealKind;
 
 namespace FTN.ESI.SIMES.CIM.CIMAdapter.Importer
 {
-    /// <summary>
-    /// Projekat96Converter popunjava ResourceDescription objekte korišćenjem Projekat96CIMProfile_Labs klasa.
-    /// </summary>
     public static class Projekat96Converter
     {
         #region IdentifiedObject helpers
@@ -126,42 +123,6 @@ namespace FTN.ESI.SIMES.CIM.CIMAdapter.Importer
             if ((cimObj != null) && (rd != null))
             {
                 PopulateAssetProperties(cimObj, rd, importHelper, report);
-
-                if (cimObj.AssetsHasValue)
-                {
-                    List<long> refs = new List<long>();
-                    foreach (var asset in cimObj.Assets)
-                    {
-                        long gid = importHelper.GetMappedGID(asset.ID);
-                        if (gid < 0)
-                        {
-                            report.Report.Append("WARNING: Failed to set Assets reference for AssetContainer rdfID = ").Append(cimObj.ID).AppendLine();
-                        }
-                        else
-                        {
-                            refs.Add(gid);
-                        }
-                    }
-                    rd.AddProperty(new Property(ModelCode.ASSETCONTAINER_ASSETS, refs));
-                }
-
-                if (cimObj.SealsHasValue)
-                {
-                    List<long> refs = new List<long>();
-                    foreach (var seal in cimObj.Seals)
-                    {
-                        long gid = importHelper.GetMappedGID(seal.ID);
-                        if (gid < 0)
-                        {
-                            report.Report.Append("WARNING: Failed to set Seals reference for AssetContainer rdfID = ").Append(cimObj.ID).AppendLine();
-                        }
-                        else
-                        {
-                            refs.Add(gid);
-                        }
-                    }
-                    rd.AddProperty(new Property(ModelCode.ASSETCONTAINER_SEALS, refs));
-                }
             }
         }
 
@@ -180,24 +141,6 @@ namespace FTN.ESI.SIMES.CIM.CIMAdapter.Importer
                     }
                     rd.AddProperty(new Property(ModelCode.ASSETINFO_ASSETMODEL, gid));
                 }
-
-                if (cimObj.AssetsHasValue)
-                {
-                    List<long> refs = new List<long>();
-                    foreach (var asset in cimObj.Assets)
-                    {
-                        long gid = importHelper.GetMappedGID(asset.ID);
-                        if (gid < 0)
-                        {
-                            report.Report.Append("WARNING: Failed to set Assets reference for AssetInfo rdfID = ").Append(cimObj.ID).AppendLine();
-                        }
-                        else
-                        {
-                            refs.Add(gid);
-                        }
-                    }
-                    rd.AddProperty(new Property(ModelCode.ASSETINFO_ASSETS, refs));
-                }
             }
         }
 
@@ -214,7 +157,10 @@ namespace FTN.ESI.SIMES.CIM.CIMAdapter.Importer
                     {
                         report.Report.Append("WARNING: Failed to set AssetInfo reference for AssetModel rdfID = ").Append(cimObj.ID).AppendLine();
                     }
-                    rd.AddProperty(new Property(ModelCode.ASSETMODEL_ASSETINFO, gid));
+                    else
+                    {
+                        rd.AddProperty(new Property(ModelCode.ASSETMODEL_ASSETINFO, gid));
+                    }
                 }
             }
         }
@@ -244,15 +190,6 @@ namespace FTN.ESI.SIMES.CIM.CIMAdapter.Importer
                 if (cimObj.WeightTotalHasValue)
                 {
                     rd.AddProperty(new Property(ModelCode.PRODASSETMODEL_WEIGHTTOTAL, cimObj.WeightTotal));
-                }
-                if (cimObj.AssetInfoHasValue)
-                {
-                    long gid = importHelper.GetMappedGID(cimObj.AssetInfo.ID);
-                    if (gid < 0)
-                    {
-                        report.Report.Append("WARNING: Failed to set AssetInfo reference for ProductAssetModel rdfID = ").Append(cimObj.ID).AppendLine();
-                    }
-                    rd.AddProperty(new Property(ModelCode.PRODASSETMODEL_ASSETINFO, gid));
                 }
             }
         }
@@ -295,45 +232,8 @@ namespace FTN.ESI.SIMES.CIM.CIMAdapter.Importer
         {
             if ((cimObj != null) && (rd != null))
             {
+
                 PopulateAssetProperties(cimObj, rd, importHelper, report);
-
-                if (cimObj.AssetContainerHasValue)
-                {
-                    long gid = importHelper.GetMappedGID(cimObj.AssetContainer.ID);
-                    if (gid < 0)
-                    {
-                        report.Report.Append("WARNING: Failed to set AssetContainer reference for ComMedia rdfID = ").Append(cimObj.ID).AppendLine();
-                    }
-                    rd.AddProperty(new Property(ModelCode.COMMEDIA_ASSETCONTAINER, gid));
-                }
-
-                if (cimObj.AssetInfoHasValue)
-                {
-                    long gid = importHelper.GetMappedGID(cimObj.AssetInfo.ID);
-                    if (gid < 0)
-                    {
-                        report.Report.Append("WARNING: Failed to set AssetInfo reference for ComMedia rdfID = ").Append(cimObj.ID).AppendLine();
-                    }
-                    rd.AddProperty(new Property(ModelCode.COMMEDIA_ASSETINFO, gid));
-                }
-
-                if (cimObj.OrganisationRolesHasValue)
-                {
-                    List<long> refs = new List<long>();
-                    foreach (var role in cimObj.OrganisationRoles)
-                    {
-                        long gid = importHelper.GetMappedGID(role.ID);
-                        if (gid < 0)
-                        {
-                            report.Report.Append("WARNING: Failed to set OrganisationRoles reference for ComMedia rdfID = ").Append(cimObj.ID).AppendLine();
-                        }
-                        else
-                        {
-                            refs.Add(gid);
-                        }
-                    }
-                    rd.AddProperty(new Property(ModelCode.COMMEDIA_ORGROLES, refs));
-                }
             }
         }
 
@@ -341,25 +241,7 @@ namespace FTN.ESI.SIMES.CIM.CIMAdapter.Importer
         {
             if ((cimObj != null) && (rd != null))
             {
-                PopulateIdentifiedObjectProperties(cimObj, rd);
-
-                if (cimObj.AssetsHasValue)
-                {
-                    List<long> refs = new List<long>();
-                    foreach (var asset in cimObj.Assets)
-                    {
-                        long gid = importHelper.GetMappedGID(asset.ID);
-                        if (gid < 0)
-                        {
-                            report.Report.Append("WARNING: Failed to set Assets reference for AssetOrganisationRole rdfID = ").Append(cimObj.ID).AppendLine();
-                        }
-                        else
-                        {
-                            refs.Add(gid);
-                        }
-                    }
-                    rd.AddProperty(new Property(ModelCode.ASSETORGROLE_ASSETS, refs));
-                }
+                PopulateOrganisationRoleProperties(cimObj, rd, importHelper, report);
             }
         }
 
@@ -368,24 +250,6 @@ namespace FTN.ESI.SIMES.CIM.CIMAdapter.Importer
             if ((cimObj != null) && (rd != null))
             {
                 PopulateAssetOrganisationRoleProperties(cimObj, rd, importHelper, report);
-
-                if (cimObj.AssetsHasValue)
-                {
-                    List<long> refs = new List<long>();
-                    foreach (var asset in cimObj.Assets)
-                    {
-                        long gid = importHelper.GetMappedGID(asset.ID);
-                        if (gid < 0)
-                        {
-                            report.Report.Append("WARNING: Failed to set Assets reference for AssetOwner rdfID = ").Append(cimObj.ID).AppendLine();
-                        }
-                        else
-                        {
-                            refs.Add(gid);
-                        }
-                    }
-                    rd.AddProperty(new Property(ModelCode.ASSETOWNER_ASSETS, refs));
-                }
             }
         }
 
@@ -438,7 +302,7 @@ namespace FTN.ESI.SIMES.CIM.CIMAdapter.Importer
 			switch (kind)
 			{
 				case FTN.SealKind.lead: return CommonSealKind.lead;
-				case (FTN.SealKind)1: return CommonSealKind.Lock; // lock keyword in source enum
+				case (FTN.SealKind)1: return CommonSealKind.@lock; // lock keyword in source enum
 				case FTN.SealKind.other: return CommonSealKind.other;
 				case FTN.SealKind.steel: return CommonSealKind.steel;
 				default: return CommonSealKind.other;

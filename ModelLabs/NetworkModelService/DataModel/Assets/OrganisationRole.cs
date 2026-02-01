@@ -9,19 +9,15 @@ namespace FTN.Services.NetworkModelService.DataModel.Assets
         {
         }
 
-        public override bool HasProperty(ModelCode property)
+        public override bool Equals(object obj)
         {
-            return base.HasProperty(property);
+            return base.Equals(obj);
         }
 
-        public override void GetProperty(Property property)
+        public override int GetHashCode()
         {
-            base.GetProperty(property);
+            return base.GetHashCode();
         }
 
-        public override void SetProperty(Property property)
-        {
-            base.SetProperty(property);
-        }
     }
 }

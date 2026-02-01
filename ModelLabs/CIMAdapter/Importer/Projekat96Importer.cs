@@ -6,9 +6,6 @@ using FTN.ESI.SIMES.CIM.CIMAdapter.Manager;
 
 namespace FTN.ESI.SIMES.CIM.CIMAdapter.Importer
 {
-    /// <summary>
-    /// Importer za profil Projekat96.
-    /// </summary>
     public class Projekat96Importer
     {
         private static Projekat96Importer instance = null;
@@ -80,16 +77,27 @@ namespace FTN.ESI.SIMES.CIM.CIMAdapter.Importer
         {
             LogManager.Log("Loading elements and creating delta...", LogLevel.Info);
 
-            ImportAssetModels();
-            ImportProductAssetModels();
-            ImportAssetInfos();
-            ImportAssetContainers();
-            ImportAssets();
-            ImportSeals();
-            ImportComMedias();
-            ImportOrganisationRoles();
-            ImportAssetOrgRoles();
-            ImportAssetOwners();
+            // Ispravan redosled importa - entiteti se importuju PRE onih koji ih referenciraju
+            
+            // 1. Root entiteti bez outgoing referenci
+            ImportOrganisationRoles();      // Nema outgoing referenci
+            ImportAssetOrgRoles();          // Nema outgoing referenci (Assets je TARGET)
+            ImportAssetOwners();            // Nema outgoing referenci
+            
+            // 2. AssetModel/ProductAssetModel PRE AssetInfo jer AssetInfo.AssetModel referencira njih
+            ImportAssetModels();            // Ako postoje konkretni AssetModel objekti
+            ImportProductAssetModels();     // ProductAssetModel MORA biti pre AssetInfo!
+            ImportAssetInfos();             // Sada može referencirati ProductAssetModel
+            
+            // 3. AssetContainer pre Asset-a (Asset.AssetContainer)
+            ImportAssetContainers();        // Nasleđuje Asset atribute, može ref AssetInfo/OrgRoles
+            
+            // 4. Asset i ComMedia (referenciraju AssetContainer, AssetInfo, OrgRoles)
+            ImportAssets();                 // Referencira AssetContainer, AssetInfo, OrgRoles
+            ImportComMedias();              // Nasleđuje od Asset
+            
+            // 5. Seal na kraju (referencira AssetContainer)
+            ImportSeals();                  // Referencira AssetContainer
 
             LogManager.Log("Loading elements and creating delta completed.", LogLevel.Info);
         }
@@ -147,7 +155,7 @@ namespace FTN.ESI.SIMES.CIM.CIMAdapter.Importer
                 return null;
             }
 
-            long gid = ModelCodeHelper.CreateGlobalId(0, (short)DMSType.PRODUCTASSETMODEL, importHelper.CheckOutIndexForDMSType(DMSType.PRODUCTASSETMODEL));
+            long gid = ModelCodeHelper.CreateGlobalId(0, (short)DMSType.PRODASSETMODEL, importHelper.CheckOutIndexForDMSType(DMSType.PRODASSETMODEL));
             ResourceDescription rd = new ResourceDescription(gid);
             importHelper.DefineIDMapping(cimObj.ID, gid);
             Projekat96Converter.PopulateProductAssetModelProperties(cimObj, rd, importHelper, report);

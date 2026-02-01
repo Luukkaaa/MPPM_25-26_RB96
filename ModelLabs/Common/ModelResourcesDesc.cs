@@ -200,20 +200,6 @@ namespace FTN.Common
 			//// Initialize metadata for core entities			
 			InitializeNotSettablePropertyIds();
 
-            // Uklanjamo neimplementirani property da ga GDA ne traži
-            //notAccessiblePropertyIds[ModelCode.PRODASSETMODEL_ASSETINFO] = true;
-            //notAccessiblePropertyIds[ModelCode.ASSET_CRITICAL] = true;
-            //notAccessiblePropertyIds[ModelCode.ASSET_INITIALCONDITION] = true;
-            //notAccessiblePropertyIds[ModelCode.ASSET_INITIALLOSSOFLIFE] = true;
-            //notAccessiblePropertyIds[ModelCode.ASSET_LOTNUMBER] = true;
-            //notAccessiblePropertyIds[ModelCode.ASSET_PURCHASEPRICE] = true;
-            //notAccessiblePropertyIds[ModelCode.ASSET_SERIALNUMBER] = true;
-            //notAccessiblePropertyIds[ModelCode.ASSET_STATUS] = true;
-            //notAccessiblePropertyIds[ModelCode.ASSET_TYPE] = true;
-            //notAccessiblePropertyIds[ModelCode.ASSET_UTCNUMBER] = true;
-            //notAccessiblePropertyIds[ModelCode.ASSET_ASSETCONTAINER] = true;
-            //notAccessiblePropertyIds[ModelCode.ASSET_ASSETINFO] = true;
-            //notAccessiblePropertyIds[ModelCode.ASSET_ORGROLES] = true;
 
 			foreach (ModelCode code in Enum.GetValues(typeof(ModelCode)))
 			{
@@ -887,16 +873,21 @@ namespace FTN.Common
 			typeIdsInInsertOrder.Add(ModelCode.POWERTRWINDING);
 			typeIdsInInsertOrder.Add(ModelCode.WINDINGTEST);
 
+			// Redosled usklađen sa Projekat96Importer - entiteti se dodaju PRE onih koji ih referenciraju
+			// 1. Root entiteti bez outgoing referenci
+			typeIdsInInsertOrder.Add(ModelCode.ORGANISATIONROLE);
+			typeIdsInInsertOrder.Add(ModelCode.ASSETORGROLE);
+			typeIdsInInsertOrder.Add(ModelCode.ASSETOWNER);
+			// 2. AssetModel/ProductAssetModel PRE AssetInfo (AssetInfo.AssetModel referencira njih)
 			typeIdsInInsertOrder.Add(ModelCode.ASSETMODEL);
 			typeIdsInInsertOrder.Add(ModelCode.PRODASSETMODEL);
 			typeIdsInInsertOrder.Add(ModelCode.ASSETINFO);
+			// 3. AssetContainer pre Asset-a (Asset referencira AssetContainer)
 			typeIdsInInsertOrder.Add(ModelCode.ASSETCONTAINER);
 			typeIdsInInsertOrder.Add(ModelCode.ASSET);
 			typeIdsInInsertOrder.Add(ModelCode.COMMEDIA);
+			// 4. Seal na kraju (referencira AssetContainer)
 			typeIdsInInsertOrder.Add(ModelCode.SEAL);
-            typeIdsInInsertOrder.Add(ModelCode.ORGANISATIONROLE);
-            typeIdsInInsertOrder.Add(ModelCode.ASSETORGROLE);
-			typeIdsInInsertOrder.Add(ModelCode.ASSETOWNER);
         }
 
 		private void InitializeNotSettablePropertyIds()
@@ -907,13 +898,12 @@ namespace FTN.Common
 			notSettablePropertyIds.Add(ModelCode.POWERTRWINDING_TESTS);
             notSettablePropertyIds.Add(ModelCode.POWERTR_WINDINGS);
 
-			notSettablePropertyIds.Add(ModelCode.ASSET_ORGROLES);
-			notSettablePropertyIds.Add(ModelCode.ASSETCONTAINER_ASSETS);
-			notSettablePropertyIds.Add(ModelCode.ASSETCONTAINER_SEALS);
-			notSettablePropertyIds.Add(ModelCode.ASSETINFO_ASSETS);
-			notSettablePropertyIds.Add(ModelCode.ASSETORGROLE_ASSETS);
-			notSettablePropertyIds.Add(ModelCode.COMMEDIA_ORGROLES);
-			notSettablePropertyIds.Add(ModelCode.ASSETOWNER_ASSETS);
+			// TARGET reference (0..n) - popunjavaju se automatski preko AddReference
+			// NE stavljati SOURCE reference (npr. ASSET_ORGROLES se MOŽE setovati!)
+			notSettablePropertyIds.Add(ModelCode.ASSETORGROLE_ASSETS);    // TARGET: Asset.OrganisationRoles -> ovo
+			notSettablePropertyIds.Add(ModelCode.ASSETCONTAINER_ASSETS);  // TARGET: Asset.AssetContainer -> ovo
+			notSettablePropertyIds.Add(ModelCode.ASSETCONTAINER_SEALS);   // TARGET: Seal.AssetContainer -> ovo
+			notSettablePropertyIds.Add(ModelCode.ASSETINFO_ASSETS);       // TARGET: Asset.AssetInfo -> ovo
 		}
 	
 		# endregion Initialization of metadata

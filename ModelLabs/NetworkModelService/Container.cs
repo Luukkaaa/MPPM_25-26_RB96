@@ -152,7 +152,7 @@ namespace FTN.Services.NetworkModelService
 				case DMSType.ASSETMODEL:
 					io = new AssetModel(globalId);
 					break;
-				case DMSType.PRODUCTASSETMODEL:
+				case DMSType.PRODASSETMODEL:
 					io = new ProductAssetModel(globalId);
 					break;
 				case DMSType.SEAL:

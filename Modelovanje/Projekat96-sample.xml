@@ -46,7 +46,7 @@
   <cim:AssetContainer rdf:ID="AC_1">
     <cim:Asset.AssetInfo rdf:resource="#AI_1"/>
     <cim:Asset.critical>true</cim:Asset.critical>
-    <cim:Asset.initialCondition>New</cim:Asset.initialCondition>
+    <cim:Asset.initialCondition>New</cim:Asset.initialCondition>  
     <cim:Asset.initialLossOfLife>0.0</cim:Asset.initialLossOfLife>
     <cim:Asset.lotNumber>LOT-AC1</cim:Asset.lotNumber>
     <cim:Asset.purchasePrice>5000</cim:Asset.purchasePrice>

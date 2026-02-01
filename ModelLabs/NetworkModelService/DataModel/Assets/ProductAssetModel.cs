@@ -74,7 +74,6 @@ namespace FTN.Services.NetworkModelService.DataModel.Assets
                 case ModelCode.PRODASSETMODEL_MODELVERSION:
                 case ModelCode.PRODASSETMODEL_USAGEKIND:
                 case ModelCode.PRODASSETMODEL_WEIGHTTOTAL:
-                case ModelCode.PRODASSETMODEL_ASSETINFO:
                     return true;
 
                 default:
@@ -101,9 +100,6 @@ namespace FTN.Services.NetworkModelService.DataModel.Assets
                 case ModelCode.PRODASSETMODEL_WEIGHTTOTAL:
                     property.SetValue(weightTotal);
                     break;
-                case ModelCode.PRODASSETMODEL_ASSETINFO:
-                    property.SetValue(AssetInfo);
-                    break;
                 default:
                     base.GetProperty(property);
                     break;
@@ -129,9 +125,6 @@ namespace FTN.Services.NetworkModelService.DataModel.Assets
                 case ModelCode.PRODASSETMODEL_WEIGHTTOTAL:
                     weightTotal = property.AsFloat();
                     break;
-                case ModelCode.PRODASSETMODEL_ASSETINFO:
-                    AssetInfo = property.AsReference();
-                    break;
                 default:
                     base.SetProperty(property);
                     break;
@@ -141,11 +134,6 @@ namespace FTN.Services.NetworkModelService.DataModel.Assets
         public override void GetReferences(Dictionary<ModelCode, List<long>> references, TypeOfReference refType)
         {
             base.GetReferences(references, refType);
-
-            if (AssetInfo != 0 && (refType == TypeOfReference.Reference || refType == TypeOfReference.Both))
-            {
-                references[ModelCode.PRODASSETMODEL_ASSETINFO] = new List<long>() { AssetInfo };
-            }
         }
     }
 }

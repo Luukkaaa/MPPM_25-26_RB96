@@ -85,7 +85,7 @@ namespace FTN.Common
 	public enum SealKind : short
 	{
 		lead = 0,
-		Lock = 1,
+		@lock = 1,  
 		other = 2,
 		steel = 3
 	}

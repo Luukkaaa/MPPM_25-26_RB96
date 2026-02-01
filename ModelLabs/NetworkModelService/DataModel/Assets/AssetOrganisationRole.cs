@@ -83,7 +83,6 @@ namespace FTN.Services.NetworkModelService.DataModel.Assets
             switch (referenceId)
             {
                 case ModelCode.ASSET_ORGROLES:
-                case ModelCode.COMMEDIA_ORGROLES:
                     assets.Add(globalId);
                     break;
                 default:
@@ -97,7 +96,6 @@ namespace FTN.Services.NetworkModelService.DataModel.Assets
             switch (referenceId)
             {
                 case ModelCode.ASSET_ORGROLES:
-                case ModelCode.COMMEDIA_ORGROLES:
                     assets.Remove(globalId);
                     break;
                 default:

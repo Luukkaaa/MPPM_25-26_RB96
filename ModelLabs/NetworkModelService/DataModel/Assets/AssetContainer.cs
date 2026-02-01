@@ -89,7 +89,6 @@ namespace FTN.Services.NetworkModelService.DataModel.Assets
             switch (referenceId)
             {
                 case ModelCode.ASSET_ASSETCONTAINER:
-                case ModelCode.COMMEDIA_ASSETCONTAINER:
                     assets.Add(globalId);
                     break;
                 case ModelCode.SEAL_ASSETCONTAINER:
@@ -106,7 +105,6 @@ namespace FTN.Services.NetworkModelService.DataModel.Assets
             switch (referenceId)
             {
                 case ModelCode.ASSET_ASSETCONTAINER:
-                case ModelCode.COMMEDIA_ASSETCONTAINER:
                     assets.Remove(globalId);
                     break;
                 case ModelCode.SEAL_ASSETCONTAINER:

@@ -221,45 +221,10 @@ namespace FTN.Services.NetworkModelService.DataModel.Assets
             }
         }
 
-        public override bool IsReferenced
-        {
-            get
-            {
-                return organisationRoles.Count > 0 || base.IsReferenced;
-            }
-        }
-
-        public override void AddReference(ModelCode referenceId, long globalId)
-        {
-            switch (referenceId)
-            {
-                case ModelCode.ASSETORGROLE_ASSETS:
-                    organisationRoles.Add(globalId);
-                    break;
-                case ModelCode.ASSETOWNER_ASSETS:
-                    organisationRoles.Add(globalId);
-                    break;
-                default:
-                    base.AddReference(referenceId, globalId);
-                    break;
-            }
-        }
-
-        public override void RemoveReference(ModelCode referenceId, long globalId)
-        {
-            switch (referenceId)
-            {
-                case ModelCode.ASSETORGROLE_ASSETS:
-                    organisationRoles.Remove(globalId);
-                    break;
-                case ModelCode.ASSETOWNER_ASSETS:
-                    organisationRoles.Remove(globalId);
-                    break;
-                default:
-                    base.RemoveReference(referenceId, globalId);
-                    break;
-            }
-        }
+        // Asset nema sopstvene TARGET (incoming) reference
+        // organisationRoles, assetContainer, assetInfo su sve SOURCE reference (Asset referencira druge entitete)
+        // Zato nema potrebe za override AddReference/RemoveReference/IsReferenced
+        // GDA mehanizam koristi ASSET_ORGROLES da pozove AddReference na AssetOrganisationRole objektima
 
         public override void GetReferences(Dictionary<ModelCode, List<long>> references, TypeOfReference refType)
         {
@@ -271,7 +236,10 @@ namespace FTN.Services.NetworkModelService.DataModel.Assets
             {
                 references[ModelCode.ASSET_ASSETINFO] = new List<long>() { assetInfo };
             }
-            if (organisationRoles.Count > 0 && (refType == TypeOfReference.Target || refType == TypeOfReference.Both))
+
+            // ASSET_ORGROLES je SOURCE referenca (Asset -> AssetOrganisationRole)
+            // Setuje se eksplicitno, nije TARGET (inverse)
+            if (organisationRoles.Count > 0 && (refType == TypeOfReference.Reference || refType == TypeOfReference.Both))
             {
                 references[ModelCode.ASSET_ORGROLES] = new List<long>(organisationRoles);
             }

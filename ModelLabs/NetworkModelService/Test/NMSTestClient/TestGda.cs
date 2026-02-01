@@ -196,7 +196,7 @@ namespace TelventDMS.Services.NetworkModelService.TestClient.Tests
                         ModelCode.IDOBJ_DESCRIPTION,
                         ModelCode.ASSETMODEL_ASSETINFO
                     };
-                case DMSType.PRODUCTASSETMODEL:
+                case DMSType.PRODASSETMODEL:
                     return new List<ModelCode>
                     {
                         ModelCode.IDOBJ_GID,
@@ -209,7 +209,7 @@ namespace TelventDMS.Services.NetworkModelService.TestClient.Tests
                         ModelCode.PRODASSETMODEL_MODELVERSION,
                         ModelCode.PRODASSETMODEL_USAGEKIND,
                         ModelCode.PRODASSETMODEL_WEIGHTTOTAL,
-                        ModelCode.PRODASSETMODEL_ASSETINFO
+                        ModelCode.ASSETMODEL_ASSETINFO
                     };
                 case DMSType.SEAL:
                     return new List<ModelCode>
@@ -239,20 +239,20 @@ namespace TelventDMS.Services.NetworkModelService.TestClient.Tests
                     {
                         ModelCode.IDOBJ_GID,
                         ModelCode.IDOBJ_MRID,
-                        ModelCode.IDOBJ_NAME, ModelCode.IDOBJ_ALIASNAME,
+                        ModelCode.IDOBJ_NAME,
                         ModelCode.IDOBJ_ALIASNAME,
                         ModelCode.IDOBJ_DESCRIPTION,
-                        ModelCode.COMMEDIA_ASSETCONTAINER,
-                        ModelCode.COMMEDIA_ASSETINFO,
-                        ModelCode.COMMEDIA_ORGROLES,
-                        ModelCode.COMMEDIA_CRITICAL,
-                        ModelCode.COMMEDIA_INITIALCONDITION,
-                        ModelCode.COMMEDIA_INITIALLOSSOFLIFE,
-                        ModelCode.COMMEDIA_PURCHASEPRICE,
-                        ModelCode.COMMEDIA_TYPE,
-                        ModelCode.COMMEDIA_UTCNUMBER,
-                        ModelCode.COMMEDIA_LOTNUMBER,
-                        ModelCode.COMMEDIA_SERIALNUMBER
+                        ModelCode.ASSET_ASSETCONTAINER,
+                        ModelCode.ASSET_ASSETINFO,
+                        ModelCode.ASSET_ORGROLES,
+                        ModelCode.ASSET_CRITICAL,
+                        ModelCode.ASSET_INITIALCONDITION,
+                        ModelCode.ASSET_INITIALLOSSOFLIFE,
+                        ModelCode.ASSET_PURCHASEPRICE,
+                        ModelCode.ASSET_TYPE,
+                        ModelCode.ASSET_UTCNUMBER,
+                        ModelCode.ASSET_LOTNUMBER,
+                        ModelCode.ASSET_SERIALNUMBER
                     };
                 case DMSType.ASSETORGROLE:
                     return new List<ModelCode>
@@ -272,7 +272,7 @@ namespace TelventDMS.Services.NetworkModelService.TestClient.Tests
                         ModelCode.IDOBJ_NAME,
                         ModelCode.IDOBJ_ALIASNAME,
                         ModelCode.IDOBJ_DESCRIPTION,
-                        ModelCode.ASSETOWNER_ASSETS
+                        ModelCode.ASSETORGROLE_ASSETS
                     };
                 default:
                     return null;

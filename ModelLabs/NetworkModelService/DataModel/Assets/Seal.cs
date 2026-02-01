@@ -131,14 +131,6 @@ namespace FTN.Services.NetworkModelService.DataModel.Assets
             }
         }
 
-        public override bool IsReferenced
-        {
-            get
-            {
-                return assetContainer != 0 || base.IsReferenced;
-            }
-        }
-
         public override void GetReferences(Dictionary<ModelCode, List<long>> references, TypeOfReference refType)
         {
             if (assetContainer != 0 && (refType == TypeOfReference.Reference || refType == TypeOfReference.Both))
